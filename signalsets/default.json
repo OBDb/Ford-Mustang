@@ -325,5 +325,105 @@
       ]
     },
     "updateFrequency" : 0.25
+  },
+  {
+    "id": "[ECU] TIP actual abs",
+    "header" : 2016,
+    "parameter" : {
+      "service22" : {
+        "pid" : 830
+      }
+    },
+    "name" : "Throttle inlet pressure absolute",
+    "signal" : {
+      "scaling" : [
+        {
+          "bitLength" : 16,
+          "bitOffset" : 0,
+          "max" : 60,
+          "min" : 0,
+          "offset" : 0,
+          "scalar" : 0.001106426275076,
+          "signed" : false,
+          "unit" : "psi"
+        }
+      ]
+    },
+    "updateFrequency" : 0.25
+  },
+  {
+    "id": "[ECU] Baro",
+    "header" : 2016,
+    "parameter" : {
+      "service22" : {
+        "pid" : 851
+      }
+    },
+    "name" : "Barometric pressure",
+    "signal" : {
+      "scaling" : [
+        {
+          "bitLength" : 16,
+          "bitOffset" : 0,
+          "max" : 20,
+          "min" : 8,
+          "offset" : 0,
+          "scalar" : 0.036255379119962,
+          "signed" : false,
+          "unit" : "psi"
+        }
+      ]
+    },
+    "updateFrequency" : 0.25
+  },
+  {
+    "id": "[ECU] Baro Sensor V",
+    "header" : 2016,
+    "parameter" : {
+      "service22" : {
+        "pid" : 858
+      }
+    },
+    "name" : "Barometric pressure sensor voltage",
+    "signal" : {
+      "scaling" : [
+        {
+          "bitLength" : 16,
+          "bitOffset" : 0,
+          "max" : 5,
+          "min" : 0,
+          "offset" : 0,
+          "scalar" : 0.004887585532747,
+          "signed" : false,
+          "unit" : "volts"
+        }
+      ]
+    },
+    "updateFrequency" : 0.25
+  },
+  {
+    "id": "[ECU] Rear O2 V",
+    "header" : 2016,
+    "parameter" : {
+      "service22" : {
+        "pid" : 863
+      }
+    },
+    "name" : "Rear O2 voltage",
+    "signal" : {
+      "scaling" : [
+        {
+          "bitLength" : 16,
+          "bitOffset" : 0,
+          "max" : 1,
+          "min" : 0,
+          "offset" : 0,
+          "scalar" : 0.0009765625,
+          "signed" : true,
+          "unit" : "volts"
+        }
+      ]
+    },
+    "updateFrequency" : 0.25
   }
 ]
