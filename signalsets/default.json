@@ -44,7 +44,7 @@
           "offset" : 0,
           "scalar" : 0.0030517578125,
           "signed" : false,
-          "unit" : "percentage"
+          "unit" : "percent"
         }
       ]
     },
@@ -95,7 +95,7 @@
           "offset" : 0,
           "scalar" : 0.0030517578125,
           "signed" : false,
-          "unit" : "percentage"
+          "unit" : "percent"
         }
       ]
     },
@@ -120,7 +120,7 @@
           "offset" : 0,
           "scalar" : 0.0030517578125,
           "signed" : false,
-          "unit" : "percentage"
+          "unit" : "percent"
         }
       ]
     },
@@ -270,7 +270,7 @@
           "offset" : 0,
           "scalar" : 0.5,
           "signed" : false,
-          "unit" : "percentage"
+          "unit" : "percent"
         }
       ]
     },
