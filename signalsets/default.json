@@ -145,7 +145,7 @@
           "offset" : 0,
           "scalar" : 0.0625,
           "signed" : true,
-          "unit" : "scalar"
+          "unit" : "degrees"
         }
       ]
     },
@@ -170,7 +170,7 @@
           "offset" : 0,
           "scalar" : 0.0625,
           "signed" : true,
-          "unit" : "scalar"
+          "unit" : "degrees"
         }
       ]
     },
@@ -195,7 +195,7 @@
           "offset" : 0,
           "scalar" : 0.0625,
           "signed" : true,
-          "unit" : "scalar"
+          "unit" : "degrees"
         }
       ]
     },
@@ -220,7 +220,107 @@
           "offset" : 0,
           "scalar" : 0.0625,
           "signed" : true,
-          "unit" : "scalar"
+          "unit" : "degrees"
+        }
+      ]
+    },
+    "updateFrequency" : 0.25
+  },
+  {
+    "id": "[ECU] HPFP sensor voltage",
+    "header" : 2016,
+    "parameter" : {
+      "service22" : {
+        "pid" : 804
+      }
+    },
+    "name" : "High pressure fuel rail sensor voltage",
+    "signal" : {
+      "scaling" : [
+        {
+          "bitLength" : 16,
+          "bitOffset" : 0,
+          "max" : 5,
+          "min" : 0,
+          "offset" : 0,
+          "scalar" : 0.004887585532747,
+          "signed" : false,
+          "unit" : "volts"
+        }
+      ]
+    },
+    "updateFrequency" : 0.25
+  },
+  {
+    "id": "[ECU] Accelerator pedal position",
+    "header" : 2016,
+    "parameter" : {
+      "service22" : {
+        "pid" : 811
+      }
+    },
+    "name" : "Accelerator Pedal Position",
+    "signal" : {
+      "scaling" : [
+        {
+          "bitLength" : 8,
+          "bitOffset" : 0,
+          "max" : 100,
+          "min" : 0,
+          "offset" : 0,
+          "scalar" : 0.5,
+          "signed" : false,
+          "unit" : "percentage"
+        }
+      ]
+    },
+    "updateFrequency" : 0.25
+  },
+  {
+    "id": "[ECU] ETC learned trim",
+    "header" : 2016,
+    "parameter" : {
+      "service22" : {
+        "pid" : 824
+      }
+    },
+    "name" : "Electronic throttle control learned trim angle",
+    "signal" : {
+      "scaling" : [
+        {
+          "bitLength" : 16,
+          "bitOffset" : 0,
+          "max" : 90,
+          "min" : -90,
+          "offset" : 0,
+          "scalar" : 0.001953125,
+          "signed" : true,
+          "unit" : "degrees"
+        }
+      ]
+    },
+    "updateFrequency" : 0.25
+  },
+  {
+    "id": "[ECU] TIP sensor voltage",
+    "header" : 2016,
+    "parameter" : {
+      "service22" : {
+        "pid" : 828
+      }
+    },
+    "name" : "Throttle inlet pressure sensor voltage",
+    "signal" : {
+      "scaling" : [
+        {
+          "bitLength" : 16,
+          "bitOffset" : 0,
+          "max" : 5,
+          "min" : 0,
+          "offset" : 0,
+          "scalar" : 0.0048828125,
+          "signed" : false,
+          "unit" : "volts"
         }
       ]
     },
