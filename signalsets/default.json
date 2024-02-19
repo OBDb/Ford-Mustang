@@ -76,4 +76,154 @@
     },
     "updateFrequency" : 0.25
   },
+  {
+    "id": "[ECU] VCT intake duty cycle",
+    "header" : 2016,
+    "parameter" : {
+      "service22" : {
+        "pid" : 790
+      }
+    },
+    "name" : "VCT intake camshaft solenoid duty cycle",
+    "signal" : {
+      "scaling" : [
+        {
+          "bitLength" : 16,
+          "bitOffset" : 0,
+          "max" : 100,
+          "min" : 0,
+          "offset" : 0,
+          "scalar" : 0.0030517578125,
+          "signed" : false,
+          "unit" : "percentage"
+        }
+      ]
+    },
+    "updateFrequency" : 0.25
+  },
+  {
+    "id": "[ECU] VCT exhaust duty cycle",
+    "header" : 2016,
+    "parameter" : {
+      "service22" : {
+        "pid" : 791
+      }
+    },
+    "name" : "VCT exhaust camshaft solenoid duty cycle",
+    "signal" : {
+      "scaling" : [
+        {
+          "bitLength" : 16,
+          "bitOffset" : 0,
+          "max" : 100,
+          "min" : 0,
+          "offset" : 0,
+          "scalar" : 0.0030517578125,
+          "signed" : false,
+          "unit" : "percentage"
+        }
+      ]
+    },
+    "updateFrequency" : 0.25
+  },
+  {
+    "id": "[ECU] VCT intake actual",
+    "header" : 2016,
+    "parameter" : {
+      "service22" : {
+        "pid" : 792
+      }
+    },
+    "name" : "VCT intake camshaft actual",
+    "signal" : {
+      "scaling" : [
+        {
+          "bitLength" : 16,
+          "bitOffset" : 0,
+          "max" : 0,
+          "min" : -50,
+          "offset" : 0,
+          "scalar" : 0.0625,
+          "signed" : true,
+          "unit" : "scalar"
+        }
+      ]
+    },
+    "updateFrequency" : 0.25
+  },
+  {
+    "id": "[ECU] VCT exhaust actual",
+    "header" : 2016,
+    "parameter" : {
+      "service22" : {
+        "pid" : 793
+      }
+    },
+    "name" : "VCT exhaust camshaft actual",
+    "signal" : {
+      "scaling" : [
+        {
+          "bitLength" : 16,
+          "bitOffset" : 0,
+          "max" : 50,
+          "min" : 0,
+          "offset" : 0,
+          "scalar" : 0.0625,
+          "signed" : true,
+          "unit" : "scalar"
+        }
+      ]
+    },
+    "updateFrequency" : 0.25
+  },
+  {
+    "id": "[ECU] VCT intake error",
+    "header" : 2016,
+    "parameter" : {
+      "service22" : {
+        "pid" : 794
+      }
+    },
+    "name" : "VCT intake camshaft error",
+    "signal" : {
+      "scaling" : [
+        {
+          "bitLength" : 16,
+          "bitOffset" : 0,
+          "max" : 50,
+          "min" : -50,
+          "offset" : 0,
+          "scalar" : 0.0625,
+          "signed" : true,
+          "unit" : "scalar"
+        }
+      ]
+    },
+    "updateFrequency" : 0.25
+  },
+  {
+    "id": "[ECU] VCT exhaust error",
+    "header" : 2016,
+    "parameter" : {
+      "service22" : {
+        "pid" : 795
+      }
+    },
+    "name" : "VCT exhaust camshaft error",
+    "signal" : {
+      "scaling" : [
+        {
+          "bitLength" : 16,
+          "bitOffset" : 0,
+          "max" : 50,
+          "min" : -50,
+          "offset" : 0,
+          "scalar" : 0.0625,
+          "signed" : true,
+          "unit" : "scalar"
+        }
+      ]
+    },
+    "updateFrequency" : 0.25
+  },
 ]
