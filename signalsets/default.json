@@ -12,18 +12,14 @@
         "description": "Typically varies from 1 volt at idle to 5 volts during wide open throttle.",
         "name" : "Manifold absolute pressure sensor voltage",
         "format" : {
-          "scaling" : [
-            {
-              "bitLength" : 16,
-              "bitOffset" : 0,
-              "max" : 5,
-              "min" : 0,
-              "offset" : 0,
-              "scalar" : 0.0009765625,
-              "signed" : false,
-              "unit" : "volts"
-            }
-          ]
+          "bitLength" : 16,
+          "bitOffset" : 0,
+          "max" : 5,
+          "min" : 0,
+          "offset" : 0,
+          "scalar" : 0.0009765625,
+          "signed" : false,
+          "unit" : "volts"
         }
       }
     ],
@@ -41,18 +37,14 @@
         "id": "[ECU] LPFP duty cycle",
         "name" : "Low pressure fuel pump commanded duty cycle",
         "format" : {
-          "scaling" : [
-            {
-              "bitLength" : 16,
-              "bitOffset" : 0,
-              "max" : 100,
-              "min" : 0,
-              "offset" : 0,
-              "scalar" : 0.0030517578125,
-              "signed" : false,
-              "unit" : "percent"
-            }
-          ]
+          "bitLength" : 16,
+          "bitOffset" : 0,
+          "max" : 100,
+          "min" : 0,
+          "offset" : 0,
+          "scalar" : 0.0030517578125,
+          "signed" : false,
+          "unit" : "percent"
         }
       }
     ],
@@ -71,18 +63,14 @@
         "description": "The ratio of of oxygen in the combustion chamber compared to the amount that should have been present for ideal combustion.",
         "name" : "Commanded lambda",
         "format" : {
-          "scaling" : [
-            {
-              "bitLength" : 16,
-              "bitOffset" : 0,
-              "max" : 5,
-              "min" : 0,
-              "offset" : 0,
-              "scalar" : 0.000030517578125,
-              "signed" : false,
-              "unit" : "scalar"
-            }
-          ]
+          "bitLength" : 16,
+          "bitOffset" : 0,
+          "max" : 5,
+          "min" : 0,
+          "offset" : 0,
+          "scalar" : 0.000030517578125,
+          "signed" : false,
+          "unit" : "scalar"
         }
       }
     ],
@@ -100,18 +88,14 @@
         "id": "[ECU] VCT intake duty cycle",
         "name" : "VCT intake camshaft solenoid duty cycle",
         "format" : {
-          "scaling" : [
-            {
-              "bitLength" : 16,
-              "bitOffset" : 0,
-              "max" : 100,
-              "min" : 0,
-              "offset" : 0,
-              "scalar" : 0.0030517578125,
-              "signed" : false,
-              "unit" : "percent"
-            }
-          ]
+          "bitLength" : 16,
+          "bitOffset" : 0,
+          "max" : 100,
+          "min" : 0,
+          "offset" : 0,
+          "scalar" : 0.0030517578125,
+          "signed" : false,
+          "unit" : "percent"
         }
       }
     ],
@@ -129,18 +113,14 @@
         "id": "[ECU] VCT exhaust duty cycle",
         "name" : "VCT exhaust camshaft solenoid duty cycle",
         "format" : {
-          "scaling" : [
-            {
-              "bitLength" : 16,
-              "bitOffset" : 0,
-              "max" : 100,
-              "min" : 0,
-              "offset" : 0,
-              "scalar" : 0.0030517578125,
-              "signed" : false,
-              "unit" : "percent"
-            }
-          ]
+          "bitLength" : 16,
+          "bitOffset" : 0,
+          "max" : 100,
+          "min" : 0,
+          "offset" : 0,
+          "scalar" : 0.0030517578125,
+          "signed" : false,
+          "unit" : "percent"
         }
       }
     ],
@@ -158,18 +138,14 @@
         "id": "[ECU] VCT intake actual",
         "name" : "VCT intake camshaft actual",
         "format" : {
-          "scaling" : [
-            {
-              "bitLength" : 16,
-              "bitOffset" : 0,
-              "max" : 0,
-              "min" : -50,
-              "offset" : 0,
-              "scalar" : 0.0625,
-              "signed" : true,
-              "unit" : "degrees"
-            }
-          ]
+          "bitLength" : 16,
+          "bitOffset" : 0,
+          "max" : 0,
+          "min" : -50,
+          "offset" : 0,
+          "scalar" : 0.0625,
+          "signed" : true,
+          "unit" : "degrees"
         }
       }
     ],
@@ -187,18 +163,14 @@
         "id": "[ECU] VCT exhaust actual",
         "name" : "VCT exhaust camshaft actual",
         "format" : {
-          "scaling" : [
-            {
-              "bitLength" : 16,
-              "bitOffset" : 0,
-              "max" : 50,
-              "min" : 0,
-              "offset" : 0,
-              "scalar" : 0.0625,
-              "signed" : true,
-              "unit" : "degrees"
-            }
-          ]
+          "bitLength" : 16,
+          "bitOffset" : 0,
+          "max" : 50,
+          "min" : 0,
+          "offset" : 0,
+          "scalar" : 0.0625,
+          "signed" : true,
+          "unit" : "degrees"
         }
       }
     ],
@@ -216,18 +188,14 @@
         "id": "[ECU] VCT intake error",
         "name" : "VCT intake camshaft error",
         "format" : {
-          "scaling" : [
-            {
-              "bitLength" : 16,
-              "bitOffset" : 0,
-              "max" : 50,
-              "min" : -50,
-              "offset" : 0,
-              "scalar" : 0.0625,
-              "signed" : true,
-              "unit" : "degrees"
-            }
-          ]
+          "bitLength" : 16,
+          "bitOffset" : 0,
+          "max" : 50,
+          "min" : -50,
+          "offset" : 0,
+          "scalar" : 0.0625,
+          "signed" : true,
+          "unit" : "degrees"
         }
       }
     ],
@@ -245,18 +213,14 @@
         "id": "[ECU] VCT exhaust error",
         "name" : "VCT exhaust camshaft error",
         "format" : {
-          "scaling" : [
-            {
-              "bitLength" : 16,
-              "bitOffset" : 0,
-              "max" : 50,
-              "min" : -50,
-              "offset" : 0,
-              "scalar" : 0.0625,
-              "signed" : true,
-              "unit" : "degrees"
-            }
-          ]
+          "bitLength" : 16,
+          "bitOffset" : 0,
+          "max" : 50,
+          "min" : -50,
+          "offset" : 0,
+          "scalar" : 0.0625,
+          "signed" : true,
+          "unit" : "degrees"
         }
       }
     ],
@@ -274,18 +238,14 @@
         "id": "[ECU] HPFP sensor voltage",
         "name" : "High pressure fuel rail sensor voltage",
         "format" : {
-          "scaling" : [
-            {
-              "bitLength" : 16,
-              "bitOffset" : 0,
-              "max" : 5,
-              "min" : 0,
-              "offset" : 0,
-              "scalar" : 0.004887585532747,
-              "signed" : false,
-              "unit" : "volts"
-            }
-          ]
+          "bitLength" : 16,
+          "bitOffset" : 0,
+          "max" : 5,
+          "min" : 0,
+          "offset" : 0,
+          "scalar" : 0.004887585532747,
+          "signed" : false,
+          "unit" : "volts"
         }
       }
     ],
@@ -303,18 +263,14 @@
         "id": "[ECU] Accelerator pedal position",
         "name" : "Accelerator Pedal Position",
         "format" : {
-          "scaling" : [
-            {
-              "bitLength" : 8,
-              "bitOffset" : 0,
-              "max" : 100,
-              "min" : 0,
-              "offset" : 0,
-              "scalar" : 0.5,
-              "signed" : false,
-              "unit" : "percent"
-            }
-          ]
+          "bitLength" : 8,
+          "bitOffset" : 0,
+          "max" : 100,
+          "min" : 0,
+          "offset" : 0,
+          "scalar" : 0.5,
+          "signed" : false,
+          "unit" : "percent"
         }
       }
     ],
@@ -332,18 +288,14 @@
         "id": "[ECU] ETC learned trim",
         "name" : "Electronic throttle control learned trim angle",
         "format" : {
-          "scaling" : [
-            {
-              "bitLength" : 16,
-              "bitOffset" : 0,
-              "max" : 90,
-              "min" : -90,
-              "offset" : 0,
-              "scalar" : 0.001953125,
-              "signed" : true,
-              "unit" : "degrees"
-            }
-          ]
+          "bitLength" : 16,
+          "bitOffset" : 0,
+          "max" : 90,
+          "min" : -90,
+          "offset" : 0,
+          "scalar" : 0.001953125,
+          "signed" : true,
+          "unit" : "degrees"
         }
       }
     ],
@@ -361,18 +313,14 @@
         "id": "[ECU] TIP sensor voltage",
         "name" : "Throttle inlet pressure sensor voltage",
         "format" : {
-          "scaling" : [
-            {
-              "bitLength" : 16,
-              "bitOffset" : 0,
-              "max" : 5,
-              "min" : 0,
-              "offset" : 0,
-              "scalar" : 0.0048828125,
-              "signed" : false,
-              "unit" : "volts"
-            }
-          ]
+          "bitLength" : 16,
+          "bitOffset" : 0,
+          "max" : 5,
+          "min" : 0,
+          "offset" : 0,
+          "scalar" : 0.0048828125,
+          "signed" : false,
+          "unit" : "volts"
         }
       }
     ],
@@ -390,18 +338,14 @@
         "id": "[ECU] TIP actual abs",
         "name" : "Throttle inlet pressure absolute",
         "format" : {
-          "scaling" : [
-            {
-              "bitLength" : 16,
-              "bitOffset" : 0,
-              "max" : 60,
-              "min" : 0,
-              "offset" : 0,
-              "scalar" : 0.001106426275076,
-              "signed" : false,
-              "unit" : "psi"
-            }
-          ]
+          "bitLength" : 16,
+          "bitOffset" : 0,
+          "max" : 60,
+          "min" : 0,
+          "offset" : 0,
+          "scalar" : 0.001106426275076,
+          "signed" : false,
+          "unit" : "psi"
         }
       }
     ],
@@ -419,18 +363,14 @@
         "id": "[ECU] Baro",
         "name" : "Barometric pressure",
         "format" : {
-          "scaling" : [
-            {
-              "bitLength" : 16,
-              "bitOffset" : 0,
-              "max" : 20,
-              "min" : 8,
-              "offset" : 0,
-              "scalar" : 0.036255379119962,
-              "signed" : false,
-              "unit" : "psi"
-            }
-          ]
+          "bitLength" : 16,
+          "bitOffset" : 0,
+          "max" : 20,
+          "min" : 8,
+          "offset" : 0,
+          "scalar" : 0.036255379119962,
+          "signed" : false,
+          "unit" : "psi"
         }
       }
     ],
@@ -448,18 +388,14 @@
         "id": "[ECU] Baro Sensor V",
         "name" : "Barometric pressure sensor voltage",
         "format" : {
-          "scaling" : [
-            {
-              "bitLength" : 16,
-              "bitOffset" : 0,
-              "max" : 5,
-              "min" : 0,
-              "offset" : 0,
-              "scalar" : 0.004887585532747,
-              "signed" : false,
-              "unit" : "volts"
-            }
-          ]
+          "bitLength" : 16,
+          "bitOffset" : 0,
+          "max" : 5,
+          "min" : 0,
+          "offset" : 0,
+          "scalar" : 0.004887585532747,
+          "signed" : false,
+          "unit" : "volts"
         }
       }
     ],
@@ -477,18 +413,14 @@
         "id": "[ECU] Rear O2 V",
         "name" : "Rear O2 voltage",
         "format" : {
-          "scaling" : [
-            {
-              "bitLength" : 16,
-              "bitOffset" : 0,
-              "max" : 1,
-              "min" : 0,
-              "offset" : 0,
-              "scalar" : 0.0009765625,
-              "signed" : true,
-              "unit" : "volts"
-            }
-          ]
+          "bitLength" : 16,
+          "bitOffset" : 0,
+          "max" : 1,
+          "min" : 0,
+          "offset" : 0,
+          "scalar" : 0.0009765625,
+          "signed" : true,
+          "unit" : "volts"
         }
       }
     ],
@@ -506,18 +438,14 @@
         "id": "[ECU] Evap Pres Sensor V",
         "name" : "Evaporative vapor pressure sensor voltage",
         "format" : {
-          "scaling" : [
-            {
-              "bitLength" : 16,
-              "bitOffset" : 0,
-              "max" : 5,
-              "min" : 0,
-              "offset" : 0,
-              "scalar" : 0.19980468692244,
-              "signed" : true,
-              "unit" : "volts"
-            }
-          ]
+          "bitLength" : 16,
+          "bitOffset" : 0,
+          "max" : 5,
+          "min" : 0,
+          "offset" : 0,
+          "scalar" : 0.19980468692244,
+          "signed" : true,
+          "unit" : "volts"
         }
       }
     ],
@@ -535,18 +463,14 @@
         "id": "[ECU] ECT",
         "name" : "Engine coolant temperature",
         "format" : {
-          "scaling" : [
-            {
-              "bitLength" : 16,
-              "bitOffset" : 0,
-              "max" : 148.889,
-              "min" : -40,
-              "offset" : 0,
-              "scalar" : 0.015625,
-              "signed" : true,
-              "unit" : "celsius"
-            }
-          ]
+          "bitLength" : 16,
+          "bitOffset" : 0,
+          "max" : 148.889,
+          "min" : -40,
+          "offset" : 0,
+          "scalar" : 0.015625,
+          "signed" : true,
+          "unit" : "celsius"
         }
       }
     ],
@@ -564,18 +488,14 @@
         "id": "[ECU] AC Pressure",
         "name" : "Air conditioning compressor pressure",
         "format" : {
-          "scaling" : [
-            {
-              "bitLength" : 16,
-              "bitOffset" : 0,
-              "max" : 1000,
-              "min" : -100,
-              "offset" : 0,
-              "scalar" : 0.290075496208945,
-              "signed" : true,
-              "unit" : "psi"
-            }
-          ]
+          "bitLength" : 16,
+          "bitOffset" : 0,
+          "max" : 1000,
+          "min" : -100,
+          "offset" : 0,
+          "scalar" : 0.290075496208945,
+          "signed" : true,
+          "unit" : "psi"
         }
       }
     ],
@@ -593,18 +513,14 @@
         "id": "[ECU] AAT Sensor V",
         "name" : "Ambient air temperature sensor voltage",
         "format" : {
-          "scaling" : [
-            {
-              "bitLength" : 16,
-              "bitOffset" : 0,
-              "max" : 5,
-              "min" : 0,
-              "offset" : 0,
-              "scalar" : 0.004887585532747,
-              "signed" : false,
-              "unit" : "volts"
-            }
-          ]
+          "bitLength" : 16,
+          "bitOffset" : 0,
+          "max" : 5,
+          "min" : 0,
+          "offset" : 0,
+          "scalar" : 0.004887585532747,
+          "signed" : false,
+          "unit" : "volts"
         }
       }
     ],
@@ -622,18 +538,14 @@
         "id": "[ECU] VCT Exh Des",
         "name" : "VCT exhaust cam desired",
         "format" : {
-          "scaling" : [
-            {
-              "bitLength" : 16,
-              "bitOffset" : 0,
-              "max" : 50,
-              "min" : 0,
-              "offset" : 0,
-              "scalar" : 0.0625,
-              "signed" : true,
-              "unit" : "degrees"
-            }
-          ]
+          "bitLength" : 16,
+          "bitOffset" : 0,
+          "max" : 50,
+          "min" : 0,
+          "offset" : 0,
+          "scalar" : 0.0625,
+          "signed" : true,
+          "unit" : "degrees"
         }
       }
     ],
@@ -651,18 +563,14 @@
         "id": "[ECU] VCT Int Des",
         "name" : "VCT intake cam desired",
         "format" : {
-          "scaling" : [
-            {
-              "bitLength" : 16,
-              "bitOffset" : 0,
-              "max" : 0,
-              "min" : -50,
-              "offset" : 0,
-              "scalar" : 0.0625,
-              "signed" : true,
-              "unit" : "degrees"
-            }
-          ]
+          "bitLength" : 16,
+          "bitOffset" : 0,
+          "max" : 0,
+          "min" : -50,
+          "offset" : 0,
+          "scalar" : 0.0625,
+          "signed" : true,
+          "unit" : "degrees"
         }
       }
     ],
@@ -680,18 +588,14 @@
         "id": "[ECU] CL Lambda Corr",
         "name" : "Closed loop lambda correction",
         "format" : {
-          "scaling" : [
-            {
-              "bitLength" : 16,
-              "bitOffset" : 0,
-              "max" : 5,
-              "min" : -5,
-              "offset" : 0,
-              "scalar" : 0.0001220703125,
-              "signed" : true,
-              "unit" : "scalar"
-            }
-          ]
+          "bitLength" : 16,
+          "bitOffset" : 0,
+          "max" : 5,
+          "min" : -5,
+          "offset" : 0,
+          "scalar" : 0.0001220703125,
+          "signed" : true,
+          "unit" : "scalar"
         }
       }
     ],
@@ -709,18 +613,14 @@
         "id": "[ECU] MCT",
         "name" : "Manifold charge temperature",
         "format" : {
-          "scaling" : [
-            {
-              "bitLength" : 8,
-              "bitOffset" : 0,
-              "max" : 148.889,
-              "min" : 0,
-              "offset" : 0,
-              "scalar" : 1,
-              "signed" : false,
-              "unit" : "celsius"
-            }
-          ]
+          "bitLength" : 8,
+          "bitOffset" : 0,
+          "max" : 148.889,
+          "min" : 0,
+          "offset" : 0,
+          "scalar" : 1,
+          "signed" : false,
+          "unit" : "celsius"
         }
       }
     ],
@@ -738,18 +638,14 @@
         "id": "[ECU] HPFP Desired",
         "name" : "High pressure fuel pressure desired",
         "format" : {
-          "scaling" : [
-            {
-              "bitLength" : 16,
-              "bitOffset" : 0,
-              "max" : 3500,
-              "min" : 0,
-              "offset" : 0,
-              "scalar" : 1.450377396900938,
-              "signed" : true,
-              "unit" : "psi"
-            }
-          ]
+          "bitLength" : 16,
+          "bitOffset" : 0,
+          "max" : 3500,
+          "min" : 0,
+          "offset" : 0,
+          "scalar" : 1.450377396900938,
+          "signed" : true,
+          "unit" : "psi"
         }
       }
     ],
@@ -767,18 +663,14 @@
         "id": "[ECU] OAR",
         "name" : "Octane adjust ratio",
         "format" : {
-          "scaling" : [
-            {
-              "bitLength" : 16,
-              "bitOffset" : 0,
-              "max" : 1,
-              "min" : -1,
-              "offset" : 0,
-              "scalar" : 0.00006103515625,
-              "signed" : true,
-              "unit" : "scalar"
-            }
-          ]
+          "bitLength" : 16,
+          "bitOffset" : 0,
+          "max" : 1,
+          "min" : -1,
+          "offset" : 0,
+          "scalar" : 0.00006103515625,
+          "signed" : true,
+          "unit" : "scalar"
         }
       }
     ],
