@@ -1,0 +1,35 @@
+generations:
+  - name: "First Generation"
+    start_year: 1964
+    end_year: 1973
+    description: "The original Mustang created the 'pony car' segment with its long hood, short deck proportions and affordable pricing. Available as a coupe, convertible, and fastback, it broke sales records with over 400,000 units sold in its first year. Initially based on the Ford Falcon platform, it offered a range of inline-six and V8 engines. The Mustang evolved significantly during this generation, growing larger and more powerful with performance variants including the Shelby GT350/GT500, Mach 1, and Boss 302/429. This generation established the Mustang as an American icon and defined characteristics that would influence all subsequent versions."
+
+  - name: "Second Generation (Mustang II)"
+    start_year: 1974
+    end_year: 1978
+    description: "The Mustang II was a dramatic downsizing in response to the 1973 oil crisis, based on the Ford Pinto platform. Available as a notchback coupe and fastback (hatchback), it initially offered only four-cylinder and V6 engines, with a V8 returning in 1975. Despite criticism from enthusiasts for its reduced performance, the Mustang II was commercially successful, meeting consumer demands for smaller, more efficient vehicles while retaining Mustang styling cues. Special editions included the King Cobra and Cobra II, which offered appearance packages inspired by performance Mustangs of the past."
+
+  - name: "Third Generation (Fox Body)"
+    start_year: 1979
+    end_year: 1993
+    description: "The Fox Body Mustang represented a complete redesign on Ford's Fox platform with a more angular, contemporary design. Available in coupe, hatchback, and briefly convertible body styles, it evolved substantially over its 14-year production run. Early models offered inline-four, inline-six, and V8 engines, eventually consolidating around the 5.0L V8 that became synonymous with this generation. Performance gradually returned with the Cobra, GT, and SVO variants, while special editions like the Saleen and Roush offered enhanced performance and exclusivity. The long production run and extensive aftermarket support have made the Fox Body a favorite among enthusiasts and modifiers."
+
+  - name: "Fourth Generation (SN-95/New Edge)"
+    start_year: 1994
+    end_year: 2004
+    description: "The fourth-generation Mustang returned to more traditional styling cues while remaining on an updated Fox platform. Available as coupe and convertible, it initially featured a 3.8L V6 or 5.0L V8, with the latter replaced by a 4.6L modular V8 in 1996. A significant styling update in 1999 (New Edge) brought sharper, more aggressive design elements. Performance variants included the Cobra with independent rear suspension, the track-focused Cobra R, and the Bullitt special edition paying homage to the famous movie car. This generation maintained the Mustang's popularity during a period when many competitors discontinued their pony cars."
+
+  - name: "Fifth Generation (S197)"
+    start_year: 2005
+    end_year: 2014
+    description: "The S197 Mustang featured retro-inspired styling that strongly referenced the original 1964-1968 models, while incorporating modern engineering. Built on a dedicated platform, it offered improved handling and refinement. Base models featured a 4.0L V6 (later a 3.7L) with GT models powered by 4.6L and later 5.0L 'Coyote' V8 engines. The Shelby GT500 returned as the high-performance flagship with a supercharged engine eventually producing 662 HP. Special editions included the Boss 302, Bullitt, and various commemorative models celebrating Mustang heritage. This generation successfully revitalized the Mustang's iconic status while delivering modern performance and features."
+
+  - name: "Sixth Generation (S550)"
+    start_year: 2015
+    end_year: 2023
+    description: "The sixth-generation Mustang maintained retro-inspired styling while adopting more contemporary design elements and significantly improved engineering. Major innovations included independent rear suspension across all models and the introduction of a turbocharged four-cylinder EcoBoost engine alongside the traditional V6 (discontinued after 2017) and 5.0L V8. The interior featured higher quality materials and advanced technology including SYNC infotainment systems. Performance variants expanded to include the Shelby GT350 with a flat-plane crank 5.2L V8, the supercharged Shelby GT500 with 760 HP, and the track-focused Mach 1. A significant refresh in 2018 updated the styling and introduced advanced driver assistance features. This generation successfully broadened the Mustang's appeal globally while maintaining its performance credentials."
+
+  - name: "Seventh Generation (S650)"
+    start_year: 2024
+    end_year: null
+    description: "The latest Mustang features evolutionary exterior styling that maintains continuity with its predecessor while incorporating more aggressive elements, particularly in GT models. Built on an updated version of the S550 platform, it continues with the 2.3L EcoBoost four-cylinder and 5.0L Coyote V8 engines, both receiving significant updates for improved performance. The interior represents a major advancement with a fighter jet-inspired cockpit featuring a 12.4-inch digital instrument cluster that can be configured to a simplified view reminiscent of Fox Body Mustangs, and a 13.2-inch SYNC 4 touchscreen. New features include Remote Rev (allowing engine revving via key fob) and an electronic drift brake for the Performance Pack. The lineup includes the track-focused Dark Horse model with a specially tuned 500 HP version of the 5.0L V8. As competitors have discontinued their pony cars, the seventh-generation Mustang stands as the last traditional American sports car with internal combustion power, maintaining the legacy of accessible performance that has defined the nameplate for 60 years."
