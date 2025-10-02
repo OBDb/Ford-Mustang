@@ -4,20 +4,5 @@ test_cases:
     '[ECU] Accelerator pedal position': 0
   response: 7E80462032B00
 - expected_values:
-    '[ECU] Accelerator pedal position': 7.5
-  response: 7E80462032B0F
-- expected_values:
-    '[ECU] Accelerator pedal position': 8
-  response: 7E80462032B10
-- expected_values:
-    '[ECU] Accelerator pedal position': 8.5
-  response: 7E80462032B11
-- expected_values:
-    '[ECU] Accelerator pedal position': 14
-  response: 7E80462032B1C
-- expected_values:
-    '[ECU] Accelerator pedal position': 15.5
-  response: 7E80462032B1F
-- expected_values:
-    '[ECU] Accelerator pedal position': 22
-  response: 7E80462032B2C
+    '[ECU] Accelerator pedal position': 24
+  response: 7E80462032B30

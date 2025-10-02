@@ -4,8 +4,8 @@ test_cases:
     '[ECU] MAP voltage': 0.63477
   response: 7E805620301028A
 - expected_values:
-    '[ECU] MAP voltage': 0.75684
-  response: '7E8056203010307'
+    '[ECU] MAP voltage': 0.75488
+  response: '7E8056203010305'
 - expected_values:
     '[ECU] MAP voltage': 1.24609
   response: 7E80562030104FC

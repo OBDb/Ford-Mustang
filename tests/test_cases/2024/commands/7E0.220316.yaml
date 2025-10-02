@@ -4,8 +4,8 @@ test_cases:
     '[ECU] VCT intake duty cycle': 0
   response: '7E8056203160000'
 - expected_values:
-    '[ECU] VCT intake duty cycle': 48.41003
-  response: 7E8056203163DF7
+    '[ECU] VCT intake duty cycle': 46.07544
+  response: 7E8056203163AFA
 - expected_values:
-    '[ECU] VCT intake duty cycle': 52.3468
-  response: '7E8056203164301'
+    '[ECU] VCT intake duty cycle': 53.1311
+  response: '7E8056203164402'
