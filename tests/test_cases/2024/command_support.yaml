@@ -58,3 +58,36 @@ supported_commands_by_ecu:
   - 019F:FUELSYSA_B1,FUELSYSA_B1_SUP,FUELSYSA_B2,FUELSYSA_B2_SUP,FUELSYSA_B3,FUELSYSA_B3_SUP,FUELSYSA_B4,FUELSYSA_B4_SUP,FUELSYSB_B1,FUELSYSB_B1_SUP,FUELSYSB_B2,FUELSYSB_B2_SUP,FUELSYSB_B3,FUELSYSB_B3_SUP,FUELSYSB_B4,FUELSYSB_B4_SUP
   - 01A6:ODO
   - 01AA:V_SET
+  - 7E0.010D:VSS
+  - 7E0.012F:FLI
+  - 7E0.0131:CLR_DIST
+  - 7E0.01A6:ODO
+  - 7E0.220301:[ECU] MAP voltage
+  - 7E0.220307:[ECU] LPFP duty cycle
+  - 7E0.22030F:[ECU] Commanded lambda
+  - 7E0.220316:[ECU] VCT intake duty cycle
+  - 7E0.220317:[ECU] VCT exhaust duty cycle
+  - 7E0.220318:[ECU] VCT intake actual
+  - 7E0.220319:[ECU] VCT exhaust actual
+  - 7E0.22031A:[ECU] VCT intake error
+  - 7E0.22031B:[ECU] VCT exhaust error
+  - 7E0.220324:[ECU] HPFP sensor voltage
+  - 7E0.22032B:[ECU] Accelerator pedal position
+  - 7E0.220338:[ECU] ETC learned trim
+  - 7E0.220353:[ECU] Baro
+  - 7E0.22035A:[ECU] Baro Sensor V
+  - 7E0.22035F:[ECU] Rear O2 V
+  - 7E0.22038E:[ECU] Evap Pres Sensor V
+  - 7E0.22038F:[ECU] ECT
+  - 7E0.2203BA:[ECU] AAT Sensor V
+  - 7E0.2203BB:[ECU] VCT Exh Des
+  - 7E0.2203BC:[ECU] VCT Int Des
+  - 7E0.2203BD:[ECU] CL Lambda Corr
+  - 7E0.2203CA:[ECU] MCT
+  - 7E0.2203DC:[ECU] HPFP Desired
+  - 7E0.2203E8:[ECU] OAR
+unsupported_commands_by_ecu:
+  "7E0":
+  - 7E0.22033C:[ECU] TIP sensor voltage
+  - 7E0.22033E:[ECU] TIP actual abs
+  - 7E0.220393:[ECU] AC Pressure

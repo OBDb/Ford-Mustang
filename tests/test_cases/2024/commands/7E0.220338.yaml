@@ -1,0 +1,5 @@
+command_id: 7E0.220338
+test_cases:
+- expected_values:
+    '[ECU] ETC learned trim': 90
+  response: 7E805620338FF88
