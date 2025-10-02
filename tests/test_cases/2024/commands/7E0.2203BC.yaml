@@ -1,0 +1,29 @@
+command_id: 7E0.2203BC
+test_cases:
+- expected_values:
+    '[ECU] VCT Int Des': 0
+  response: 7E8056203BC0000
+- expected_values:
+    '[ECU] VCT Int Des': 0
+  response: 7E8056203BC0048
+- expected_values:
+    '[ECU] VCT Int Des': 0
+  response: 7E8056203BC0050
+- expected_values:
+    '[ECU] VCT Int Des': 0
+  response: 7E8056203BC0099
+- expected_values:
+    '[ECU] VCT Int Des': 0
+  response: 7E8056203BC009D
+- expected_values:
+    '[ECU] VCT Int Des': 0
+  response: 7E8056203BC009F
+- expected_values:
+    '[ECU] VCT Int Des': 0
+  response: 7E8056203BCFE20
+- expected_values:
+    '[ECU] VCT Int Des': 0
+  response: 7E8056203BCFE22
+- expected_values:
+    '[ECU] VCT Int Des': 0
+  response: 7E8056203BCFED0

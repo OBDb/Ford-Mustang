@@ -1,0 +1,8 @@
+command_id: 7E0.220324
+test_cases:
+- expected_values:
+    '[ECU] HPFP sensor voltage': 1.40762
+  response: '7E8056203240120'
+- expected_values:
+    '[ECU] HPFP sensor voltage': 1.86706
+  response: 7E805620324017E
