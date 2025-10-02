@@ -4,26 +4,8 @@ test_cases:
     '[ECU] VCT Exh Des': 0
   response: 7E8056203BB0000
 - expected_values:
-    '[ECU] VCT Exh Des': 2.8125
-  response: 7E8056203BB002D
-- expected_values:
-    '[ECU] VCT Exh Des': 4.375
-  response: 7E8056203BB0046
-- expected_values:
-    '[ECU] VCT Exh Des': 10
-  response: 7E8056203BB00A0
-- expected_values:
-    '[ECU] VCT Exh Des': 10.0625
-  response: 7E8056203BB00A1
-- expected_values:
-    '[ECU] VCT Exh Des': 21.1875
-  response: 7E8056203BB0153
+    '[ECU] VCT Exh Des': 30.5625
+  response: 7E8056203BB01E9
 - expected_values:
     '[ECU] VCT Exh Des': 34.5625
   response: 7E8056203BB0229
-- expected_values:
-    '[ECU] VCT Exh Des': 39.75
-  response: 7E8056203BB027C
-- expected_values:
-    '[ECU] VCT Exh Des': 39.9375
-  response: 7E8056203BB027F
