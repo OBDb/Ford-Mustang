@@ -1,0 +1,14 @@
+command_id: 7E0.22033E
+test_cases:
+- expected_values:
+    '[ECU] TIP actual abs': 11.34751
+  response: 7E80562033E2810
+- expected_values:
+    '[ECU] TIP actual abs': 12.74714
+  response: 7E80562033E2D01
+- expected_values:
+    '[ECU] TIP actual abs': 13.02706
+  response: 7E80562033E2DFE
+- expected_values:
+    '[ECU] TIP actual abs': 20.21109
+  response: 7E80562033E475B

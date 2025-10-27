@@ -1,0 +1,8 @@
+command_id: 7E0.22035F
+test_cases:
+- expected_values:
+    '[ECU] Rear O2 V': 0.70117
+  response: 7E80562035F02CE
+- expected_values:
+    '[ECU] Rear O2 V': 0.74609
+  response: 7E80562035F02FC
