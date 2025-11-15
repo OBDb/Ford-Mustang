@@ -78,6 +78,7 @@ supported_commands_by_ecu:
   - 7E0.22032B:[ECU] Accelerator pedal position
   - 7E0.220338:[ECU] ETC learned trim
   - 7E0.22033C:[ECU] TIP sensor voltage
+  - 7E0.22033E:[ECU] TIP actual abs
   - 7E0.220353:[ECU] Baro
   - 7E0.22035A:[ECU] Baro Sensor V
   - 7E0.22035F:[ECU] Rear O2 V
@@ -92,5 +93,4 @@ supported_commands_by_ecu:
   - 7E0.2203E8:[ECU] OAR
 unsupported_commands_by_ecu:
   "7E0":
-  - 7E0.22033E:[ECU] TIP actual abs
   - 7E0.220393:[ECU] AC Pressure
