@@ -47,7 +47,7 @@
   "signals": [
     {"id": "[ECU] ETC learned trim", "fmt": { "len": 16, "max": 90, "min": -90, "mul": 0.001953125, "unit": "degrees" }, "name": "Electronic throttle control learned trim angle"}
   ]},
-{ "hdr": "7E0", "cmd": {"22": "033C"}, "freq": 0.25, "dbgfilter": { "to": 2017, "from": 2019 },
+{ "hdr": "7E0", "cmd": {"22": "033C"}, "freq": 0.25, "dbgfilter": { "to": 2017, "years": [2019, 2020, 2021, 2022, 2023], "from": 2025 },
   "signals": [
     {"id": "[ECU] TIP sensor voltage", "fmt": { "len": 16, "max": 5, "mul": 0.0048828125, "unit": "volts" }, "name": "Throttle inlet pressure sensor voltage"}
   ]},
