@@ -43,3 +43,11 @@ supported_commands_by_ecu:
   - 014C:TAC_PCT
   - 0151:FUEL_TYP
   - 0154:EVAP_VP_WIDE
+unsupported_commands_by_ecu:
+  "713":
+  - 713.222B1B
+  - 713.222B1C
+  - 713.222B1D
+  - 713.222B1E
+  "7E0":
+  - 7E0.7E8.22295A
