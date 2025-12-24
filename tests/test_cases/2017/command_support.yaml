@@ -43,6 +43,7 @@ supported_commands_by_ecu:
   - 014C:TAC_PCT
   - 0151:FUEL_TYP
   - 0154:EVAP_VP_WIDE
+  - 7E0.220338:[ECU] ETC learned trim
 unsupported_commands_by_ecu:
   "713":
   - 713.222B1B
