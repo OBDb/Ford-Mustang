@@ -43,7 +43,7 @@
   "signals": [
     {"id": "[ECU] Accelerator pedal position", "fmt": { "len": 8, "max": 100, "mul": 0.5, "unit": "percent" }, "name": "Accelerator Pedal Position"}
   ]},
-{ "hdr": "7E0", "cmd": {"22": "0338"}, "freq": 0.25, "dbgfilter": { "to": 2015, "years": [2017, 2019, 2020, 2021, 2022, 2023], "from": 2025 },
+{ "hdr": "7E0", "cmd": {"22": "0338"}, "freq": 0.25, "dbgfilter": { "to": 2015, "years": [2019, 2020, 2021, 2022, 2023], "from": 2025 },
   "signals": [
     {"id": "[ECU] ETC learned trim", "fmt": { "len": 16, "max": 90, "min": -90, "mul": 0.001953125, "unit": "degrees" }, "name": "Electronic throttle control learned trim angle"}
   ]},
