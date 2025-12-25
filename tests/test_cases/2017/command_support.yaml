@@ -51,4 +51,5 @@ unsupported_commands_by_ecu:
   - 713.222B1D
   - 713.222B1E
   "7E0":
+  - 7E0.22035A:[ECU] Baro Sensor V
   - 7E0.7E8.22295A
