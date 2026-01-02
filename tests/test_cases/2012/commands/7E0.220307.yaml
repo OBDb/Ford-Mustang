@@ -1,0 +1,8 @@
+command_id: 7E0.220307
+test_cases:
+- expected_values:
+    '[ECU] LPFP duty cycle': 33.43811
+  response: 7E8056203072ACD
+- expected_values:
+    '[ECU] LPFP duty cycle': 33.47778
+  response: 7E8056203072ADA
