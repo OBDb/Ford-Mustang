@@ -6,3 +6,6 @@ test_cases:
 - expected_values:
     '[ECU] Rear O2 V': 0.74609
   response: 7E80562035F02FC
+- expected_values:
+    '[ECU] Rear O2 V': 1
+  response: 7E80562035F0669

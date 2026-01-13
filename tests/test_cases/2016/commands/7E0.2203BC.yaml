@@ -2,4 +2,7 @@ command_id: 7E0.2203BC
 test_cases:
 - expected_values:
     '[ECU] VCT Int Des': 0
+  response: 7E8056203BC0000
+- expected_values:
+    '[ECU] VCT Int Des': 0
   response: 7E8056203BC0140
