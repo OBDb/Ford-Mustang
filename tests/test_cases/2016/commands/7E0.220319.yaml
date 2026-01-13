@@ -1,6 +1,9 @@
 command_id: 7E0.220319
 test_cases:
 - expected_values:
+    '[ECU] VCT exhaust actual': 0
+  response: '7E8056203190000'
+- expected_values:
     '[ECU] VCT exhaust actual': 50
   response: 7E805620319FFFD
 - expected_values:

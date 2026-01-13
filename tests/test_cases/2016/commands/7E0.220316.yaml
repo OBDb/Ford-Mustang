@@ -1,6 +1,9 @@
 command_id: 7E0.220316
 test_cases:
 - expected_values:
+    '[ECU] VCT intake duty cycle': 0
+  response: '7E8056203160000'
+- expected_values:
     '[ECU] VCT intake duty cycle': 53.49426
   response: '7E8056203164479'
 - expected_values:
