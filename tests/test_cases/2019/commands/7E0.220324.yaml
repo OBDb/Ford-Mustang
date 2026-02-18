@@ -4,8 +4,8 @@ test_cases:
     '[ECU] HPFP sensor voltage': 0.91887
   response: 7E80562032400BC
 - expected_values:
-    '[ECU] HPFP sensor voltage': 1.2219
-  response: 7E80562032400FA
+    '[ECU] HPFP sensor voltage': 1.22678
+  response: 7E80562032400FB
 - expected_values:
     '[ECU] HPFP sensor voltage': 1.27077
   response: '7E8056203240104'

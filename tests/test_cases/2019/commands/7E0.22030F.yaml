@@ -4,11 +4,11 @@ test_cases:
     '[ECU] Commanded lambda': 0.79831
   response: 7E80562030F662F
 - expected_values:
-    '[ECU] Commanded lambda': 0.96838
-  response: 7E80562030F7BF4
+    '[ECU] Commanded lambda': 0.94504
+  response: 7E80562030F78F7
 - expected_values:
-    '[ECU] Commanded lambda': 1.03128
-  response: 7E80562030F8401
+    '[ECU] Commanded lambda': 0.97656
+  response: 7E80562030F7D00
 - expected_values:
     '[ECU] Commanded lambda': 1.1272
   response: 7E80562030F9048

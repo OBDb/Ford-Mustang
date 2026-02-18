@@ -7,6 +7,9 @@ test_cases:
     '[ECU] Baro': 14.1396
   response: '7E8056203530186'
 - expected_values:
+    '[ECU] Baro': 14.17585
+  response: '7E8056203530187'
+- expected_values:
     '[ECU] Baro': 14.21211
   response: '7E8056203530188'
 - expected_values:
