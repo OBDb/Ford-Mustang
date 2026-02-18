@@ -1,0 +1,8 @@
+command_id: 7E0.220393
+test_cases:
+- expected_values:
+    '[ECU] AC Pressure': 80.06084
+  response: '7E8056203930114'
+- expected_values:
+    '[ECU] AC Pressure': 98.04552
+  response: '7E8056203930152'
