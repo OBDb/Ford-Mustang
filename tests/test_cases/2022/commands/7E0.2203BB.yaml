@@ -1,0 +1,5 @@
+command_id: 7E0.2203BB
+test_cases:
+- expected_values:
+    '[ECU] VCT Exh Des': 0
+  response: 7E8056203BB0000
