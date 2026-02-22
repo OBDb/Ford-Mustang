@@ -43,7 +43,7 @@
   "signals": [
     {"id": "[ECU] Accelerator pedal position", "fmt": { "len": 8, "max": 100, "mul": 0.5, "unit": "percent" }, "name": "Accelerator Pedal Position"}
   ]},
-{ "hdr": "7E0", "cmd": {"22": "0338"}, "freq": 0.25, "dbgfilter": { "to": 2011, "years": [2013, 2014, 2015, 2020, 2021, 2022, 2023], "from": 2025 },
+{ "hdr": "7E0", "cmd": {"22": "0338"}, "freq": 0.25, "dbgfilter": { "to": 2011, "years": [2013, 2014, 2015, 2020, 2021, 2023], "from": 2025 },
   "signals": [
     {"id": "[ECU] ETC learned trim", "fmt": { "len": 16, "max": 90, "min": -90, "mul": 0.001953125, "unit": "degrees" }, "name": "Electronic throttle control learned trim angle"}
   ]},
@@ -71,11 +71,11 @@
   "signals": [
     {"id": "[ECU] Evap Pres Sensor V", "fmt": { "len": 16, "max": 5, "mul": 0.1998046869, "unit": "volts" }, "name": "Evaporative vapor pressure sensor voltage"}
   ]},
-{ "hdr": "7E0", "cmd": {"22": "038F"}, "freq": 0.25, "dbgfilter": { "to": 2011, "years": [2013, 2014, 2015, 2017, 2020, 2021, 2022, 2023], "from": 2025 },
+{ "hdr": "7E0", "cmd": {"22": "038F"}, "freq": 0.25, "dbgfilter": { "to": 2011, "years": [2013, 2014, 2015, 2017, 2020, 2021, 2023], "from": 2025 },
   "signals": [
     {"id": "[ECU] ECT", "fmt": { "len": 16, "max": 148.889, "min": -40, "mul": 0.015625, "unit": "celsius" }, "name": "Engine coolant temperature"}
   ]},
-{ "hdr": "7E0", "cmd": {"22": "0393"}, "freq": 0.25, "dbgfilter": { "to": 2011, "years": [2013, 2014, 2015, 2017], "from": 2020 },
+{ "hdr": "7E0", "cmd": {"22": "0393"}, "freq": 0.25, "dbgfilter": { "to": 2011, "years": [2013, 2014, 2015, 2017, 2020, 2021], "from": 2023 },
   "signals": [
     {"id": "[ECU] AC Pressure", "fmt": { "len": 16, "max": 1000, "min": -100, "mul": 0.2900754962, "unit": "psi" }, "name": "Air conditioning compressor pressure"}
   ]},
@@ -83,7 +83,7 @@
   "signals": [
     {"id": "[ECU] AAT Sensor V", "fmt": { "len": 16, "max": 5, "mul": 0.0048875855, "unit": "volts" }, "name": "Ambient air temperature sensor voltage"}
   ]},
-{ "hdr": "7E0", "cmd": {"22": "03BB"}, "freq": 0.25, "dbgfilter": { "to": 2011, "years": [2013, 2014, 2015, 2017, 2020, 2021, 2022, 2023], "from": 2025 },
+{ "hdr": "7E0", "cmd": {"22": "03BB"}, "freq": 0.25, "dbgfilter": { "to": 2011, "years": [2013, 2014, 2015, 2017, 2020, 2021, 2023], "from": 2025 },
   "signals": [
     {"id": "[ECU] VCT Exh Des", "fmt": { "len": 16, "max": 50, "mul": 0.0625, "unit": "degrees" }, "name": "VCT exhaust cam desired"}
   ]},
@@ -95,11 +95,11 @@
   "signals": [
     {"id": "[ECU] CL Lambda Corr", "fmt": { "len": 16, "max": 5, "min": -5, "mul": 0.0001220703, "unit": "scalar" }, "name": "Closed loop lambda correction"}
   ]},
-{ "hdr": "7E0", "cmd": {"22": "03CA"}, "freq": 0.25, "dbgfilter": { "to": 2017, "years": [2020, 2021, 2022, 2023], "from": 2025 },
+{ "hdr": "7E0", "cmd": {"22": "03CA"}, "freq": 0.25, "dbgfilter": { "to": 2017, "years": [2020, 2021, 2023], "from": 2025 },
   "signals": [
     {"id": "[ECU] MCT", "fmt": { "len": 8, "max": 148.889, "unit": "celsius" }, "name": "Manifold charge temperature"}
   ]},
-{ "hdr": "7E0", "cmd": {"22": "03DC"}, "freq": 0.25, "dbgfilter": { "to": 2017, "years": [2020, 2021, 2022, 2023], "from": 2025 },
+{ "hdr": "7E0", "cmd": {"22": "03DC"}, "freq": 0.25, "dbgfilter": { "to": 2017, "years": [2020, 2021, 2023], "from": 2025 },
   "signals": [
     {"id": "[ECU] HPFP Desired", "fmt": { "len": 16, "max": 3500, "mul": 1.4503773969, "unit": "psi" }, "name": "High pressure fuel pressure desired"}
   ]},
