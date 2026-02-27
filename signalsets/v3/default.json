@@ -1,5 +1,5 @@
 { "commands": [
-{ "hdr": "7E0", "cmd": {"22": "0301"}, "freq": 0.25, "dbgfilter": { "to": 2011, "years": [2013, 2014, 2015, 2016, 2017, 2019, 2020, 2021, 2022, 2023], "from": 2025 },
+{ "hdr": "7E0", "cmd": {"22": "0301"}, "freq": 0.25, "dbgfilter": { "to": 2011, "years": [2013, 2014, 2015, 2017, 2019, 2020, 2021, 2022, 2023], "from": 2025 },
   "signals": [
     {"id": "[ECU] MAP voltage", "fmt": { "len": 16, "max": 5, "mul": 0.0009765625, "unit": "volts" }, "name": "Manifold absolute pressure sensor voltage", "description": "Typically varies from 1 volt at idle to 5 volts during wide open throttle."}
   ]},
