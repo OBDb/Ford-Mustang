@@ -9,3 +9,6 @@ test_cases:
 - expected_values:
     '[ECU] ECT': 81.90625
   response: 7E80562038F147A
+- expected_values:
+    '[ECU] ECT': 92.73438
+  response: 7E80562038F172F
