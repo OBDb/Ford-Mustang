@@ -29,5 +29,5 @@ test_cases:
     7E8230FB5BE4524461A
     7E82445180000000000
 - expected_values:
-    VSS: 124
-  response: 7E803410D7C
+    VSS: 133
+  response: 7E803410D85
