@@ -16,5 +16,8 @@ test_cases:
     '[ECU] ETC learned trim': 0.57812
   response: '7E8056203380128'
 - expected_values:
+    '[ECU] ETC learned trim': 0.77539
+  response: 7E805620338018D
+- expected_values:
     '[ECU] ETC learned trim': 90
   response: 7E805620338FF88
