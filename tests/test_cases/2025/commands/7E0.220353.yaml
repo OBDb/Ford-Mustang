@@ -1,0 +1,14 @@
+command_id: 7E0.220353
+test_cases:
+- expected_values:
+    '[ECU] Baro': 12.68938
+  response: 7E805620353015E
+- expected_values:
+    '[ECU] Baro': 12.72564
+  response: 7E805620353015F
+- expected_values:
+    '[ECU] Baro': 12.76189
+  response: '7E8056203530160'
+- expected_values:
+    '[ECU] Baro': 12.90691
+  response: '7E8056203530164'

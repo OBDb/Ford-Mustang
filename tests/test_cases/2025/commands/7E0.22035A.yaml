@@ -1,0 +1,29 @@
+command_id: 7E0.22035A
+test_cases:
+- expected_values:
+    '[ECU] Baro Sensor V': 3.13783
+  response: 7E80562035A0282
+- expected_values:
+    '[ECU] Baro Sensor V': 3.14272
+  response: 7E80562035A0283
+- expected_values:
+    '[ECU] Baro Sensor V': 3.14761
+  response: 7E80562035A0284
+- expected_values:
+    '[ECU] Baro Sensor V': 3.15249
+  response: 7E80562035A0285
+- expected_values:
+    '[ECU] Baro Sensor V': 3.15738
+  response: 7E80562035A0286
+- expected_values:
+    '[ECU] Baro Sensor V': 3.16716
+  response: 7E80562035A0288
+- expected_values:
+    '[ECU] Baro Sensor V': 3.22581
+  response: 7E80562035A0294
+- expected_values:
+    '[ECU] Baro Sensor V': 3.23069
+  response: 7E80562035A0295
+- expected_values:
+    '[ECU] Baro Sensor V': 3.23558
+  response: 7E80562035A0296
