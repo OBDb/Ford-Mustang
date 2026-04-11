@@ -14,5 +14,10 @@ test_cases:
     7E803410D14
     7E803410D14
 - expected_values:
+    VSS: 32
+  response: |-
+    7E803410D20
+    7E803410D20
+- expected_values:
     VSS: 216
   response: 7E803410DD8
