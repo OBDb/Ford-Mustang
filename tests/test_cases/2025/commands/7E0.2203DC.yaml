@@ -4,29 +4,8 @@ test_cases:
     '[ECU] HPFP Desired': 53.66396
   response: 7E8056203DC0025
 - expected_values:
-    '[ECU] HPFP Desired': 55.11434
-  response: 7E8056203DC0026
-- expected_values:
-    '[ECU] HPFP Desired': 58.0151
-  response: 7E8056203DC0028
-- expected_values:
     '[ECU] HPFP Desired': 799.15795
   response: 7E8056203DC0227
-- expected_values:
-    '[ECU] HPFP Desired': 803.50908
-  response: 7E8056203DC022A
-- expected_values:
-    '[ECU] HPFP Desired': 807.86021
-  response: 7E8056203DC022D
-- expected_values:
-    '[ECU] HPFP Desired': 816.56247
-  response: 7E8056203DC0233
-- expected_values:
-    '[ECU] HPFP Desired': 826.71512
-  response: 7E8056203DC023A
-- expected_values:
-    '[ECU] HPFP Desired': 838.31814
-  response: 7E8056203DC0242
 - expected_values:
     '[ECU] HPFP Desired': 865.87531
   response: 7E8056203DC0255

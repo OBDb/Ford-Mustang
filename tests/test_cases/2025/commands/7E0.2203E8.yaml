@@ -5,6 +5,9 @@ test_cases:
   response: 7E8056203E8DF67
 - expected_values:
     '[ECU] OAR': 1
+  response: 7E8056203E8DF85
+- expected_values:
+    '[ECU] OAR': 1
   response: 7E8056203E8DFB0
 - expected_values:
     '[ECU] OAR': 1

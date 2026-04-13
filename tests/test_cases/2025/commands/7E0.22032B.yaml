@@ -4,5 +4,5 @@ test_cases:
     '[ECU] Accelerator pedal position': 0
   response: 7E80462032B00
 - expected_values:
-    '[ECU] Accelerator pedal position': 17
-  response: 7E80462032B22
+    '[ECU] Accelerator pedal position': 17.5
+  response: 7E80462032B23
