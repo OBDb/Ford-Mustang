@@ -16,6 +16,9 @@ test_cases:
     '[ECU] Baro Sensor V': 3.15738
   response: 7E80562035A0286
 - expected_values:
+    '[ECU] Baro Sensor V': 3.16227
+  response: 7E80562035A0287
+- expected_values:
     '[ECU] Baro Sensor V': 3.16716
   response: 7E80562035A0288
 - expected_values:
