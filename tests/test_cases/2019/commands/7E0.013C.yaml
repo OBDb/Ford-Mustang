@@ -35,5 +35,5 @@ test_cases:
     7E8230FB5BE4524461A
     7E82445180000000000
 - expected_values:
-    CATEMP11: 916.9
-  response: 7E804413C2561
+    CATEMP11: 907.6
+  response: 7E804413C2504
