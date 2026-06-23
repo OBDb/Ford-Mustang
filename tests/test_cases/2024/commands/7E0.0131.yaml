@@ -22,5 +22,5 @@ test_cases:
     7E80441312B01
     7E80441312B02
 - expected_values:
-    CLR_DIST: 60160
-  response: 7E8044131EB00
+    CLR_DIST: 60416
+  response: 7E8044131EC00
