@@ -4,6 +4,12 @@ test_cases:
     TP_C: 5.88235
   response: 7E80341480F
 - expected_values:
+    TP_C: 6.27451
+  response: '7E803414810'
+- expected_values:
+    TP_C: 8.62745
+  response: '7E803414816'
+- expected_values:
     TP_C: 9.01961
   response: '7E803414817'
 - expected_values:
