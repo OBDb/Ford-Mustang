@@ -7,8 +7,8 @@ test_cases:
     '[ECU] ECT': 52.10938
   response: 7E80562038F0D07
 - expected_values:
-    '[ECU] ECT': 83.96875
-  response: 7E80562038F14FE
+    '[ECU] ECT': 87.98438
+  response: 7E80562038F15FF
 - expected_values:
-    '[ECU] ECT': 94.04688
-  response: 7E80562038F1783
+    '[ECU] ECT': 93.64062
+  response: 7E80562038F1769
