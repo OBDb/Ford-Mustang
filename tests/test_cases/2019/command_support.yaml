@@ -5,6 +5,7 @@ supported_commands_by_ecu:
   - 726.72E.222814
   - 726.72E.222815
   - 726.72E.222816
+  - 726.72E.224028
   "7DF":
   - 7DF.0104
   "7E0":
@@ -103,12 +104,16 @@ supported_commands_by_ecu:
   - 7E0.2203DC:[ECU] HPFP Desired
   - 7E0.2203E8:[ECU] OAR
   - 7E0.7E8.22030F
+  - 7E0.7E8.220334
   - 7E0.7E8.22038F
+  - 7E0.7E8.2203CA
+  - 7E0.7E8.220415
   - 7E0.7E8.221126
   - 7E0.7E8.22F404
   - 7E0.7E8.22F406
   - 7E0.7E8.22F42F
   - 7E0.7E8.22F431
+  - 7E0.7E8.22F43C
 unsupported_commands_by_ecu:
   "720":
   - 720.728.22404C
@@ -120,3 +125,4 @@ unsupported_commands_by_ecu:
   - 7E0.22033E:[ECU] TIP actual abs
   - 7E0.7E8.220460
   - 7E0.7E8.224194
+  - 7E0.7E8.22F40B
