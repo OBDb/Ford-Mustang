@@ -1,0 +1,8 @@
+command_id: 7E0.22031A
+test_cases:
+- expected_values:
+    '[ECU] VCT intake error': 50
+  response: 7E80562031AFFFB
+- expected_values:
+    '[ECU] VCT intake error': 50
+  response: 7E80562031AFFFF
