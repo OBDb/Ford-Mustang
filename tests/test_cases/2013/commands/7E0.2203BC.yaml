@@ -5,4 +5,7 @@ test_cases:
   response: 7E8056203BC0000
 - expected_values:
     '[ECU] VCT Int Des': 0
+  response: 7E8056203BCFF59
+- expected_values:
+    '[ECU] VCT Int Des': 0
   response: 7E8056203BCFF65
