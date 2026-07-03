@@ -1,6 +1,12 @@
 command_id: 7E0.22031B
 test_cases:
 - expected_values:
+    '[ECU] VCT exhaust error': 0.1875
+  response: 7E80562031B0003
+- expected_values:
+    '[ECU] VCT exhaust error': 0.625
+  response: 7E80562031B000A
+- expected_values:
     '[ECU] VCT exhaust error': 50
   response: 7E80562031BFFCC
 - expected_values:

@@ -9,3 +9,9 @@ test_cases:
 - expected_values:
     '[ECU] VCT exhaust actual': 9.4375
   response: '7E8056203190097'
+- expected_values:
+    '[ECU] VCT exhaust actual': 43.875
+  response: 7E80562031902BE
+- expected_values:
+    '[ECU] VCT exhaust actual': 50
+  response: 7E805620319FFFF
