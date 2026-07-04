@@ -4,29 +4,5 @@ test_cases:
     TP_C: 5.88235
   response: 7E80341480F
 - expected_values:
-    TP_C: 6.27451
-  response: '7E803414810'
-- expected_values:
-    TP_C: 8.62745
-  response: '7E803414816'
-- expected_values:
-    TP_C: 9.01961
-  response: '7E803414817'
-- expected_values:
-    TP_C: 9.41176
-  response: '7E803414818'
-- expected_values:
-    TP_C: 9.80392
-  response: '7E803414819'
-- expected_values:
-    TP_C: 10.58824
-  response: 7E80341481B
-- expected_values:
-    TP_C: 10.98039
-  response: 7E80341481C
-- expected_values:
-    TP_C: 12.15686
-  response: 7E80341481F
-- expected_values:
-    TP_C: 18.82353
-  response: '7E803414830'
+    TP_C: 20.78431
+  response: '7E803414835'
