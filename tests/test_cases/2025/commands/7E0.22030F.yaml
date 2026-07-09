@@ -1,0 +1,14 @@
+command_id: 7E0.22030F
+test_cases:
+- expected_values:
+    '[ECU] Commanded lambda': 0.85675
+  response: 7E80562030F6DAA
+- expected_values:
+    '[ECU] Commanded lambda': 1.0311
+  response: 7E80562030F83FB
+- expected_values:
+    '[ECU] Commanded lambda': 1.03922
+  response: 7E80562030F8505
+- expected_values:
+    '[ECU] Commanded lambda': 1.09998
+  response: 7E80562030F8CCC

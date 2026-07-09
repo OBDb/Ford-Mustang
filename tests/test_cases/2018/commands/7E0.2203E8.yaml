@@ -1,0 +1,17 @@
+command_id: 7E0.2203E8
+test_cases:
+- expected_values:
+    '[ECU] OAR': 1
+  response: 7E8056203E8C000
+- expected_values:
+    '[ECU] OAR': 1
+  response: 7E8056203E8C506
+- expected_values:
+    '[ECU] OAR': 1
+  response: 7E8056203E8D506
+- expected_values:
+    '[ECU] OAR': 1
+  response: 7E8056203E8DC0D
+- expected_values:
+    '[ECU] OAR': 1
+  response: 7E8056203E8E4FF
