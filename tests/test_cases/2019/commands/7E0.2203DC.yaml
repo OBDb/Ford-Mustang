@@ -1,0 +1,14 @@
+command_id: 7E0.2203DC
+test_cases:
+- expected_values:
+    '[ECU] HPFP Desired': 398.85378
+  response: 7E8056203DC0113
+- expected_values:
+    '[ECU] HPFP Desired': 738.2421
+  response: 7E8056203DC01FD
+- expected_values:
+    '[ECU] HPFP Desired': 748.39474
+  response: 7E8056203DC0204
+- expected_values:
+    '[ECU] HPFP Desired': 2899.30442
+  response: 7E8056203DC07CF
