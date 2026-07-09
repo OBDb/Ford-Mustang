@@ -1,0 +1,11 @@
+command_id: 7E0.220338
+test_cases:
+- expected_values:
+    '[ECU] ETC learned trim': 1.39258
+  response: 7E80562033802C9
+- expected_values:
+    '[ECU] ETC learned trim': 1.5332
+  response: '7E8056203380311'
+- expected_values:
+    '[ECU] ETC learned trim': 2.06836
+  response: '7E8056203380423'
