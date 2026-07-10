@@ -1,0 +1,11 @@
+command_id: 7E0.220317
+test_cases:
+- expected_values:
+    '[ECU] VCT exhaust duty cycle': 0
+  response: '7E8056203170000'
+- expected_values:
+    '[ECU] VCT exhaust duty cycle': 35.9314
+  response: 7E8056203172DFE
+- expected_values:
+    '[ECU] VCT exhaust duty cycle': 47.03674
+  response: 7E8056203173C35
