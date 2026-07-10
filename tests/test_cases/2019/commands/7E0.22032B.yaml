@@ -1,0 +1,8 @@
+command_id: 7E0.22032B
+test_cases:
+- expected_values:
+    '[ECU] Accelerator pedal position': 0
+  response: 7E80462032B00
+- expected_values:
+    '[ECU] Accelerator pedal position': 58.5
+  response: 7E80462032B75

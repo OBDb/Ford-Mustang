@@ -1,0 +1,8 @@
+command_id: 7E0.2203CA
+test_cases:
+- expected_values:
+    '[ECU] MCT': 60
+  response: 7E8046203CA3C
+- expected_values:
+    '[ECU] MCT': 109
+  response: 7E8046203CA6D
