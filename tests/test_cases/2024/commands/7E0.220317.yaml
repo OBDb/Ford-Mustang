@@ -7,5 +7,5 @@ test_cases:
     '[ECU] VCT exhaust duty cycle': 33.5907
   response: 7E8056203172AFF
 - expected_values:
-    '[ECU] VCT exhaust duty cycle': 57.46765
-  response: 7E805620317498F
+    '[ECU] VCT exhaust duty cycle': 59.54895
+  response: 7E8056203174C39

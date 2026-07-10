@@ -10,5 +10,5 @@ test_cases:
     '[ECU] TIP actual abs': 17.5612
   response: 7E80562033E3E00
 - expected_values:
-    '[ECU] TIP actual abs': 19.06594
-  response: 7E80562033E4350
+    '[ECU] TIP actual abs': 20.23764
+  response: 7E80562033E4773
