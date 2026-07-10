@@ -4,5 +4,5 @@ test_cases:
     '[ECU] TIP sensor voltage': 1.42578
   response: 7E80562033C0124
 - expected_values:
-    '[ECU] TIP sensor voltage': 1.8457
-  response: 7E80562033C017A
+    '[ECU] TIP sensor voltage': 1.92383
+  response: 7E80562033C018A
