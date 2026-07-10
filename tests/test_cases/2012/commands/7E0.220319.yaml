@@ -1,0 +1,8 @@
+command_id: 7E0.220319
+test_cases:
+- expected_values:
+    '[ECU] VCT exhaust actual': 0.1875
+  response: '7E8056203190003'
+- expected_values:
+    '[ECU] VCT exhaust actual': 0.25
+  response: '7E8056203190004'
