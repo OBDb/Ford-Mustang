@@ -9,3 +9,9 @@ test_cases:
 - expected_values:
     '[ECU] VCT intake error': 50
   response: 7E80562031AFFFC
+- expected_values:
+    '[ECU] VCT intake error': 50
+  response: 7E80562031AFFFD
+- expected_values:
+    '[ECU] VCT intake error': 50
+  response: 7E80562031AFFFE

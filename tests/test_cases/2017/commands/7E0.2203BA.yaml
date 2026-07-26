@@ -15,3 +15,9 @@ test_cases:
 - expected_values:
     '[ECU] AAT Sensor V': 2.1261
   response: 7E8056203BA01B3
+- expected_values:
+    '[ECU] AAT Sensor V': 3.28446
+  response: 7E8056203BA02A0
+- expected_values:
+    '[ECU] AAT Sensor V': 3.34311
+  response: 7E8056203BA02AC
