@@ -1,5 +1,5 @@
 { "commands": [
-{ "hdr": "7E0", "cmd": {"22": "0301"}, "freq": 0.25, "dbgfilter": { "to": 2011, "years": [2014, 2015, 2017, 2019, 2020, 2021, 2022, 2023], "from": 2026 },
+{ "hdr": "7E0", "cmd": {"22": "0301"}, "freq": 0.25, "dbgfilter": { "to": 2011, "years": [2014, 2015, 2019, 2020, 2021, 2022, 2023], "from": 2026 },
   "signals": [
     {"id": "[ECU] MAP voltage", "fmt": { "len": 16, "max": 5, "mul": 0.0009765625, "unit": "volts" }, "name": "Manifold absolute pressure sensor voltage", "description": "Typically varies from 1 volt at idle to 5 volts during wide open throttle."}
   ]},
@@ -35,7 +35,7 @@
   "signals": [
     {"id": "[ECU] VCT exhaust error", "fmt": { "len": 16, "max": 50, "min": -50, "mul": 0.0625, "unit": "degrees" }, "name": "VCT exhaust camshaft error"}
   ]},
-{ "hdr": "7E0", "cmd": {"22": "0324"}, "freq": 0.25, "dbgfilter": { "to": 2017, "years": [2020, 2021, 2023], "from": 2026 },
+{ "hdr": "7E0", "cmd": {"22": "0324"}, "freq": 0.25, "dbgfilter": { "to": 2016, "years": [2020, 2021, 2023], "from": 2026 },
   "signals": [
     {"id": "[ECU] HPFP sensor voltage", "fmt": { "len": 16, "max": 5, "mul": 0.0048875855, "unit": "volts" }, "name": "High pressure fuel rail sensor voltage"}
   ]},
@@ -47,11 +47,11 @@
   "signals": [
     {"id": "[ECU] ETC learned trim", "fmt": { "len": 16, "max": 90, "min": -90, "mul": 0.001953125, "unit": "degrees" }, "name": "Electronic throttle control learned trim angle"}
   ]},
-{ "hdr": "7E0", "cmd": {"22": "033C"}, "freq": 0.25, "dbgfilter": { "to": 2017, "years": [2019, 2020, 2021, 2022, 2023], "from": 2025 },
+{ "hdr": "7E0", "cmd": {"22": "033C"}, "freq": 0.25, "dbgfilter": { "to": 2016, "years": [2019, 2020, 2021, 2022, 2023], "from": 2025 },
   "signals": [
     {"id": "[ECU] TIP sensor voltage", "fmt": { "len": 16, "max": 5, "mul": 0.0048828125, "unit": "volts" }, "name": "Throttle inlet pressure sensor voltage"}
   ]},
-{ "hdr": "7E0", "cmd": {"22": "033E"}, "freq": 0.25, "dbgfilter": { "to": 2017, "years": [2019, 2020, 2021, 2022, 2023], "from": 2025 },
+{ "hdr": "7E0", "cmd": {"22": "033E"}, "freq": 0.25, "dbgfilter": { "to": 2016, "years": [2019, 2020, 2021, 2022, 2023], "from": 2025 },
   "signals": [
     {"id": "[ECU] TIP actual abs", "fmt": { "len": 16, "max": 60, "mul": 0.0011064263, "unit": "psi" }, "name": "Throttle inlet pressure absolute"}
   ]},
@@ -59,11 +59,11 @@
   "signals": [
     {"id": "[ECU] Baro", "fmt": { "len": 16, "max": 20, "min": 8, "mul": 0.0362553791, "unit": "psi" }, "name": "Barometric pressure"}
   ]},
-{ "hdr": "7E0", "cmd": {"22": "035A"}, "freq": 0.25, "dbgfilter": { "to": 2017, "years": [2020, 2021, 2023], "from": 2026 },
+{ "hdr": "7E0", "cmd": {"22": "035A"}, "freq": 0.25, "dbgfilter": { "to": 2016, "years": [2020, 2021, 2023], "from": 2026 },
   "signals": [
     {"id": "[ECU] Baro Sensor V", "fmt": { "len": 16, "max": 5, "mul": 0.0048875855, "unit": "volts" }, "name": "Barometric pressure sensor voltage"}
   ]},
-{ "hdr": "7E0", "cmd": {"22": "035F"}, "freq": 0.25, "dbgfilter": { "to": 2011, "years": [2014, 2015, 2017, 2020, 2021, 2023], "from": 2026 },
+{ "hdr": "7E0", "cmd": {"22": "035F"}, "freq": 0.25, "dbgfilter": { "to": 2011, "years": [2014, 2015, 2020, 2021, 2023], "from": 2026 },
   "signals": [
     {"id": "[ECU] Rear O2 V", "fmt": { "len": 16, "max": 1, "mul": 0.0009765625, "unit": "volts" }, "name": "Rear O2 voltage"}
   ]},
@@ -95,11 +95,11 @@
   "signals": [
     {"id": "[ECU] CL Lambda Corr", "fmt": { "len": 16, "max": 5, "min": -5, "mul": 0.0001220703, "unit": "scalar" }, "name": "Closed loop lambda correction"}
   ]},
-{ "hdr": "7E0", "cmd": {"22": "03CA"}, "freq": 0.25, "dbgfilter": { "to": 2017, "years": [2020, 2021, 2023], "from": 2026 },
+{ "hdr": "7E0", "cmd": {"22": "03CA"}, "freq": 0.25, "dbgfilter": { "to": 2016, "years": [2020, 2021, 2023], "from": 2026 },
   "signals": [
     {"id": "[ECU] MCT", "fmt": { "len": 8, "max": 148.889, "unit": "celsius" }, "name": "Manifold charge temperature"}
   ]},
-{ "hdr": "7E0", "cmd": {"22": "03DC"}, "freq": 0.25, "dbgfilter": { "to": 2017, "years": [2020, 2021, 2023], "from": 2026 },
+{ "hdr": "7E0", "cmd": {"22": "03DC"}, "freq": 0.25, "dbgfilter": { "to": 2016, "years": [2020, 2021, 2023], "from": 2026 },
   "signals": [
     {"id": "[ECU] HPFP Desired", "fmt": { "len": 16, "max": 3500, "mul": 1.4503773969, "unit": "psi" }, "name": "High pressure fuel pressure desired"}
   ]},
