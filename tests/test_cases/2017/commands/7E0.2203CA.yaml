@@ -1,0 +1,29 @@
+command_id: 7E0.2203CA
+test_cases:
+- expected_values:
+    '[ECU] MCT': 74
+  response: 7E8046203CA4A
+- expected_values:
+    '[ECU] MCT': 75
+  response: 7E8046203CA4B
+- expected_values:
+    '[ECU] MCT': 76
+  response: 7E8046203CA4C
+- expected_values:
+    '[ECU] MCT': 77
+  response: 7E8046203CA4D
+- expected_values:
+    '[ECU] MCT': 78
+  response: 7E8046203CA4E
+- expected_values:
+    '[ECU] MCT': 79
+  response: 7E8046203CA4F
+- expected_values:
+    '[ECU] MCT': 80
+  response: 7E8046203CA50
+- expected_values:
+    '[ECU] MCT': 81
+  response: 7E8046203CA51
+- expected_values:
+    '[ECU] MCT': 82
+  response: 7E8046203CA52

@@ -1,0 +1,8 @@
+command_id: 7E0.22035A
+test_cases:
+- expected_values:
+    '[ECU] Baro Sensor V': 4.02737
+  response: 7E80562035A0338
+- expected_values:
+    '[ECU] Baro Sensor V': 4.03226
+  response: 7E80562035A0339
