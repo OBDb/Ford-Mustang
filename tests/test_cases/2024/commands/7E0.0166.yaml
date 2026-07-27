@@ -30,3 +30,9 @@ test_cases:
     MAFB: 1.03125
     MAFB_SUP: 1
   response: '7E80741660302070021'
+- expected_values:
+    MAFA: 30.8125
+    MAFA_SUP: 1
+    MAFB: 0.625
+    MAFB_SUP: 1
+  response: 7E80741660303DA0014
