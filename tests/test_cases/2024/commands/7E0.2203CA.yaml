@@ -4,5 +4,5 @@ test_cases:
     '[ECU] MCT': 67
   response: 7E8046203CA43
 - expected_values:
-    '[ECU] MCT': 102
-  response: 7E8046203CA66
+    '[ECU] MCT': 115
+  response: 7E8046203CA73

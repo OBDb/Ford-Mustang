@@ -16,7 +16,27 @@ test_cases:
     RTP_A_SUP: 1
     RTP_B_SUP: 1
     TAC_A_CMD: 0
+    TAC_B_CMD: 2.35294
+    TP_A_REL: 0
+    TP_B_REL: 2.35294
+  response: 7E807416C0F00000606
+- expected_values:
+    CTAC_A_SUP: 1
+    CTAC_B_SUP: 1
+    RTP_A_SUP: 1
+    RTP_B_SUP: 1
+    TAC_A_CMD: 0
     TAC_B_CMD: 3.13725
     TP_A_REL: 0
     TP_B_REL: 3.13725
   response: 7E807416C0F00000808
+- expected_values:
+    CTAC_A_SUP: 1
+    CTAC_B_SUP: 1
+    RTP_A_SUP: 1
+    RTP_B_SUP: 1
+    TAC_A_CMD: 3.13725
+    TAC_B_CMD: 0
+    TP_A_REL: 3.13725
+    TP_B_REL: 0
+  response: 7E807416C0F08080000
