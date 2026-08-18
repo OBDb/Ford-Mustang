@@ -46,5 +46,10 @@ test_cases:
     7E80641A600023B6C
     7E80641A600023B6E
 - expected_values:
+    ODO: 18156.2
+  response: |-
+    7E80641A60002C535
+    7E80641A60002C53A
+- expected_values:
     ODO: 58982.8
   response: 7E80641A600090004
