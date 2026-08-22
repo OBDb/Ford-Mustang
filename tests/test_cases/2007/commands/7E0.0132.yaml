@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     EVAP_VP: 0.02575
   response: '7E80441320067000000'
+- expected_values:
+    EVAP_VP: 0.03425
+  response: '7E80441320089000000'
