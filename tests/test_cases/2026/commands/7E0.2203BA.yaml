@@ -1,0 +1,8 @@
+command_id: 7E0.2203BA
+test_cases:
+- expected_values:
+    '[ECU] AAT Sensor V': 1.93548
+  response: 7E8056203BA018C
+- expected_values:
+    '[ECU] AAT Sensor V': 2.0479
+  response: 7E8056203BA01A3
