@@ -3,3 +3,24 @@ test_cases:
 - expected_values:
     '[ECU] VCT exhaust duty cycle': 0
   response: '7E8056203170000'
+- expected_values:
+    '[ECU] VCT exhaust duty cycle': 37.88757
+  response: 7E805620317307F
+- expected_values:
+    '[ECU] VCT exhaust duty cycle': 44.43665
+  response: 7E80562031738E1
+- expected_values:
+    '[ECU] VCT exhaust duty cycle': 45.02563
+  response: 7E80562031739A2
+- expected_values:
+    '[ECU] VCT exhaust duty cycle': 46.18835
+  response: 7E8056203173B1F
+- expected_values:
+    '[ECU] VCT exhaust duty cycle': 46.62476
+  response: 7E8056203173BAE
+- expected_values:
+    '[ECU] VCT exhaust duty cycle': 46.89331
+  response: 7E8056203173C06
+- expected_values:
+    '[ECU] VCT exhaust duty cycle': 47.19543
+  response: 7E8056203173C69

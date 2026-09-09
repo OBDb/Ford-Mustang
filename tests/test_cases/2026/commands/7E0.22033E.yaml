@@ -6,3 +6,24 @@ test_cases:
 - expected_values:
     '[ECU] TIP actual abs': 13.95314
   response: 7E80562033E3143
+- expected_values:
+    '[ECU] TIP actual abs': 14.01953
+  response: 7E80562033E317F
+- expected_values:
+    '[ECU] TIP actual abs': 14.0328
+  response: 7E80562033E318B
+- expected_values:
+    '[ECU] TIP actual abs': 14.04608
+  response: 7E80562033E3197
+- expected_values:
+    '[ECU] TIP actual abs': 14.05936
+  response: 7E80562033E31A3
+- expected_values:
+    '[ECU] TIP actual abs': 14.07264
+  response: 7E80562033E31AF
+- expected_values:
+    '[ECU] TIP actual abs': 14.13902
+  response: 7E80562033E31EB
+- expected_values:
+    '[ECU] TIP actual abs': 14.19213
+  response: 7E80562033E321B

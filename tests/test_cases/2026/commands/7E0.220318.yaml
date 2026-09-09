@@ -5,13 +5,7 @@ test_cases:
   response: '7E8056203180000'
 - expected_values:
     '[ECU] VCT intake actual': 0
-  response: '7E8056203180003'
+  response: 7E805620318FF79
 - expected_values:
     '[ECU] VCT intake actual': 0
-  response: '7E8056203180004'
-- expected_values:
-    '[ECU] VCT intake actual': 0
-  response: '7E8056203180005'
-- expected_values:
-    '[ECU] VCT intake actual': 0
-  response: '7E8056203180006'
+  response: 7E805620318FFFF
