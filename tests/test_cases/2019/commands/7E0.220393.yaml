@@ -9,3 +9,6 @@ test_cases:
 - expected_values:
     '[ECU] AC Pressure': 74.5494
   response: '7E8056203930101'
+- expected_values:
+    '[ECU] AC Pressure': 162.73235
+  response: '7E8056203930231'
