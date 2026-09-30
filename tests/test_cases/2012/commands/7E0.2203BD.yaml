@@ -1,5 +1,5 @@
 command_id: 7E0.2203BD
 test_cases:
 - expected_values:
-    '[ECU] CL Lambda Corr': 5
+    '[ECU] CL Lambda Corr': -0.00684
   response: 7E8056203BDFFC8

@@ -29,7 +29,7 @@
   ]},
 { "hdr": "7E0", "cmd": {"22": "031A"}, "freq": 0.25, "dbgfilter": { "to": 2011, "years": [2014, 2015, 2020, 2021, 2023], "from": 2027 },
   "signals": [
-    {"id": "[ECU] VCT intake error", "fmt": { "len": 16, "max": 50, "min": -50, "mul": 0.0625, "unit": "degrees" }, "name": "VCT intake camshaft error"}
+    {"id": "[ECU] VCT intake error", "fmt": { "len": 16, "max": 50, "min": -50, "div": 16, "sign": true, "unit": "degrees" }, "name": "VCT intake camshaft error"}
   ]},
 { "hdr": "7E0", "cmd": {"22": "031B"}, "freq": 0.25, "dbgfilter": { "to": 2011, "years": [2014, 2015, 2020, 2021, 2023], "from": 2027 },
   "signals": [
@@ -45,7 +45,7 @@
   ]},
 { "hdr": "7E0", "cmd": {"22": "0338"}, "freq": 0.25, "dbgfilter": { "to": 2011, "years": [2014, 2015, 2020, 2021, 2023], "from": 2027 },
   "signals": [
-    {"id": "[ECU] ETC learned trim", "fmt": { "len": 16, "max": 90, "min": -90, "mul": 0.001953125, "unit": "degrees" }, "name": "Electronic throttle control learned trim angle"}
+    {"id": "[ECU] ETC learned trim", "fmt": { "len": 16, "max": 63.9, "min": -64, "div": 512, "sign": true, "unit": "degrees" }, "name": "Electronic throttle control learned trim angle"}
   ]},
 { "hdr": "7E0", "cmd": {"22": "033C"}, "freq": 0.25, "dbgfilter": { "to": 2016, "years": [2019, 2020, 2021, 2022, 2023, 2025], "from": 2027 },
   "signals": [
@@ -73,7 +73,7 @@
   ]},
 { "hdr": "7E0", "cmd": {"22": "038F"}, "freq": 0.25, "dbgfilter": { "to": 2011, "years": [2014, 2015, 2020, 2021, 2023], "from": 2027 },
   "signals": [
-    {"id": "[ECU] ECT", "fmt": { "len": 16, "max": 148.889, "min": -40, "mul": 0.015625, "unit": "celsius" }, "name": "Engine coolant temperature"}
+    {"id": "[ECU] ECT", "fmt": { "len": 16, "max": 148.889, "min": -40, "div": 64, "sign": true, "unit": "celsius" }, "name": "Engine coolant temperature"}
   ]},
 { "hdr": "7E0", "cmd": {"22": "0393"}, "freq": 0.25, "dbgfilter": { "to": 2011, "years": [2014, 2015, 2020, 2021], "from": 2023 },
   "signals": [
@@ -85,15 +85,15 @@
   ]},
 { "hdr": "7E0", "cmd": {"22": "03BB"}, "freq": 0.25, "dbgfilter": { "to": 2011, "years": [2014, 2015, 2020, 2021, 2023], "from": 2027 },
   "signals": [
-    {"id": "[ECU] VCT Exh Des", "fmt": { "len": 16, "max": 50, "mul": 0.0625, "unit": "degrees" }, "name": "VCT exhaust cam desired"}
+    {"id": "[ECU] VCT Exh Des", "fmt": { "len": 16, "max": 50, "div": 16, "sign": true, "unit": "degrees" }, "name": "VCT exhaust cam desired"}
   ]},
 { "hdr": "7E0", "cmd": {"22": "03BC"}, "freq": 0.25, "dbgfilter": { "to": 2011, "years": [2014, 2015, 2020, 2021, 2023], "from": 2027 },
   "signals": [
-    {"id": "[ECU] VCT Int Des", "fmt": { "len": 16, "max": 0, "min": -50, "mul": 0.0625, "unit": "degrees" }, "name": "VCT intake cam desired"}
+    {"id": "[ECU] VCT Int Des", "fmt": { "len": 16, "max": 40, "min": -50, "div": 16, "sign": true, "unit": "degrees" }, "name": "VCT intake cam desired"}
   ]},
 { "hdr": "7E0", "cmd": {"22": "03BD"}, "freq": 0.25, "dbgfilter": { "to": 2011, "years": [2014, 2015, 2020, 2021, 2023], "from": 2027 },
   "signals": [
-    {"id": "[ECU] CL Lambda Corr", "fmt": { "len": 16, "max": 5, "min": -5, "mul": 0.0001220703, "unit": "scalar" }, "name": "Closed loop lambda correction"}
+    {"id": "[ECU] CL Lambda Corr", "fmt": { "len": 16, "max": 3.99, "min": -4, "div": 8192, "sign": true, "unit": "scalar" }, "name": "Closed loop lambda correction"}
   ]},
 { "hdr": "7E0", "cmd": {"22": "03CA"}, "freq": 0.25, "dbgfilter": { "to": 2016, "years": [2020, 2021, 2023], "from": 2027 },
   "signals": [
@@ -105,7 +105,7 @@
   ]},
 { "hdr": "7E0", "cmd": {"22": "03E8"}, "freq": 0.25, "dbgfilter": { "to": 2011, "years": [2014, 2015, 2020, 2021, 2023], "from": 2027 },
   "signals": [
-    {"id": "[ECU] OAR", "fmt": { "len": 16, "max": 1, "min": -1, "mul": 0.0000610352, "unit": "scalar" }, "name": "Octane adjust ratio"}
+    {"id": "[ECU] OAR", "fmt": { "len": 16, "max": 1, "min": -1, "div": 16384, "sign": true, "unit": "scalar" }, "name": "Octane adjust ratio"}
   ]}
 ]
 }
