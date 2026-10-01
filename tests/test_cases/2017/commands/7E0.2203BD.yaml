@@ -10,11 +10,11 @@ test_cases:
     '[ECU] CL Lambda Corr': 0.01611
   response: 7E8056203BD0084
 - expected_values:
-    '[ECU] CL Lambda Corr': 5
+    '[ECU] CL Lambda Corr': -0.00989
   response: 7E8056203BDFFAF
 - expected_values:
-    '[ECU] CL Lambda Corr': 5
+    '[ECU] CL Lambda Corr': -0.00952
   response: 7E8056203BDFFB2
 - expected_values:
-    '[ECU] CL Lambda Corr': 5
+    '[ECU] CL Lambda Corr': -0.0094
   response: 7E8056203BDFFB3
