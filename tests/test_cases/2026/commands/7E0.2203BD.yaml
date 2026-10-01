@@ -4,8 +4,8 @@ test_cases:
     '[ECU] CL Lambda Corr': 0
   response: 7E8056203BD0000
 - expected_values:
-    '[ECU] CL Lambda Corr': 5
+    '[ECU] CL Lambda Corr': -0.01465
   response: 7E8056203BDFF88
 - expected_values:
-    '[ECU] CL Lambda Corr': 5
+    '[ECU] CL Lambda Corr': -0.00732
   response: 7E8056203BDFFC4

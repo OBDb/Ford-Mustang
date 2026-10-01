@@ -4,29 +4,29 @@ test_cases:
     '[ECU] ETC learned trim': 0.08203
   response: 7E805620338002A
 - expected_values:
-    '[ECU] ETC learned trim': 90
+    '[ECU] ETC learned trim': -0.31836
   response: 7E805620338FF5D
 - expected_values:
-    '[ECU] ETC learned trim': 90
+    '[ECU] ETC learned trim': -0.30078
   response: 7E805620338FF66
 - expected_values:
-    '[ECU] ETC learned trim': 90
+    '[ECU] ETC learned trim': -0.27539
   response: 7E805620338FF73
 - expected_values:
-    '[ECU] ETC learned trim': 90
+    '[ECU] ETC learned trim': -0.26758
   response: 7E805620338FF77
 - expected_values:
-    '[ECU] ETC learned trim': 90
+    '[ECU] ETC learned trim': -0.24023
   response: 7E805620338FF85
 - expected_values:
-    '[ECU] ETC learned trim': 90
+    '[ECU] ETC learned trim': -0.22656
   response: 7E805620338FF8C
 - expected_values:
-    '[ECU] ETC learned trim': 90
+    '[ECU] ETC learned trim': -0.20703
   response: 7E805620338FF96
 - expected_values:
-    '[ECU] ETC learned trim': 90
+    '[ECU] ETC learned trim': -0.18945
   response: 7E805620338FF9F
 - expected_values:
-    '[ECU] ETC learned trim': 90
+    '[ECU] ETC learned trim': -0.1875
   response: 7E805620338FFA0

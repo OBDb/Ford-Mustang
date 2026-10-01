@@ -10,23 +10,23 @@ test_cases:
     '[ECU] VCT intake error': 0.1875
   response: 7E80562031A0003
 - expected_values:
-    '[ECU] VCT intake error': 50
+    '[ECU] VCT intake error': -0.875
   response: 7E80562031AFFF2
 - expected_values:
-    '[ECU] VCT intake error': 50
+    '[ECU] VCT intake error': -0.375
   response: 7E80562031AFFFA
 - expected_values:
-    '[ECU] VCT intake error': 50
+    '[ECU] VCT intake error': -0.3125
   response: 7E80562031AFFFB
 - expected_values:
-    '[ECU] VCT intake error': 50
+    '[ECU] VCT intake error': -0.25
   response: 7E80562031AFFFC
 - expected_values:
-    '[ECU] VCT intake error': 50
+    '[ECU] VCT intake error': -0.1875
   response: 7E80562031AFFFD
 - expected_values:
-    '[ECU] VCT intake error': 50
+    '[ECU] VCT intake error': -0.125
   response: 7E80562031AFFFE
 - expected_values:
-    '[ECU] VCT intake error': 50
+    '[ECU] VCT intake error': -0.0625
   response: 7E80562031AFFFF
