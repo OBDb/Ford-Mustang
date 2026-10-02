@@ -1,14 +1,14 @@
 command_id: 7E0.22038E
 test_cases:
 - expected_values:
-    '[ECU] Evap Pres Sensor V': 5
+    '[ECU] Evap Pres Sensor V': 1.621
   response: 7E80562038E0655
 - expected_values:
-    '[ECU] Evap Pres Sensor V': 5
+    '[ECU] Evap Pres Sensor V': 2.557
   response: 7E80562038E09FD
 - expected_values:
-    '[ECU] Evap Pres Sensor V': 5
+    '[ECU] Evap Pres Sensor V': 2.562
   response: 7E80562038E0A02
 - expected_values:
-    '[ECU] Evap Pres Sensor V': 5
+    '[ECU] Evap Pres Sensor V': 3.303
   response: 7E80562038E0CE7
