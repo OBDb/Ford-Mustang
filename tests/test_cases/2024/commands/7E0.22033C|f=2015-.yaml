@@ -1,0 +1,8 @@
+command_id: 7E0.22033C|f=2015-
+test_cases:
+- expected_values:
+    '[ECU] TIP sensor voltage': 1.42578
+  response: 7E80562033C0124
+- expected_values:
+    '[ECU] TIP sensor voltage': 1.92383
+  response: 7E80562033C018A

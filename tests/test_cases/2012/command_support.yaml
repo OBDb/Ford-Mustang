@@ -57,10 +57,10 @@ supported_commands_by_ecu:
   - 7E0.2203E8:[ECU] OAR
 unsupported_commands_by_ecu:
   "7E0":
-  - 7E0.220324:[ECU] HPFP sensor voltage
-  - 7E0.22033C:[ECU] TIP sensor voltage
-  - 7E0.22033E:[ECU] TIP actual abs
-  - 7E0.22035A:[ECU] Baro Sensor V
-  - 7E0.2203BA:[ECU] AAT Sensor V
-  - 7E0.2203CA:[ECU] MCT
-  - 7E0.2203DC:[ECU] HPFP Desired
+  - 7E0.220324
+  - 7E0.22033C
+  - 7E0.22033E
+  - 7E0.22035A
+  - 7E0.2203BA
+  - 7E0.2203CA
+  - 7E0.2203DC

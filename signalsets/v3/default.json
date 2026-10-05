@@ -35,7 +35,7 @@
   "signals": [
     {"id": "[ECU] VCT exhaust error", "fmt": { "len": 16, "max": 50, "min": -50, "mul": 0.0625, "unit": "degrees" }, "name": "VCT exhaust camshaft error"}
   ]},
-{ "hdr": "7E0", "cmd": {"22": "0324"}, "freq": 0.25, "dbgfilter": { "to": 2016, "years": [2020, 2021, 2023], "from": 2027 },
+{ "hdr": "7E0", "cmd": {"22": "0324"}, "freq": 0.25, "filter": { "from": 2015 }, "dbgfilter": { "to": 2016, "years": [2020, 2021, 2023], "from": 2027 },
   "signals": [
     {"id": "[ECU] HPFP sensor voltage", "fmt": { "len": 16, "max": 5, "mul": 0.0048875855, "unit": "volts" }, "name": "High pressure fuel rail sensor voltage"}
   ]},
@@ -47,11 +47,11 @@
   "signals": [
     {"id": "[ECU] ETC learned trim", "fmt": { "len": 16, "max": 63.9, "min": -64, "div": 512, "sign": true, "unit": "degrees" }, "name": "Electronic throttle control learned trim angle"}
   ]},
-{ "hdr": "7E0", "cmd": {"22": "033C"}, "freq": 0.25, "dbgfilter": { "to": 2016, "years": [2019, 2020, 2021, 2022, 2023, 2025], "from": 2027 },
+{ "hdr": "7E0", "cmd": {"22": "033C"}, "freq": 0.25, "filter": { "from": 2015 }, "dbgfilter": { "to": 2016, "years": [2019, 2020, 2021, 2022, 2023, 2025], "from": 2027 },
   "signals": [
     {"id": "[ECU] TIP sensor voltage", "fmt": { "len": 16, "max": 5, "mul": 0.0048828125, "unit": "volts" }, "name": "Throttle inlet pressure sensor voltage"}
   ]},
-{ "hdr": "7E0", "cmd": {"22": "033E"}, "freq": 0.25, "dbgfilter": { "to": 2016, "years": [2019, 2020, 2021, 2022, 2023, 2025], "from": 2027 },
+{ "hdr": "7E0", "cmd": {"22": "033E"}, "freq": 0.25, "filter": { "from": 2015 }, "dbgfilter": { "to": 2016, "years": [2019, 2020, 2021, 2022, 2023, 2025], "from": 2027 },
   "signals": [
     {"id": "[ECU] TIP actual abs", "fmt": { "len": 16, "max": 60, "mul": 0.0011064263, "unit": "psi" }, "name": "Throttle inlet pressure absolute"}
   ]},
@@ -59,7 +59,7 @@
   "signals": [
     {"id": "[ECU] Baro", "fmt": { "len": 16, "max": 20, "min": 8, "mul": 0.0362553791, "unit": "psi" }, "name": "Barometric pressure"}
   ]},
-{ "hdr": "7E0", "cmd": {"22": "035A"}, "freq": 0.25, "dbgfilter": { "to": 2016, "years": [2020, 2021, 2023], "from": 2027 },
+{ "hdr": "7E0", "cmd": {"22": "035A"}, "freq": 0.25, "filter": { "from": 2015 }, "dbgfilter": { "to": 2016, "years": [2020, 2021, 2023], "from": 2027 },
   "signals": [
     {"id": "[ECU] Baro Sensor V", "fmt": { "len": 16, "max": 5, "mul": 0.0048875855, "unit": "volts" }, "name": "Barometric pressure sensor voltage"}
   ]},
@@ -79,7 +79,7 @@
   "signals": [
     {"id": "[ECU] AC Pressure", "fmt": { "len": 16, "max": 1000, "min": -100, "mul": 0.2900754962, "unit": "psi" }, "name": "Air conditioning compressor pressure"}
   ]},
-{ "hdr": "7E0", "cmd": {"22": "03BA"}, "freq": 0.25, "dbgfilter": { "to": 2015, "years": [2020, 2021, 2023], "from": 2027 },
+{ "hdr": "7E0", "cmd": {"22": "03BA"}, "freq": 0.25, "filter": { "from": 2015 }, "dbgfilter": { "to": 2015, "years": [2020, 2021, 2023], "from": 2027 },
   "signals": [
     {"id": "[ECU] AAT Sensor V", "fmt": { "len": 16, "max": 5, "mul": 0.0048875855, "unit": "volts" }, "name": "Ambient air temperature sensor voltage"}
   ]},
@@ -95,11 +95,11 @@
   "signals": [
     {"id": "[ECU] CL Lambda Corr", "fmt": { "len": 16, "max": 3.99, "min": -4, "div": 8192, "sign": true, "unit": "scalar" }, "name": "Closed loop lambda correction"}
   ]},
-{ "hdr": "7E0", "cmd": {"22": "03CA"}, "freq": 0.25, "dbgfilter": { "to": 2016, "years": [2020, 2021, 2023], "from": 2027 },
+{ "hdr": "7E0", "cmd": {"22": "03CA"}, "freq": 0.25, "filter": { "from": 2015 }, "dbgfilter": { "to": 2016, "years": [2020, 2021, 2023], "from": 2027 },
   "signals": [
     {"id": "[ECU] MCT", "fmt": { "len": 8, "max": 148.889, "unit": "celsius" }, "name": "Manifold charge temperature"}
   ]},
-{ "hdr": "7E0", "cmd": {"22": "03DC"}, "freq": 0.25, "dbgfilter": { "to": 2016, "years": [2020, 2021, 2023], "from": 2027 },
+{ "hdr": "7E0", "cmd": {"22": "03DC"}, "freq": 0.25, "filter": { "from": 2015 }, "dbgfilter": { "to": 2016, "years": [2020, 2021, 2023], "from": 2027 },
   "signals": [
     {"id": "[ECU] HPFP Desired", "fmt": { "len": 16, "max": 3500, "mul": 1.4503773969, "unit": "psi" }, "name": "High pressure fuel pressure desired"}
   ]},
