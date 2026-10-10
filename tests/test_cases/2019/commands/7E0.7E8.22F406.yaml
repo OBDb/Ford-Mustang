@@ -1,0 +1,20 @@
+command_id: 7E0.7E8.22F406
+test_cases:
+- expected_values:
+    MUSTANG_STFT: 0
+  response: 7E80462F40680
+- expected_values:
+    MUSTANG_STFT: 1.5625
+  response: 7E80462F40682
+- expected_values:
+    MUSTANG_STFT: 3.90625
+  response: 7E80462F40685
+- expected_values:
+    MUSTANG_STFT: 4.6875
+  response: 7E80462F40686
+- expected_values:
+    MUSTANG_STFT: 5.46875
+  response: 7E80462F40687
+- expected_values:
+    MUSTANG_STFT: 13.28125
+  response: 7E80462F40691

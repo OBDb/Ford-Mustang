@@ -1,0 +1,23 @@
+command_id: 7E0.7E8.22F431
+test_cases:
+- expected_values:
+    MUSTANG_DIST_DTC_CLR: 8024
+  response: 7E80562F4311F58
+- expected_values:
+    MUSTANG_DIST_DTC_CLR: 8934
+  response: 7E80562F43122E6
+- expected_values:
+    MUSTANG_DIST_DTC_CLR: 9397
+  response: 7E80562F43124B5
+- expected_values:
+    MUSTANG_DIST_DTC_CLR: 10198
+  response: 7E80562F43127D6
+- expected_values:
+    MUSTANG_DIST_DTC_CLR: 10388
+  response: 7E80562F4312894
+- expected_values:
+    MUSTANG_DIST_DTC_CLR: 11229
+  response: 7E80562F4312BDD
+- expected_values:
+    MUSTANG_DIST_DTC_CLR: 12027
+  response: 7E80562F4312EFB

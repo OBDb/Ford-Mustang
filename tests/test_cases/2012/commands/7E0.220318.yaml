@@ -1,17 +1,17 @@
 command_id: 7E0.220318
 test_cases:
 - expected_values:
-    '[ECU] VCT intake actual': 0
+    '[ECU] VCT intake actual': 0.125
   response: '7E8056203180002'
 - expected_values:
-    '[ECU] VCT intake actual': 0
+    '[ECU] VCT intake actual': 0.3125
   response: '7E8056203180005'
 - expected_values:
-    '[ECU] VCT intake actual': 0
+    '[ECU] VCT intake actual': -13.8125
   response: 7E805620318FF23
 - expected_values:
-    '[ECU] VCT intake actual': 0
+    '[ECU] VCT intake actual': -0.4375
   response: 7E805620318FFF9
 - expected_values:
-    '[ECU] VCT intake actual': 0
+    '[ECU] VCT intake actual': -0.25
   response: 7E805620318FFFC
