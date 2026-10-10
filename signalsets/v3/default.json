@@ -7,42 +7,6 @@
   "signals": [
     {"id": "MUSTANG_HIGH_V_DC_CHARGER_MAX_V", "path": "Battery", "fmt": { "len": 16, "max": 65535, "unit": "volts" }, "name": "High voltage DC charger, maximum voltage"}
   ]},
-{ "hdr": "703", "rax": "70B", "dbg": true, "cmd": {"22": "017C"}, "freq": 1,
-  "signals": [
-    {"id": "MUSTANG_ACTUATOR_CAM_POS", "path": "Engine", "fmt": { "len": 16, "max": 1023, "div": 64, "unit": "degrees" }, "name": "Actuator cam position corrected"}
-  ]},
-{ "hdr": "703", "rax": "70B", "dbg": true, "cmd": {"22": "017E"}, "freq": 0.25,
-  "signals": [
-    {"id": "MUSTANG_POWER_TRANSFER_UNIT", "path": "Movement", "fmt": { "len": 16, "max": 16383, "min": -16384, "div": 2, "sign": true, "unit": "rpm" }, "name": "Power transfer unit input shaft speed"}
-  ]},
-{ "hdr": "703", "rax": "70B", "dbg": true, "cmd": {"22": "017F"}, "freq": 1,
-  "signals": [
-    {"id": "MUSTANG_ACTUATOR_DUTY_OUTPUT_CMD", "path": "Engine", "fmt": { "len": 16, "max": 127, "min": -127, "mul": 1953, "div": 500000, "sign": true, "unit": "percent" }, "name": "Actuator duty cycle output, commanded"}
-  ]},
-{ "hdr": "703", "rax": "70B", "dbg": true, "cmd": {"22": "0182"}, "freq": 0.25,
-  "signals": [
-    {"id": "MUSTANG_POWER_TRANSFER_UNIT_REQ_TQ", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "newtonMeters" }, "name": "Power transfer unit, requested torque"}
-  ]},
-{ "hdr": "703", "rax": "70B", "dbg": true, "cmd": {"22": "0184"}, "freq": 5,
-  "signals": [
-    {"id": "MUSTANG_POWER_TRANSFER_UNIT_T", "path": "Engine", "fmt": { "len": 16, "max": 2047, "min": -2048, "div": 16, "sign": true, "unit": "celsius" }, "name": "Power transfer unit sump temperature"}
-  ]},
-{ "hdr": "703", "rax": "70B", "dbg": true, "cmd": {"22": "0185"}, "freq": 0.25,
-  "signals": [
-    {"id": "MUSTANG_POWER_TRANSFER_UNIT_REQ_TQ_CAP", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "newtonMeters" }, "name": "Power transfer unit, requested torque capacity inferred"}
-  ]},
-{ "hdr": "703", "rax": "70B", "dbg": true, "cmd": {"22": "1E9E"}, "freq": 1,
-  "signals": [
-    {"id": "MUSTANG_MEAS_CURRENT_CLU", "path": "Transmission", "fmt": { "len": 16, "max": 327, "min": -327, "div": 100, "sign": true, "unit": "amps" }, "name": "Measured current of clutch a actuator"}
-  ]},
-{ "hdr": "703", "rax": "70B", "dbg": true, "cmd": {"22": "3B40"}, "freq": 0.25,
-  "signals": [
-    {"id": "MUSTANG_FOOT_BRAKE", "path": "Control", "fmt": {"bix": 6, "len": 1, "max": 1, "unit": "offon" }, "name": "Foot brake"}
-  ]},
-{ "hdr": "703", "rax": "70B", "dbg": true, "cmd": {"22": "D00F"}, "freq": 1,
-  "signals": [
-    {"id": "MUSTANG_HYDRAULIC_PMP_MOTOR", "path": "Engine", "fmt": { "len": 16, "max": 655, "div": 100, "unit": "amps" }, "name": "Hydraulic pump motor current"}
-  ]},
 { "hdr": "726", "dbg": true, "cmd": {"22": "407E"}, "freq": 1,
   "signals": [
     {"id": "MUSTANG_EXTERIOR_LIGHT_STATE", "path": "Lights", "name": "Focus exterior lighting state", "fmt": {"bix": 0, "len": 1, "map": {
