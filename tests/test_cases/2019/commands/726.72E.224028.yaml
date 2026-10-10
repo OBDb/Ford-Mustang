@@ -1,0 +1,11 @@
+command_id: 726.72E.224028
+test_cases:
+- expected_values:
+    MUSTANG_BATT_SOC: 71
+  response: '72E0462402847'
+- expected_values:
+    MUSTANG_BATT_SOC: 80
+  response: '72E0462402850'
+- expected_values:
+    MUSTANG_BATT_SOC: 81
+  response: '72E0462402851'

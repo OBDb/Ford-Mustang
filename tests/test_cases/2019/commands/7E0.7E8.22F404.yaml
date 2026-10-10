@@ -1,0 +1,23 @@
+command_id: 7E0.7E8.22F404
+test_cases:
+- expected_values:
+    MUSTANG_ENG_LOAD_PCT: 0
+  response: 7E80462F40400
+- expected_values:
+    MUSTANG_ENG_LOAD_PCT: 25.09804
+  response: 7E80462F40440
+- expected_values:
+    MUSTANG_ENG_LOAD_PCT: 25.4902
+  response: 7E80462F40441
+- expected_values:
+    MUSTANG_ENG_LOAD_PCT: 25.88235
+  response: 7E80462F40442
+- expected_values:
+    MUSTANG_ENG_LOAD_PCT: 26.27451
+  response: 7E80462F40443
+- expected_values:
+    MUSTANG_ENG_LOAD_PCT: 27.45098
+  response: 7E80462F40446
+- expected_values:
+    MUSTANG_ENG_LOAD_PCT: 27.84314
+  response: 7E80462F40447

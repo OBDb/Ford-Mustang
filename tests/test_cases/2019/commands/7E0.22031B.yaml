@@ -4,8 +4,8 @@ test_cases:
     '[ECU] VCT exhaust error': 0
   response: 7E80562031B0000
 - expected_values:
-    '[ECU] VCT exhaust error': 50
+    '[ECU] VCT exhaust error': -2
   response: 7E80562031BFFE0
 - expected_values:
-    '[ECU] VCT exhaust error': 50
+    '[ECU] VCT exhaust error': -0.0625
   response: 7E80562031BFFFF

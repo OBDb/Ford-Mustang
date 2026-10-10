@@ -1,0 +1,17 @@
+command_id: 7E0.7E8.220415
+test_cases:
+- expected_values:
+    MUSTANG_PCM_ENG_EOP_RAW: 86
+  response: '7E8056204150056'
+- expected_values:
+    MUSTANG_PCM_ENG_EOP_RAW: 88
+  response: '7E8056204150058'
+- expected_values:
+    MUSTANG_PCM_ENG_EOP_RAW: 96
+  response: '7E8056204150060'
+- expected_values:
+    MUSTANG_PCM_ENG_EOP_RAW: 102
+  response: '7E8056204150066'
+- expected_values:
+    MUSTANG_PCM_ENG_EOP_RAW: 153
+  response: '7E8056204150099'
