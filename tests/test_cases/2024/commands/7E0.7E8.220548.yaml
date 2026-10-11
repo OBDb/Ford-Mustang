@@ -1,11 +1,14 @@
 command_id: 7E0.7E8.220548
 test_cases:
 - expected_values:
-    MUSTANG_LPFP_ACT: 53.95527
-  response: 7E80562054802E8
+    MUSTANG_LPFP_ACT: 53.59267
+  response: 7E80562054802E3
 - expected_values:
     MUSTANG_LPFP_ACT: 55.55072
   response: 7E80562054802FE
 - expected_values:
-    MUSTANG_LPFP_ACT: 55.91332
-  response: '7E8056205480303'
+    MUSTANG_LPFP_ACT: 55.76828
+  response: '7E8056205480301'
+- expected_values:
+    MUSTANG_LPFP_ACT: 78.32217
+  response: '7E8056205480438'

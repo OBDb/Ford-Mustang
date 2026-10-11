@@ -1,11 +1,11 @@
 command_id: 7E0.7E8.220404
 test_cases:
 - expected_values:
-    MUSTANG_KS2_RAW: 119
-  response: '7E8056204040077'
+    MUSTANG_KS2_RAW: 0
+  response: '7E8056204040000'
 - expected_values:
-    MUSTANG_KS2_RAW: 246
-  response: 7E80562040400F6
+    MUSTANG_KS2_RAW: 248
+  response: 7E80562040400F8
 - expected_values:
-    MUSTANG_KS2_RAW: 558
-  response: 7E805620404022E
+    MUSTANG_KS2_RAW: 521
+  response: '7E8056204040209'

@@ -1,20 +1,45 @@
 command_id: 726.72E.22280B
 test_cases:
 - expected_values:
+    MUSTANG_TYRE_T: 30
+  response: |-
+    72E100C62280B62B308
+    72E212F02E4464B81CC
+- expected_values:
+    MUSTANG_TYRE_T: 215
+  response: |-
+    72E100C62280B62B308
+    72E212F02E4FF4BEACC
+- expected_values:
+    MUSTANG_TYRE_T: 215
+  response: |-
+    72E100C62280B62B308
+    72E212F02F8FF4BF3CC
+- expected_values:
+    MUSTANG_TYRE_T: -2
+  response: |-
+    72E100C62280B62B309
+    72E215402D0264B83CC
+- expected_values:
+    MUSTANG_TYRE_T: 215
+  response: |-
+    72E100C62280B62B309
+    72E215402EEFF4B12CC
+- expected_values:
+    MUSTANG_TYRE_T: 67
+  response: |-
+    72E100C62280B62B309
+    72E215402F36B4BCFCC
+- expected_values:
+    MUSTANG_TYRE_T: 38
+  response: |-
+    72E100C62280B62B314
+    72E213403024E469BCC
+- expected_values:
     MUSTANG_TYRE_T: 18
   response: |-
     72E100C62280B637232
     72E21FE024E3A05CACC
-- expected_values:
-    MUSTANG_TYRE_T: 25
-  response: |-
-    72E100C62280B637234
-    72E21F90262414613CC
-- expected_values:
-    MUSTANG_TYRE_T: 28
-  response: |-
-    72E100C62280B637234
-    72E21F902714405D8CC
 - expected_values:
     MUSTANG_TYRE_T: 21
   response: |-

@@ -9,3 +9,9 @@ test_cases:
 - expected_values:
     MUSTANG_AAT_7E0: 17
   response: 7E80462F44639
+- expected_values:
+    MUSTANG_AAT_7E0: 29
+  response: 7E80462F44645
+- expected_values:
+    MUSTANG_AAT_7E0: 30
+  response: 7E80462F44646

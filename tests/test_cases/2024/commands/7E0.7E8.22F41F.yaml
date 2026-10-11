@@ -7,5 +7,5 @@ test_cases:
     MUSTANG_RUN_TIME: 246
   response: 7E80562F41F00F6
 - expected_values:
-    MUSTANG_RUN_TIME: 522
-  response: 7E80562F41F020A
+    MUSTANG_RUN_TIME: 513
+  response: 7E80562F41F0201

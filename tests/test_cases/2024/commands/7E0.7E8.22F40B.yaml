@@ -1,8 +1,8 @@
 command_id: 7E0.7E8.22F40B
 test_cases:
 - expected_values:
-    MUSTANG_MAP: 3.62597
-  response: 7E80462F40B19
+    MUSTANG_MAP: 3.3359
+  response: 7E80462F40B17
 - expected_values:
-    MUSTANG_MAP: 14.50389
-  response: 7E80462F40B64
+    MUSTANG_MAP: 17.98483
+  response: 7E80462F40B7C

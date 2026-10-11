@@ -1,20 +1,8 @@
 command_id: 726.72E.22402B
 test_cases:
 - expected_values:
-    MUSTANG_VEH_BAT_CURRENT: 3
-  response: 72E0462402B82
-- expected_values:
-    MUSTANG_VEH_BAT_CURRENT: 4
-  response: 72E0462402B83
-- expected_values:
-    MUSTANG_VEH_BAT_CURRENT: 5
-  response: 72E0462402B84
-- expected_values:
-    MUSTANG_VEH_BAT_CURRENT: 7
-  response: 72E0462402B86
-- expected_values:
-    MUSTANG_VEH_BAT_CURRENT: 11
-  response: 72E0462402B8A
+    MUSTANG_VEH_BAT_CURRENT: -11
+  response: 72E0462402B74
 - expected_values:
     MUSTANG_VEH_BAT_CURRENT: 20
   response: 72E0462402B93

@@ -4,20 +4,5 @@ test_cases:
     MUSTANG_PCM_MISF_ACCEL_CYL1_NORM: 0
   response: '7E80462038200'
 - expected_values:
-    MUSTANG_PCM_MISF_ACCEL_CYL1_NORM: 0.03125
-  response: '7E80462038202'
-- expected_values:
-    MUSTANG_PCM_MISF_ACCEL_CYL1_NORM: 0.04688
-  response: '7E80462038203'
-- expected_values:
-    MUSTANG_PCM_MISF_ACCEL_CYL1_NORM: 0.07812
-  response: '7E80462038205'
-- expected_values:
-    MUSTANG_PCM_MISF_ACCEL_CYL1_NORM: 0.09375
-  response: '7E80462038206'
-- expected_values:
-    MUSTANG_PCM_MISF_ACCEL_CYL1_NORM: 0.14062
-  response: '7E80462038209'
-- expected_values:
-    MUSTANG_PCM_MISF_ACCEL_CYL1_NORM: -0.03125
-  response: 7E804620382FE
+    MUSTANG_PCM_MISF_ACCEL_CYL1_NORM: -0.01562
+  response: 7E804620382FF

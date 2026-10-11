@@ -4,17 +4,5 @@ test_cases:
     MUSTANG_RL_VSS: 0
   response: 76804622B0900
 - expected_values:
-    MUSTANG_RL_VSS: 5
-  response: 76804622B0905
-- expected_values:
-    MUSTANG_RL_VSS: 16
-  response: 76804622B0910
-- expected_values:
-    MUSTANG_RL_VSS: 75
-  response: 76804622B094B
-- expected_values:
-    MUSTANG_RL_VSS: 76
-  response: 76804622B094C
-- expected_values:
-    MUSTANG_RL_VSS: 82
-  response: 76804622B0952
+    MUSTANG_RL_VSS: 85
+  response: 76804622B0955

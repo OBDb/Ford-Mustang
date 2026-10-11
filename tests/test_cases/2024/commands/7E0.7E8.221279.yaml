@@ -4,5 +4,5 @@ test_cases:
     MUSTANG_IAT_SENS_V: 0.9042
   response: 7E80562127900B9
 - expected_values:
-    MUSTANG_IAT_SENS_V: 0.97752
-  response: 7E80562127900C8
+    MUSTANG_IAT_SENS_V: 1.23656
+  response: 7E80562127900FD

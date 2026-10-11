@@ -1,5 +1,8 @@
 command_id: 7E0.7E8.22D137
 test_cases:
 - expected_values:
+    MUSTANG_DTC_CNT: 0
+  response: 7E80462D13700
+- expected_values:
     MUSTANG_DTC_CNT: 1
   response: 7E80462D13701
