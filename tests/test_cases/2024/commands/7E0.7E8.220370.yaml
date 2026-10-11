@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.220370
+test_cases:
+- expected_values:
+    MUSTANG_MAP_HIRES: 24.25
+  response: '7E8056203700061'
+- expected_values:
+    MUSTANG_MAP_HIRES: 40.75
+  response: 7E80562037000A3
+- expected_values:
+    MUSTANG_MAP_HIRES: 81.75
+  response: '7E8056203700147'

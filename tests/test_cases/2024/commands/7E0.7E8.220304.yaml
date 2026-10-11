@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.220304
+test_cases:
+- expected_values:
+    MUSTANG_CMD_GEN_V: 14.62682
+  response: '7E8056203047515'
+- expected_values:
+    MUSTANG_CMD_GEN_V: 14.67026
+  response: 7E805620304756E

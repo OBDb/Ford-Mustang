@@ -1,0 +1,17 @@
+command_id: '760.223302'
+test_cases:
+- expected_values:
+    MUSTANG_BCM_STEER_ANG_ACT: -2.4
+  response: '768056233021E60'
+- expected_values:
+    MUSTANG_BCM_STEER_ANG_ACT: 0.3
+  response: 768056233021E7B
+- expected_values:
+    MUSTANG_BCM_STEER_ANG_ACT: 1.1
+  response: '768056233021E83'
+- expected_values:
+    MUSTANG_BCM_STEER_ANG_ACT: 1.6
+  response: '768056233021E88'
+- expected_values:
+    MUSTANG_BCM_STEER_ANG_ACT: 225.4
+  response: '768056233022746'

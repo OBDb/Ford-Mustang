@@ -1,0 +1,29 @@
+command_id: 7E0.7E8.221E1A
+test_cases:
+- expected_values:
+    MUSTANG_PCM_CMD_TRANS_MAIN_LINE_P: 364
+  response: 7E805621E1A00B6
+- expected_values:
+    MUSTANG_PCM_CMD_TRANS_MAIN_LINE_P: 402
+  response: 7E805621E1A00C9
+- expected_values:
+    MUSTANG_PCM_CMD_TRANS_MAIN_LINE_P: 404
+  response: 7E805621E1A00CA
+- expected_values:
+    MUSTANG_PCM_CMD_TRANS_MAIN_LINE_P: 410
+  response: 7E805621E1A00CD
+- expected_values:
+    MUSTANG_PCM_CMD_TRANS_MAIN_LINE_P: 412
+  response: 7E805621E1A00CE
+- expected_values:
+    MUSTANG_PCM_CMD_TRANS_MAIN_LINE_P: 428
+  response: 7E805621E1A00D6
+- expected_values:
+    MUSTANG_PCM_CMD_TRANS_MAIN_LINE_P: 430
+  response: 7E805621E1A00D7
+- expected_values:
+    MUSTANG_PCM_CMD_TRANS_MAIN_LINE_P: 450
+  response: 7E805621E1A00E1
+- expected_values:
+    MUSTANG_PCM_CMD_TRANS_MAIN_LINE_P: 1150
+  response: 7E805621E1A023F

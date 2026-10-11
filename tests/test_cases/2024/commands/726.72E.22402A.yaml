@@ -1,0 +1,8 @@
+command_id: 726.72E.22402A
+test_cases:
+- expected_values:
+    MUSTANG_VEH_BAT_V: 14.4
+  response: 72E0462402AA8
+- expected_values:
+    MUSTANG_VEH_BAT_V: 14.5
+  response: 72E0462402AAA
