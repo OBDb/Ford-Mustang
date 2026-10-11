@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.22F45E
+test_cases:
+- expected_values:
+    MUSTANG_ENG_FUEL_RATE: 0
+  response: 7E80562F45E0000
+- expected_values:
+    MUSTANG_ENG_FUEL_RATE: 11.1
+  response: 7E80562F45E00DE
+- expected_values:
+    MUSTANG_ENG_FUEL_RATE: 15.1
+  response: 7E80562F45E012E

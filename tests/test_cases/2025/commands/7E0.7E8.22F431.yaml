@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.22F431
+test_cases:
+- expected_values:
+    MUSTANG_DIST_DTC_CLR: 15015
+  response: 7E80562F4313AA7
+- expected_values:
+    MUSTANG_DIST_DTC_CLR: 15034
+  response: 7E80562F4313ABA
