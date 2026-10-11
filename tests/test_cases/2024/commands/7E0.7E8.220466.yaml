@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.220466
+test_cases:
+- expected_values:
+    MUSTANG_TIP_DES_ABS: 14.58159
+  response: 7E805620466337B
+- expected_values:
+    MUSTANG_TIP_DES_ABS: 15.34503
+  response: 7E805620466362D
+- expected_values:
+    MUSTANG_TIP_DES_ABS: 15.53201
+  response: 7E80562046636D6

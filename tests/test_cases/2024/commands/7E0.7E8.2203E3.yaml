@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.2203E3
+test_cases:
+- expected_values:
+    MUSTANG_PF_DIFF_P_FEEDBACK_V: 0.32925
+  response: 7E8056203E30151
+- expected_values:
+    MUSTANG_PF_DIFF_P_FEEDBACK_V: 0.50804
+  response: 7E8056203E30208
+- expected_values:
+    MUSTANG_PF_DIFF_P_FEEDBACK_V: 1.02194
+  response: 7E8056203E30416
+- expected_values:
+    MUSTANG_PF_DIFF_P_FEEDBACK_V: 1.23786
+  response: 7E8056203E304F3

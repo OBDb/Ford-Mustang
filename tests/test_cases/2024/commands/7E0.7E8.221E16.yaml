@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.221E16
+test_cases:
+- expected_values:
+    MUSTANG_AXLE_GEAR_RATIO_MEAS: 0.63525
+  response: 7E805621E160A2A
+- expected_values:
+    MUSTANG_AXLE_GEAR_RATIO_MEAS: 2.74512
+  response: 7E805621E162BEC
+- expected_values:
+    MUSTANG_AXLE_GEAR_RATIO_MEAS: 10
+  response: 7E805621E16A000

@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.220403
+test_cases:
+- expected_values:
+    MUSTANG_KS1_RAW: 132
+  response: '7E8056204030084'
+- expected_values:
+    MUSTANG_KS1_RAW: 250
+  response: 7E80562040300FA
+- expected_values:
+    MUSTANG_KS1_RAW: 355
+  response: '7E8056204030163'
+- expected_values:
+    MUSTANG_KS1_RAW: 648
+  response: '7E8056204030288'
