@@ -1,8 +1,8 @@
 command_id: 7E0.7E8.22F406
 test_cases:
 - expected_values:
-    MUSTANG_STFT: -3.125
-  response: 7E80462F4067C
+    MUSTANG_STFT: -3.90625
+  response: 7E80462F4067B
 - expected_values:
     MUSTANG_STFT: 5.46875
   response: 7E80462F40687

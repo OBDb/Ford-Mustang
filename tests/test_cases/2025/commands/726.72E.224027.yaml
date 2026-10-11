@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     MUSTANG_BATT_AGE: 610
   response: '72E056240270262'
+- expected_values:
+    MUSTANG_BATT_AGE: 611
+  response: '72E056240270263'

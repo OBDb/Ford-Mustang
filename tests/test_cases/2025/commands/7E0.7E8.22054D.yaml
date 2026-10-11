@@ -1,8 +1,8 @@
 command_id: 7E0.7E8.22054D
 test_cases:
 - expected_values:
-    MUSTANG_LPFP_SENS_V: 1.97754
-  response: 7E80562054D07E9
+    MUSTANG_LPFP_SENS_V: 1.93359
+  response: 7E80562054D07BC
 - expected_values:
     MUSTANG_LPFP_SENS_V: 1.99707
   response: 7E80562054D07FD

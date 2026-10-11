@@ -1,14 +1,14 @@
 command_id: 726.72E.224209
 test_cases:
 - expected_values:
-    MUSTANG_BAT_CURRENT: 18.75
-  response: 72E0762420900004BA0
+    MUSTANG_BAT_CURRENT: 11.25
+  response: 72E0762420900002D60
 - expected_values:
     MUSTANG_BAT_CURRENT: 24.5
   response: '72E0762420900006200'
 - expected_values:
-    MUSTANG_BAT_CURRENT: 25.25
-  response: 72E07624209000065E0
+    MUSTANG_BAT_CURRENT: 25
+  response: 72E07624209000064E0
 - expected_values:
     MUSTANG_BAT_CURRENT: 47
   response: 72E076242090000BC40

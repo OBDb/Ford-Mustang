@@ -7,8 +7,8 @@ test_cases:
     MUSTANG_CAT_TEMP: 523.2
   response: 7E80562F43C1600
 - expected_values:
-    MUSTANG_CAT_TEMP: 599.7
-  response: 7E80562F43C18FD
+    MUSTANG_CAT_TEMP: 574.1
+  response: 7E80562F43C17FD
 - expected_values:
-    MUSTANG_CAT_TEMP: 707.7
-  response: 7E80562F43C1D35
+    MUSTANG_CAT_TEMP: 813.9
+  response: 7E80562F43C215B

@@ -1,8 +1,8 @@
 command_id: 7E0.7E8.220707
 test_cases:
 - expected_values:
-    MUSTANG_GRILL_SHUT_DC: 59.21569
-  response: '7E80462070797'
+    MUSTANG_GRILL_SHUT_DC: 53.33333
+  response: '7E80462070788'
 - expected_values:
     MUSTANG_GRILL_SHUT_DC: 100
   response: 7E804620707FF
