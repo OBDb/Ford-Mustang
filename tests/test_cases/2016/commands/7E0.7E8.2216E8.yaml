@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.2216E8
+test_cases:
+- expected_values:
+    MUSTANG_CMD_GEN_DUTY: 56.57187
+  response: 7E8056216E84868
+- expected_values:
+    MUSTANG_CMD_GEN_DUTY: 57.11208
+  response: 7E8056216E84919
+- expected_values:
+    MUSTANG_CMD_GEN_DUTY: 57.64923
+  response: 7E8056216E849C9
+- expected_values:
+    MUSTANG_CMD_GEN_DUTY: 58.18943
+  response: 7E8056216E84A7A

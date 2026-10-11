@@ -7,5 +7,5 @@ test_cases:
     MUSTANG_ENG_FUEL_RATE: 11.1
   response: 7E80562F45E00DE
 - expected_values:
-    MUSTANG_ENG_FUEL_RATE: 15.1
-  response: 7E80562F45E012E
+    MUSTANG_ENG_FUEL_RATE: 30.3
+  response: 7E80562F45E025E

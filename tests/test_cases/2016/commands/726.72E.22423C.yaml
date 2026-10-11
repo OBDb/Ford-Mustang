@@ -1,0 +1,8 @@
+command_id: 726.72E.22423C
+test_cases:
+- expected_values:
+    MUSTANG_VEH_BAT_B_CURRENT: 0.03125
+  response: 72E0562423C0001
+- expected_values:
+    MUSTANG_VEH_BAT_B_CURRENT: 1.03125
+  response: 72E0562423C0021

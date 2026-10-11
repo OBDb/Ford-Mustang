@@ -7,5 +7,5 @@ test_cases:
     MUSTANG_RPM: 895.25
   response: 7E80562F40C0DFD
 - expected_values:
-    MUSTANG_RPM: 2063.75
-  response: 7E80562F40C203F
+    MUSTANG_RPM: 3036.75
+  response: 7E80562F40C2F73

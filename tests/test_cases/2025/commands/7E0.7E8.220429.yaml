@@ -1,26 +1,11 @@
 command_id: 7E0.7E8.220429
 test_cases:
 - expected_values:
-    MUSTANG_FUEL_T_7E0: 81.42188
-  response: 7E805620429145B
+    MUSTANG_FUEL_T_7E0: 79.51562
+  response: 7E80562042913E1
 - expected_values:
-    MUSTANG_FUEL_T_7E0: 81.78125
-  response: '7E8056204291472'
-- expected_values:
-    MUSTANG_FUEL_T_7E0: 82.125
-  response: '7E8056204291488'
-- expected_values:
-    MUSTANG_FUEL_T_7E0: 82.46875
-  response: 7E805620429149E
-- expected_values:
-    MUSTANG_FUEL_T_7E0: 82.82812
-  response: 7E80562042914B5
-- expected_values:
-    MUSTANG_FUEL_T_7E0: 83.17188
-  response: 7E80562042914CB
-- expected_values:
-    MUSTANG_FUEL_T_7E0: 83.51562
-  response: 7E80562042914E1
+    MUSTANG_FUEL_T_7E0: 80.03125
+  response: '7E8056204291402'
 - expected_values:
     MUSTANG_FUEL_T_7E0: 83.875
   response: 7E80562042914F8

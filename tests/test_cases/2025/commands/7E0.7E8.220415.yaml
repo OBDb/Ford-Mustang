@@ -4,8 +4,8 @@ test_cases:
     MUSTANG_PCM_ENG_EOP_RAW: 87
   response: '7E8056204150057'
 - expected_values:
-    MUSTANG_PCM_ENG_EOP_RAW: 248
-  response: 7E80562041500F8
+    MUSTANG_PCM_ENG_EOP_RAW: 250
+  response: 7E80562041500FA
 - expected_values:
     MUSTANG_PCM_ENG_EOP_RAW: 262
   response: '7E8056204150106'
