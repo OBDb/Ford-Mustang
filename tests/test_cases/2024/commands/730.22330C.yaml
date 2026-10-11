@@ -1,6 +1,9 @@
 command_id: 730.22330C
 test_cases:
 - expected_values:
+    MUSTANG_STEER_SHFT_TQ: -6.9
+  response: 7380462330C3A
+- expected_values:
     MUSTANG_STEER_SHFT_TQ: -0.6
   response: 7380462330C79
 - expected_values:

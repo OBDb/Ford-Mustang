@@ -7,6 +7,9 @@ test_cases:
     MUSTANG_GEAR_7E0: '2'
   response: 7E804621E1202
 - expected_values:
+    MUSTANG_GEAR_7E0: '3'
+  response: 7E804621E1203
+- expected_values:
     MUSTANG_GEAR_7E0: '4'
   response: 7E804621E1204
 - expected_values:

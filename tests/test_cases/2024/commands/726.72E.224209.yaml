@@ -15,3 +15,6 @@ test_cases:
 - expected_values:
     MUSTANG_BAT_CURRENT: 32.25
   response: '72E0762420900008140'
+- expected_values:
+    MUSTANG_BAT_CURRENT: 42.75
+  response: 72E076242090000ABC0

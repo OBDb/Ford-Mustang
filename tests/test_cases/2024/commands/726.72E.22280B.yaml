@@ -1,6 +1,11 @@
 command_id: 726.72E.22280B
 test_cases:
 - expected_values:
+    MUSTANG_TYRE_T: 18
+  response: |-
+    72E100C62280B637232
+    72E21FE024E3A05CACC
+- expected_values:
     MUSTANG_TYRE_T: 25
   response: |-
     72E100C62280B637234

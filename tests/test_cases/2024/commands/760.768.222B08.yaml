@@ -4,6 +4,9 @@ test_cases:
     MUSTANG_RR_VSS: 0
   response: 76804622B0800
 - expected_values:
+    MUSTANG_RR_VSS: 8
+  response: 76804622B0808
+- expected_values:
     MUSTANG_RR_VSS: 16
   response: 76804622B0810
 - expected_values:

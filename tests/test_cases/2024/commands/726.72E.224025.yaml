@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     MUSTANG_BAT_QUIESCENT: 59
   response: '72E056240250846'
+- expected_values:
+    MUSTANG_BAT_QUIESCENT: 61
+  response: 72E05624025084A

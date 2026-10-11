@@ -6,3 +6,6 @@ test_cases:
 - expected_values:
     MUSTANG_CMD_GEN_V: 14.67026
   response: 7E805620304756E
+- expected_values:
+    MUSTANG_CMD_GEN_V: 14.90303
+  response: 7E805620304774B
