@@ -4,12 +4,6 @@ test_cases:
     MUSTANG_IGN_CORR_CYL1: 0
   response: 7E8056203EC0000
 - expected_values:
-    MUSTANG_IGN_CORR_CYL1: 0.04688
-  response: 7E8056203EC0018
-- expected_values:
-    MUSTANG_IGN_CORR_CYL1: 0.56445
-  response: 7E8056203EC0121
-- expected_values:
     MUSTANG_IGN_CORR_CYL1: 0.96875
   response: 7E8056203EC01F0
 - expected_values:

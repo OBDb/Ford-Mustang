@@ -4,8 +4,5 @@ test_cases:
     MUSTANG_GRILL_SHUTTER_POS: 0
   response: '7E80462058000'
 - expected_values:
-    MUSTANG_GRILL_SHUTTER_POS: 11.37255
-  response: 7E8046205801D
-- expected_values:
-    MUSTANG_GRILL_SHUTTER_POS: 66.66667
-  response: 7E804620580AA
+    MUSTANG_GRILL_SHUTTER_POS: 100
+  response: 7E804620580FF

@@ -1,14 +1,29 @@
 command_id: 7E0.7E8.221E35
 test_cases:
 - expected_values:
+    MUSTANG_DES_TQ_CONV_SLIP: 0
+  response: 7E805621E350000
+- expected_values:
     MUSTANG_DES_TQ_CONV_SLIP: 4
   response: 7E805621E350010
+- expected_values:
+    MUSTANG_DES_TQ_CONV_SLIP: 4.5
+  response: 7E805621E350012
 - expected_values:
     MUSTANG_DES_TQ_CONV_SLIP: 80.25
   response: 7E805621E350141
 - expected_values:
+    MUSTANG_DES_TQ_CONV_SLIP: 89
+  response: 7E805621E350164
+- expected_values:
+    MUSTANG_DES_TQ_CONV_SLIP: 174.75
+  response: 7E805621E3502BB
+- expected_values:
     MUSTANG_DES_TQ_CONV_SLIP: 187
   response: 7E805621E3502EC
+- expected_values:
+    MUSTANG_DES_TQ_CONV_SLIP: 230.75
+  response: 7E805621E35039B
 - expected_values:
     MUSTANG_DES_TQ_CONV_SLIP: 1023
   response: 7E805621E350FFC

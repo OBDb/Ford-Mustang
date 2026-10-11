@@ -7,6 +7,9 @@ test_cases:
     MUSTANG_PCM_CMD_TRANS_GEAR_RATIO: 0.68898
   response: 7E805621E190B06
 - expected_values:
+    MUSTANG_PCM_CMD_TRANS_GEAR_RATIO: 1.27492
+  response: 7E805621E191466
+- expected_values:
     MUSTANG_PCM_CMD_TRANS_GEAR_RATIO: 1.5198
   response: 7E805621E191851
 - expected_values:

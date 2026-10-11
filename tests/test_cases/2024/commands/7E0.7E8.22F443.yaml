@@ -1,8 +1,11 @@
 command_id: 7E0.7E8.22F443
 test_cases:
 - expected_values:
-    MUSTANG_ENG_LOAD_ACT: 13.33333
-  response: 7E80562F4430022
+    MUSTANG_ENG_LOAD_ACT: 0
+  response: 7E80562F4430000
 - expected_values:
-    MUSTANG_ENG_LOAD_ACT: 83.92157
-  response: 7E80562F44300D6
+    MUSTANG_ENG_LOAD_ACT: 94.11765
+  response: 7E80562F44300F0
+- expected_values:
+    MUSTANG_ENG_LOAD_ACT: 105.09804
+  response: 7E80562F443010C

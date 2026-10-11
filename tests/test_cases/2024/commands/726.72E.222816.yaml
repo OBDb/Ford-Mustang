@@ -4,5 +4,5 @@ test_cases:
     MUSTANG_TP_RLO: 29.4
   response: 72E05622816024C
 - expected_values:
-    MUSTANG_TP_RLO: 31.05
-  response: 72E05622816026D
+    MUSTANG_TP_RLO: 38.3
+  response: 72E0562281602FE

@@ -4,8 +4,8 @@ test_cases:
     MUSTANG_EVAP_PURGE_CMD: 0
   response: '7E8056211660000'
 - expected_values:
-    MUSTANG_EVAP_PURGE_CMD: 84.17664
-  response: 7E8056211666BBF
+    MUSTANG_EVAP_PURGE_CMD: 4.66003
+  response: 7E80562116605F7
 - expected_values:
     MUSTANG_EVAP_PURGE_CMD: 96.65222
   response: 7E8056211667BB7

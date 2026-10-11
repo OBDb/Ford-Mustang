@@ -7,6 +7,12 @@ test_cases:
     MUSTANG_TRQ_CTRL_REQ: 6
   response: 7E8046203AF06
 - expected_values:
+    MUSTANG_TRQ_CTRL_REQ: 7
+  response: 7E8046203AF07
+- expected_values:
+    MUSTANG_TRQ_CTRL_REQ: 12
+  response: 7E8046203AF0C
+- expected_values:
     MUSTANG_TRQ_CTRL_REQ: 16
   response: 7E8046203AF10
 - expected_values:
