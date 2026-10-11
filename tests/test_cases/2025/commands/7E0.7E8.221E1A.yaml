@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.221E1A
+test_cases:
+- expected_values:
+    MUSTANG_PCM_CMD_TRANS_MAIN_LINE_P: 364
+  response: 7E805621E1A00B6
+- expected_values:
+    MUSTANG_PCM_CMD_TRANS_MAIN_LINE_P: 484
+  response: 7E805621E1A00F2
+- expected_values:
+    MUSTANG_PCM_CMD_TRANS_MAIN_LINE_P: 528
+  response: 7E805621E1A0108
+- expected_values:
+    MUSTANG_PCM_CMD_TRANS_MAIN_LINE_P: 1658
+  response: 7E805621E1A033D

@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.22051D
+test_cases:
+- expected_values:
+    MUSTANG_CYL_HEAD_T: 35
+  response: 7E80462051D4B
+- expected_values:
+    MUSTANG_CYL_HEAD_T: 49
+  response: 7E80462051D59

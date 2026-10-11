@@ -1,0 +1,8 @@
+command_id: 760.768.22DD01
+test_cases:
+- expected_values:
+    MUSTANG_ABS_ODO: 16548
+  response: 7680662DD010040A4
+- expected_values:
+    MUSTANG_ABS_ODO: 16567
+  response: 7680662DD010040B7

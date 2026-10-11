@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.22F434
+test_cases:
+- expected_values:
+    MUSTANG_AIR_FUEL_RAT: 0
+  response: 7E80762F43400007FFE
+- expected_values:
+    MUSTANG_AIR_FUEL_RAT: 14.74352
+  response: 7E80762F43480E77FFF
+- expected_values:
+    MUSTANG_AIR_FUEL_RAT: 14.83824
+  response: 7E80762F43481BB8000
+- expected_values:
+    MUSTANG_AIR_FUEL_RAT: 29.2801
+  response: 7E80762F434FFFF8122

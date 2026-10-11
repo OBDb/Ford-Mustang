@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.220334
+test_cases:
+- expected_values:
+    MUSTANG_PCM_CYL_HEAD_T_CORR: 74.78125
+  response: 7E80562033412B2
+- expected_values:
+    MUSTANG_PCM_CYL_HEAD_T_CORR: 83.98438
+  response: 7E80562033414FF
+- expected_values:
+    MUSTANG_PCM_CYL_HEAD_T_CORR: 84
+  response: '7E8056203341500'
+- expected_values:
+    MUSTANG_PCM_CYL_HEAD_T_CORR: 88.07812
+  response: '7E8056203341605'

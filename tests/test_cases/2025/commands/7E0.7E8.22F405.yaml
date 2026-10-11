@@ -1,0 +1,29 @@
+command_id: 7E0.7E8.22F405
+test_cases:
+- expected_values:
+    MUSTANG_CYL_HEAD_T_7E0_2: 74
+  response: 7E80462F40572
+- expected_values:
+    MUSTANG_CYL_HEAD_T_7E0_2: 77
+  response: 7E80462F40575
+- expected_values:
+    MUSTANG_CYL_HEAD_T_7E0_2: 79
+  response: 7E80462F40577
+- expected_values:
+    MUSTANG_CYL_HEAD_T_7E0_2: 81
+  response: 7E80462F40579
+- expected_values:
+    MUSTANG_CYL_HEAD_T_7E0_2: 82
+  response: 7E80462F4057A
+- expected_values:
+    MUSTANG_CYL_HEAD_T_7E0_2: 83
+  response: 7E80462F4057B
+- expected_values:
+    MUSTANG_CYL_HEAD_T_7E0_2: 84
+  response: 7E80462F4057C
+- expected_values:
+    MUSTANG_CYL_HEAD_T_7E0_2: 85
+  response: 7E80462F4057D
+- expected_values:
+    MUSTANG_CYL_HEAD_T_7E0_2: 86
+  response: 7E80462F4057E
