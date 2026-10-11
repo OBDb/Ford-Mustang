@@ -4,6 +4,9 @@ test_cases:
     MUSTANG_LAT_G: 0.38
   response: 76805622B110013
 - expected_values:
+    MUSTANG_LAT_G: -0.66
+  response: 76805622B11FFDF
+- expected_values:
     MUSTANG_LAT_G: -0.54
   response: 76805622B11FFE5
 - expected_values:

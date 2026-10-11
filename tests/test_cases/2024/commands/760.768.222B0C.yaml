@@ -13,5 +13,8 @@ test_cases:
     MUSTANG_LAT_ANG: 17
   response: 76805622B0C0011
 - expected_values:
+    MUSTANG_LAT_ANG: -25
+  response: 76805622B0CFFE7
+- expected_values:
     MUSTANG_LAT_ANG: -10
   response: 76805622B0CFFF6

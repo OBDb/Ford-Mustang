@@ -4,6 +4,11 @@ test_cases:
     MUSTANG_EGR_T_7E0_7E0: 1598.4
   response: |-
     7E8100862F46B400000
+    7E8210F00CCCCCCCCCC
+- expected_values:
+    MUSTANG_EGR_T_7E0_7E0: 1598.4
+  response: |-
+    7E8100862F46B400000
     7E8211C00CCCCCCCCCC
 - expected_values:
     MUSTANG_EGR_T_7E0_7E0: 1598.4

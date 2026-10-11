@@ -13,5 +13,8 @@ test_cases:
     MUSTANG_VEH_BAT_B_CURRENT: 8.03125
   response: 72E0562423C0101
 - expected_values:
+    MUSTANG_VEH_BAT_B_CURRENT: 11.8125
+  response: 72E0562423C017A
+- expected_values:
     MUSTANG_VEH_BAT_B_CURRENT: 19.8125
   response: 72E0562423C027A

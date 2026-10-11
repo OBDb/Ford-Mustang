@@ -1,6 +1,9 @@
 command_id: '760.223302'
 test_cases:
 - expected_values:
+    MUSTANG_BCM_STEER_ANG_ACT: -478.5
+  response: 768056233020BC7
+- expected_values:
     MUSTANG_BCM_STEER_ANG_ACT: -2.4
   response: '768056233021E60'
 - expected_values:

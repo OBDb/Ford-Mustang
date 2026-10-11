@@ -4,5 +4,8 @@ test_cases:
     MUSTANG_GRILL_SHUT_DC: 0
   response: '7E80462070700'
 - expected_values:
+    MUSTANG_GRILL_SHUT_DC: 10.98039
+  response: 7E8046207071C
+- expected_values:
     MUSTANG_GRILL_SHUT_DC: 62.7451
   response: 7E804620707A0
