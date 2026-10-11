@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.221E23
+test_cases:
+- expected_values:
+    MUSTANG_GEAR_SHFT_7E0: MANUAL
+  response: 7E804621E230A
+- expected_values:
+    MUSTANG_GEAR_SHFT_7E0: DRIVE
+  response: 7E804621E232E
+- expected_values:
+    MUSTANG_GEAR_SHFT_7E0: REVERSE
+  response: 7E804621E233C
+- expected_values:
+    MUSTANG_GEAR_SHFT_7E0: PARK
+  response: 7E804621E2346

@@ -4,11 +4,11 @@ test_cases:
     MUSTANG_BAT_V_7E0: 12.337
   response: 7E80562F4423031
 - expected_values:
-    MUSTANG_BAT_V_7E0: 12.805
-  response: 7E80562F4423205
-- expected_values:
     MUSTANG_BAT_V_7E0: 13.053
   response: 7E80562F44232FD
+- expected_values:
+    MUSTANG_BAT_V_7E0: 13.824
+  response: 7E80562F4423600
 - expected_values:
     MUSTANG_BAT_V_7E0: 14.375
   response: 7E80562F4423827

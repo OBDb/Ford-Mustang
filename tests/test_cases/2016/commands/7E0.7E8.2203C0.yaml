@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.2203C0
+test_cases:
+- expected_values:
+    MUSTANG_MIS_MON_STAT: 0
+  response: 7E8046203C004
+- expected_values:
+    MUSTANG_MIS_MON_STAT: 1
+  response: 7E8046203C0FC

@@ -4,6 +4,9 @@ test_cases:
     MUSTANG_PCM_A_C_REFRIG_P: 843
   response: 7E805620604034B
 - expected_values:
+    MUSTANG_PCM_A_C_REFRIG_P: 1035
+  response: 7E805620604040B
+- expected_values:
     MUSTANG_PCM_A_C_REFRIG_P: 1263
   response: 7E80562060404EF
 - expected_values:

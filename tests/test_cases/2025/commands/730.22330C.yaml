@@ -4,5 +4,5 @@ test_cases:
     MUSTANG_STEER_SHFT_TQ: -2.8
   response: 7380462330C63
 - expected_values:
-    MUSTANG_STEER_SHFT_TQ: 2.9
-  response: 7380462330C9C
+    MUSTANG_STEER_SHFT_TQ: 3
+  response: 7380462330C9D

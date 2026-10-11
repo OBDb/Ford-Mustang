@@ -9,3 +9,6 @@ test_cases:
 - expected_values:
     MUSTANG_BATT_SOC: 81
   response: '72E0462402851'
+- expected_values:
+    MUSTANG_BATT_SOC: 82
+  response: '72E0462402852'

@@ -4,5 +4,5 @@ test_cases:
     MUSTANG_KS1_RAW: 15
   response: 7E805620403000F
 - expected_values:
-    MUSTANG_KS1_RAW: 85
-  response: '7E8056204030055'
+    MUSTANG_KS1_RAW: 999
+  response: 7E80562040303E7

@@ -4,11 +4,11 @@ test_cases:
     MUSTANG_CMD_GEN_V: 10.5935
   response: 7E80562030454CC
 - expected_values:
-    MUSTANG_CMD_GEN_V: 12.61529
-  response: 7E80562030464FB
+    MUSTANG_CMD_GEN_V: 13.6152
+  response: 7E8056203046CFC
 - expected_values:
-    MUSTANG_CMD_GEN_V: 13.62545
-  response: 7E8056203046D11
+    MUSTANG_CMD_GEN_V: 13.99242
+  response: '7E8056203047001'
 - expected_values:
     MUSTANG_CMD_GEN_V: 14.39161
   response: '7E8056203047333'

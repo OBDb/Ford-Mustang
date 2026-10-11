@@ -1,8 +1,8 @@
 command_id: 7E0.7E8.224195
 test_cases:
 - expected_values:
-    MUSTANG_DTE_DISP: 139.1
-  response: 7E805624195056F
+    MUSTANG_DTE_DISP: 128.6
+  response: '7E8056241950506'
 - expected_values:
     MUSTANG_DTE_DISP: 153.3
   response: 7E80562419505FD
