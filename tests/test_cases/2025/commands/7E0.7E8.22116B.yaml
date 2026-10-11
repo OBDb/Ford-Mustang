@@ -7,5 +7,5 @@ test_cases:
     MUSTANG_IGN_TIM_CYL1: -26.25
   response: 7E80562116BFF97
 - expected_values:
-    MUSTANG_IGN_TIM_CYL1: -2
-  response: 7E80562116BFFF8
+    MUSTANG_IGN_TIM_CYL1: -1
+  response: 7E80562116BFFFC

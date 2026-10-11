@@ -14,4 +14,7 @@ test_cases:
   response: 7E80762F434ECFF806D
 - expected_values:
     MUSTANG_AIR_FUEL_RAT: 29.2801
+  response: 7E80762F434FFFF80C5
+- expected_values:
+    MUSTANG_AIR_FUEL_RAT: 29.2801
   response: 7E80762F434FFFF810D

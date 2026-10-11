@@ -1,8 +1,8 @@
 command_id: 7E0.7E8.220429
 test_cases:
 - expected_values:
-    MUSTANG_FUEL_T_7E0: 79
-  response: 7E80562042913C0
+    MUSTANG_FUEL_T_7E0: 77.45312
+  response: 7E805620429135D
 - expected_values:
     MUSTANG_FUEL_T_7E0: 80.03125
   response: '7E8056204291402'
