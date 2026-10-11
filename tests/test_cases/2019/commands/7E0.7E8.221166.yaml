@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.221166
+test_cases:
+- expected_values:
+    MUSTANG_EVAP_PURGE_CMD: 0
+  response: '7E8056211660000'
+- expected_values:
+    MUSTANG_EVAP_PURGE_CMD: 4.68445
+  response: 7E80562116605FF
+- expected_values:
+    MUSTANG_EVAP_PURGE_CMD: 97.995
+  response: 7E8056211667D6F

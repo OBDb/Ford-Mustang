@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.220429
+test_cases:
+- expected_values:
+    MUSTANG_FUEL_T_7E0: 23.57812
+  response: 7E80562042905E5
+- expected_values:
+    MUSTANG_FUEL_T_7E0: 24.07812
+  response: '7E8056204290605'
+- expected_values:
+    MUSTANG_FUEL_T_7E0: 47.9375
+  response: 7E8056204290BFC
+- expected_values:
+    MUSTANG_FUEL_T_7E0: 48.3125
+  response: 7E8056204290C14

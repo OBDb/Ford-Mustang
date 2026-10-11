@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.221279
+test_cases:
+- expected_values:
+    MUSTANG_IAT_SENS_V: 1.95503
+  response: '7E8056212790190'
+- expected_values:
+    MUSTANG_IAT_SENS_V: 2.40958
+  response: 7E80562127901ED
