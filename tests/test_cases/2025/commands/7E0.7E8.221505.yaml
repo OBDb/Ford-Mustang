@@ -4,8 +4,8 @@ test_cases:
     MUSTANG_VSS_HD: 0
   response: '7E8056215050000'
 - expected_values:
-    MUSTANG_VSS_HD: 3.96875
-  response: 7E80562150501FC
+    MUSTANG_VSS_HD: 113.99219
+  response: 7E80562150538FF
 - expected_values:
-    MUSTANG_VSS_HD: 90.08594
-  response: 7E8056215052D0B
+    MUSTANG_VSS_HD: 125.875
+  response: 7E8056215053EF0

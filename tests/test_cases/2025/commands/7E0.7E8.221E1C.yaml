@@ -1,8 +1,8 @@
 command_id: 7E0.7E8.221E1C
 test_cases:
 - expected_values:
-    MUSTANG_TOT_7E0: 57.375
-  response: 7E805621E1C0396
+    MUSTANG_TOT_7E0: 46.1875
+  response: 7E805621E1C02E3
 - expected_values:
     MUSTANG_TOT_7E0: 64
   response: 7E805621E1C0400

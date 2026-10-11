@@ -4,8 +4,8 @@ test_cases:
     MUSTANG_ACT_TQ_CONV_SLIP: 0
   response: 7E805621E140000
 - expected_values:
-    MUSTANG_ACT_TQ_CONV_SLIP: -22.75
-  response: 7E805621E14FFA5
+    MUSTANG_ACT_TQ_CONV_SLIP: -41.25
+  response: 7E805621E14FF5B
 - expected_values:
     MUSTANG_ACT_TQ_CONV_SLIP: -0.25
   response: 7E805621E14FFFF

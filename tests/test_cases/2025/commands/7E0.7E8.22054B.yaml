@@ -1,5 +1,8 @@
 command_id: 7E0.7E8.22054B
 test_cases:
 - expected_values:
+    MUSTANG_PCM_ENG_OIL_LIFE_REM: 17
+  response: 7E80462054B11
+- expected_values:
     MUSTANG_PCM_ENG_OIL_LIFE_REM: 18
   response: 7E80462054B12

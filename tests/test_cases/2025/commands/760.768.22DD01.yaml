@@ -4,5 +4,5 @@ test_cases:
     MUSTANG_ABS_ODO: 16548
   response: 7680662DD010040A4
 - expected_values:
-    MUSTANG_ABS_ODO: 16574
-  response: 7680662DD010040BE
+    MUSTANG_ABS_ODO: 16625
+  response: 7680662DD010040F1

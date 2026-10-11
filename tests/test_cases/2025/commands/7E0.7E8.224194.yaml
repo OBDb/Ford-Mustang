@@ -1,6 +1,9 @@
 command_id: 7E0.7E8.224194
 test_cases:
 - expected_values:
+    MUSTANG_DTE: 73.6
+  response: 7E80562419402E0
+- expected_values:
     MUSTANG_DTE: 128
   response: '7E8056241940500'
 - expected_values:

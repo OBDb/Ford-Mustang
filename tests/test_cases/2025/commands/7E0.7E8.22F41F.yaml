@@ -7,8 +7,8 @@ test_cases:
     MUSTANG_RUN_TIME: 253
   response: 7E80562F41F00FD
 - expected_values:
-    MUSTANG_RUN_TIME: 769
-  response: 7E80562F41F0301
+    MUSTANG_RUN_TIME: 768
+  response: 7E80562F41F0300
 - expected_values:
-    MUSTANG_RUN_TIME: 1034
-  response: 7E80562F41F040A
+    MUSTANG_RUN_TIME: 3082
+  response: 7E80562F41F0C0A

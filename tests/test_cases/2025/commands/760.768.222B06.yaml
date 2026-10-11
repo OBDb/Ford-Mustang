@@ -4,5 +4,5 @@ test_cases:
     MUSTANG_FR_VSS: 0
   response: 76804622B0600
 - expected_values:
-    MUSTANG_FR_VSS: 90
-  response: 76804622B065A
+    MUSTANG_FR_VSS: 127
+  response: 76804622B067F

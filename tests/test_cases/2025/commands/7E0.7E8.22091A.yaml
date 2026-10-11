@@ -7,5 +7,5 @@ test_cases:
     MUSTANG_ETC_ANG_DES: 6.49805
   response: 7E80562091A0CFF
 - expected_values:
-    MUSTANG_ETC_ANG_DES: 11.82812
-  response: 7E80562091A17A8
+    MUSTANG_ETC_ANG_DES: 27.67969
+  response: 7E80562091A375C

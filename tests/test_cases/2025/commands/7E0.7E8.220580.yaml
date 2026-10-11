@@ -1,8 +1,8 @@
 command_id: 7E0.7E8.220580
 test_cases:
 - expected_values:
-    MUSTANG_GRILL_SHUTTER_POS: 62.7451
-  response: 7E804620580A0
+    MUSTANG_GRILL_SHUTTER_POS: 56.47059
+  response: '7E80462058090'
 - expected_values:
     MUSTANG_GRILL_SHUTTER_POS: 100
   response: 7E804620580FF
