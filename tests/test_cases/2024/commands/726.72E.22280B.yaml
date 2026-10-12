@@ -6,25 +6,15 @@ test_cases:
     72E100C62280B62B308
     72E212F02E4464B81CC
 - expected_values:
-    MUSTANG_TYRE_T: 215
+    MUSTANG_TYRE_T: null
   response: |-
     72E100C62280B62B308
     72E212F02E4FF4BEACC
-- expected_values:
-    MUSTANG_TYRE_T: 215
-  response: |-
-    72E100C62280B62B308
-    72E212F02F8FF4BF3CC
 - expected_values:
     MUSTANG_TYRE_T: -2
   response: |-
     72E100C62280B62B309
     72E215402D0264B83CC
-- expected_values:
-    MUSTANG_TYRE_T: 215
-  response: |-
-    72E100C62280B62B309
-    72E215402EEFF4B12CC
 - expected_values:
     MUSTANG_TYRE_T: 67
   response: |-

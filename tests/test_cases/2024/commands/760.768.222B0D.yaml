@@ -4,5 +4,5 @@ test_cases:
     MUSTANG_BRK_FL_P: 0
   response: 76805622B0D0000
 - expected_values:
-    MUSTANG_BRK_FL_P: 0
+    MUSTANG_BRK_FL_P: 5
   response: 76805622B0D0005

@@ -44,7 +44,7 @@
   ]},
 { "hdr": "726", "rax": "72E", "cmd": {"22": "280B"}, "freq": 5, "dbgfilter": { "to": 2015, "years": [2017, 2018, 2020, 2021, 2022, 2023], "from": 2026 },
   "signals": [
-    {"id": "MUSTANG_TYRE_T", "path": "Tires", "fmt": {"bix": 48, "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Tire temperature"}
+    {"id": "MUSTANG_TYRE_T", "path": "Tires", "fmt": {"bix": 48, "len": 8, "max": 215, "min": -40, "add": -40, "nullmax": 215, "unit": "celsius" }, "name": "Tire temperature"}
   ]},
 { "hdr": "726", "rax": "72E", "cmd": {"22": "2813"}, "freq": 5, "dbgfilter": { "to": 2015, "years": [2017, 2018, 2020, 2021, 2022, 2023], "from": 2026 },
   "signals": [
@@ -64,11 +64,11 @@
   ]},
 { "hdr": "726", "rax": "72E", "cmd": {"22": "2817"}, "freq": 5, "dbgfilter": { "to": 2015, "years": [2017, 2018, 2020, 2021, 2022, 2023], "from": 2026 },
   "signals": [
-    {"id": "MUSTANG_TP_RRI", "path": "Tires", "fmt": { "len": 16, "max": 3276, "div": 20, "unit": "psi" }, "name": "Rear right inner tire pressure"}
+    {"id": "MUSTANG_TP_RRI", "path": "Tires", "fmt": { "len": 16, "max": 3276, "div": 20, "nullmax": 150, "unit": "psi" }, "name": "Rear right inner tire pressure"}
   ]},
 { "hdr": "726", "rax": "72E", "cmd": {"22": "2818"}, "freq": 5, "dbgfilter": { "to": 2015, "years": [2017, 2018, 2020, 2021, 2022, 2023], "from": 2026 },
   "signals": [
-    {"id": "MUSTANG_TP_RLI", "path": "Tires", "fmt": { "len": 16, "max": 3276, "div": 20, "unit": "psi" }, "name": "Rear left inner tire pressure"}
+    {"id": "MUSTANG_TP_RLI", "path": "Tires", "fmt": { "len": 16, "max": 3276, "div": 20, "nullmax": 150, "unit": "psi" }, "name": "Rear left inner tire pressure"}
   ]},
 { "hdr": "726", "rax": "72E", "cmd": {"22": "401E"}, "freq": 1, "dbgfilter": { "to": 2015, "years": [2017, 2018, 2020, 2021, 2022, 2023], "from": 2026 },
   "signals": [
@@ -199,7 +199,7 @@
   ]},
 { "hdr": "760", "rax": "768", "cmd": {"22": "2B0D"}, "freq": 0.25, "dbgfilter": { "to": 2023, "from": 2026 },
   "signals": [
-    {"id": "MUSTANG_BRK_FL_P", "path": "Control", "fmt": { "len": 8, "max": 255, "unit": "kilopascal" }, "name": "Brake hydraulic pressure"}
+    {"id": "MUSTANG_BRK_FL_P", "path": "Control", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Brake hydraulic pressure, raw count"}
   ]},
 { "hdr": "760", "rax": "768", "cmd": {"22": "2B11"}, "freq": 0.25, "dbgfilter": { "to": 2023, "from": 2026 },
   "signals": [
