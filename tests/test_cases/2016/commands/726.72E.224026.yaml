@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     MUSTANG_NORM_CUM_DCHG_BAT_OFF: 211.9
   response: '72E056240260847'
+- expected_values:
+    MUSTANG_NORM_CUM_DCHG_BAT_OFF: 212
+  response: '72E056240260848'

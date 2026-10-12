@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.22116B
+test_cases:
+- expected_values:
+    MUSTANG_IGN_TIM_CYL1: 1
+  response: 7E80562116B0004
+- expected_values:
+    MUSTANG_IGN_TIM_CYL1: 46
+  response: 7E80562116B00B8

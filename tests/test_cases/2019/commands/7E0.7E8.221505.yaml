@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.221505
+test_cases:
+- expected_values:
+    MUSTANG_VSS_HD: 0
+  response: '7E8056215050000'
+- expected_values:
+    MUSTANG_VSS_HD: 39.98438
+  response: 7E80562150513FE
+- expected_values:
+    MUSTANG_VSS_HD: 132.625
+  response: '7E8056215054250'

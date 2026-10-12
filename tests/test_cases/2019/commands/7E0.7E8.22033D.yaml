@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.22033D
+test_cases:
+- expected_values:
+    MUSTANG_MASS_AIRFLOW_SENS: 0
+  response: 7E80562033D0000
+- expected_values:
+    MUSTANG_MASS_AIRFLOW_SENS: 5311.25
+  response: 7E80562033D52FD
+- expected_values:
+    MUSTANG_MASS_AIRFLOW_SENS: 5532
+  response: 7E80562033D5670

@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.22093C
+test_cases:
+- expected_values:
+    MUSTANG_ETC_ANG_ACT: 0.07031
+  response: 7E80562093C0024
+- expected_values:
+    MUSTANG_ETC_ANG_ACT: 6.50781
+  response: 7E80562093C0D04
+- expected_values:
+    MUSTANG_ETC_ANG_ACT: 9.49219
+  response: 7E80562093C12FC
+- expected_values:
+    MUSTANG_ETC_ANG_ACT: 66.02344
+  response: 7E80562093C840C

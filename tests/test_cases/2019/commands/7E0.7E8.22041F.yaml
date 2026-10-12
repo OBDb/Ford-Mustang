@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.22041F
+test_cases:
+- expected_values:
+    MUSTANG_LPFP_DES: 64.815
+  response: 7E80462041F95
+- expected_values:
+    MUSTANG_LPFP_DES: 69.6
+  response: 7E80462041FA0

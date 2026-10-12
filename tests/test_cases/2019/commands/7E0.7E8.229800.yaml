@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.229800
+test_cases:
+- expected_values:
+    MUSTANG_AC_P_SENS_V: 1.25488
+  response: '7E8056298000505'
+- expected_values:
+    MUSTANG_AC_P_SENS_V: 1.49902
+  response: 7E80562980005FF
+- expected_values:
+    MUSTANG_AC_P_SENS_V: 1.51367
+  response: 7E805629800060E

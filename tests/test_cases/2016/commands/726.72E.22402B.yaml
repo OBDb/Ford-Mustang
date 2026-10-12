@@ -6,3 +6,6 @@ test_cases:
 - expected_values:
     MUSTANG_VEH_BAT_CURRENT: 1
   response: 72E0462402B80
+- expected_values:
+    MUSTANG_VEH_BAT_CURRENT: 4
+  response: 72E0462402B83
