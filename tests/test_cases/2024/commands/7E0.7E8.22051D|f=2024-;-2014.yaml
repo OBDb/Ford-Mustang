@@ -4,5 +4,5 @@ test_cases:
     MUSTANG_CYL_HEAD_T: 22
   response: 7E80462051D3E
 - expected_values:
-    MUSTANG_CYL_HEAD_T: 50
-  response: 7E80462051D5A
+    MUSTANG_CYL_HEAD_T: 51
+  response: 7E80462051D5B
