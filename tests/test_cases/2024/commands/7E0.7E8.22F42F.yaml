@@ -1,8 +1,8 @@
 command_id: 7E0.7E8.22F42F
 test_cases:
 - expected_values:
-    MUSTANG_FLI_7E0: 32.94118
-  response: 7E80462F42F54
+    MUSTANG_FLI_7E0: 26.27451
+  response: 7E80462F42F43
 - expected_values:
     MUSTANG_FLI_7E0: 96.86275
   response: 7E80462F42FF7

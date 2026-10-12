@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.221126
+test_cases:
+- expected_values:
+    MUSTANG_ERT: 66
+  response: '7E80462112642'
+- expected_values:
+    MUSTANG_ERT: 166
+  response: 7E804621126A6
+- expected_values:
+    MUSTANG_ERT: 199
+  response: 7E804621126C7
+- expected_values:
+    MUSTANG_ERT: 255
+  response: 7E804621126FF
