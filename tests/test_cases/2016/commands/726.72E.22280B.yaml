@@ -11,7 +11,12 @@ test_cases:
     72E100C62280B60680B
     72E21DF022B194B9500
 - expected_values:
-    MUSTANG_TYRE_T: 215
+    MUSTANG_TYRE_T: 54
+  response: |-
+    72E100C62280B60680B
+    72E21DF022B5E4BDA00
+- expected_values:
+    MUSTANG_TYRE_T: null
   response: |-
     72E100C62280B60680B
     72E21DF022BFF4B3900
