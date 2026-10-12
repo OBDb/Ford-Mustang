@@ -4,11 +4,11 @@ test_cases:
     MUSTANG_ABS_ODO: 9529
   response: 7680662DD01002539
 - expected_values:
+    MUSTANG_ABS_ODO: 9980
+  response: 7680662DD010026FC
+- expected_values:
     MUSTANG_ABS_ODO: 67241
   response: 7680662DD010106A9
-- expected_values:
-    MUSTANG_ABS_ODO: 67254
-  response: 7680662DD010106B6
 - expected_values:
     MUSTANG_ABS_ODO: 93792
   response: 7680662DD01016E60

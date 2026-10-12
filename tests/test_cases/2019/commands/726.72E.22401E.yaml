@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     MUSTANG_NORM_CUM_CHG_IGN_ON: 25.9
   response: 72E0562401E0103
+- expected_values:
+    MUSTANG_NORM_CUM_CHG_IGN_ON: 26
+  response: 72E0562401E0104

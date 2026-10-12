@@ -7,8 +7,8 @@ test_cases:
     MUSTANG_LPFP_SENS_V: 2.24609
   response: 7E80562054D08FC
 - expected_values:
-    MUSTANG_LPFP_SENS_V: 2.26074
-  response: 7E80562054D090B
+    MUSTANG_LPFP_SENS_V: 2.25586
+  response: 7E80562054D0906
 - expected_values:
     MUSTANG_LPFP_SENS_V: 2.71484
   response: 7E80562054D0ADC

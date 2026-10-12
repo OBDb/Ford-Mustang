@@ -6,3 +6,12 @@ test_cases:
 - expected_values:
     MUSTANG_CMD_GEN_DUTY: 3.57084
   response: 7E8056216E80492
+- expected_values:
+    MUSTANG_CMD_GEN_DUTY: 58.8273
+  response: 7E8056216E84B4B
+- expected_values:
+    MUSTANG_CMD_GEN_DUTY: 59.02568
+  response: 7E8056216E84B8C
+- expected_values:
+    MUSTANG_CMD_GEN_DUTY: 60.37772
+  response: 7E8056216E84D47

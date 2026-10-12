@@ -5,4 +5,4 @@ test_cases:
   response: 7E8046203C000
 - expected_values:
     MUSTANG_MIS_MON_STAT: 1
-  response: 7E8046203C0FD
+  response: 7E8046203C0FF
