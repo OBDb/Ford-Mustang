@@ -4,5 +4,5 @@ test_cases:
     MUSTANG_FLI_7E0: 26.27451
   response: 7E80462F42F43
 - expected_values:
-    MUSTANG_FLI_7E0: 96.86275
-  response: 7E80462F42FF7
+    MUSTANG_FLI_7E0: 99.60784
+  response: 7E80462F42FFE

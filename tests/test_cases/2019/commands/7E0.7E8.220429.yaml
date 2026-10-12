@@ -4,11 +4,11 @@ test_cases:
     MUSTANG_FUEL_T_7E0: 23.57812
   response: 7E80562042905E5
 - expected_values:
-    MUSTANG_FUEL_T_7E0: 24.07812
-  response: '7E8056204290605'
+    MUSTANG_FUEL_T_7E0: 35.9375
+  response: 7E80562042908FC
 - expected_values:
-    MUSTANG_FUEL_T_7E0: 47.9375
-  response: 7E8056204290BFC
+    MUSTANG_FUEL_T_7E0: 44.01562
+  response: 7E8056204290B01
 - expected_values:
     MUSTANG_FUEL_T_7E0: 48.3125
   response: 7E8056204290C14

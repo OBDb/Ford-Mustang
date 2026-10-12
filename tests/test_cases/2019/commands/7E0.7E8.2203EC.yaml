@@ -4,11 +4,26 @@ test_cases:
     MUSTANG_IGN_CORR_CYL1: 0
   response: 7E8056203EC0000
 - expected_values:
+    MUSTANG_IGN_CORR_CYL1: -6
+  response: 7E8056203ECF400
+- expected_values:
+    MUSTANG_IGN_CORR_CYL1: -4.99219
+  response: 7E8056203ECF604
+- expected_values:
+    MUSTANG_IGN_CORR_CYL1: -3
+  response: 7E8056203ECFA00
+- expected_values:
     MUSTANG_IGN_CORR_CYL1: -2.5
   response: 7E8056203ECFB00
 - expected_values:
+    MUSTANG_IGN_CORR_CYL1: -1.06055
+  response: 7E8056203ECFDE1
+- expected_values:
     MUSTANG_IGN_CORR_CYL1: -1
   response: 7E8056203ECFE00
+- expected_values:
+    MUSTANG_IGN_CORR_CYL1: -0.94141
+  response: 7E8056203ECFE1E
 - expected_values:
     MUSTANG_IGN_CORR_CYL1: -0.5
   response: 7E8056203ECFF00

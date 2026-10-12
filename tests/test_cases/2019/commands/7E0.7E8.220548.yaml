@@ -7,5 +7,5 @@ test_cases:
     MUSTANG_LPFP_ACT: 72.59304
   response: 7E80562054803E9
 - expected_values:
-    MUSTANG_LPFP_ACT: 80.86038
-  response: 7E805620548045B
+    MUSTANG_LPFP_ACT: 78.03208
+  response: '7E8056205480434'
