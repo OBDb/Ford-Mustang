@@ -4,13 +4,13 @@ test_cases:
     MUSTANG_GEN_CTRL: 0
   response: '7E8056203780000'
 - expected_values:
-    MUSTANG_GEN_CTRL: 27.95022
-  response: 7E80562037823C6
-- expected_values:
     MUSTANG_GEN_CTRL: 29.12524
   response: |-
     7E8056203782547
     7E8035902FF
+- expected_values:
+    MUSTANG_GEN_CTRL: 32.64114
+  response: 7E80562037829C7
 - expected_values:
     MUSTANG_GEN_CTRL: 88.49579
   response: '7E8056203787144'

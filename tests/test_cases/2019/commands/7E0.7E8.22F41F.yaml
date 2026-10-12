@@ -4,11 +4,11 @@ test_cases:
     MUSTANG_RUN_TIME: 11
   response: 7E80562F41F000B
 - expected_values:
-    MUSTANG_RUN_TIME: 258
-  response: 7E80562F41F0102
+    MUSTANG_RUN_TIME: 256
+  response: 7E80562F41F0100
 - expected_values:
     MUSTANG_RUN_TIME: 511
   response: 7E80562F41F01FF
 - expected_values:
-    MUSTANG_RUN_TIME: 1046
-  response: 7E80562F41F0416
+    MUSTANG_RUN_TIME: 1294
+  response: 7E80562F41F050E

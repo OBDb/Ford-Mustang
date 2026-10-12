@@ -6,3 +6,6 @@ test_cases:
 - expected_values:
     MUSTANG_LPFP_DES: 69.6
   response: 7E80462041FA0
+- expected_values:
+    MUSTANG_LPFP_DES: 72.645
+  response: 7E80462041FA7

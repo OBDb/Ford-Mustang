@@ -4,6 +4,12 @@ test_cases:
     MUSTANG_PCM_VEH_ODO: 9529.2
   response: 7E80762F4A60001743C
 - expected_values:
+    MUSTANG_PCM_VEH_ODO: 9881.7
+  response: 7E80762F4A600018201
+- expected_values:
+    MUSTANG_PCM_VEH_ODO: 9958.8
+  response: 7E80762F4A600018504
+- expected_values:
     MUSTANG_PCM_VEH_ODO: 67242
   response: 7E80762F4A6000A42A4
 - expected_values:
@@ -12,6 +18,3 @@ test_cases:
 - expected_values:
     MUSTANG_PCM_VEH_ODO: 93792
   response: 7E80762F4A6000E4FC0
-- expected_values:
-    MUSTANG_PCM_VEH_ODO: 93798.5
-  response: 7E80762F4A6000E5001
