@@ -1,6 +1,9 @@
 command_id: 7E0.7E8.22F4A6
 test_cases:
 - expected_values:
+    MUSTANG_PCM_VEH_ODO: 9529.2
+  response: 7E80762F4A60001743C
+- expected_values:
     MUSTANG_PCM_VEH_ODO: 67242
   response: 7E80762F4A6000A42A4
 - expected_values:
