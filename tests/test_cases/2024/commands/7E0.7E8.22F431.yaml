@@ -4,23 +4,8 @@ test_cases:
     MUSTANG_DIST_DTC_CLR: 4720
   response: 7E80562F4311270
 - expected_values:
-    MUSTANG_DIST_DTC_CLR: 4721
-  response: 7E80562F4311271
-- expected_values:
-    MUSTANG_DIST_DTC_CLR: 4722
-  response: 7E80562F4311272
-- expected_values:
-    MUSTANG_DIST_DTC_CLR: 4724
-  response: 7E80562F4311274
-- expected_values:
-    MUSTANG_DIST_DTC_CLR: 4726
-  response: 7E80562F4311276
-- expected_values:
-    MUSTANG_DIST_DTC_CLR: 4728
-  response: 7E80562F4311278
-- expected_values:
-    MUSTANG_DIST_DTC_CLR: 4730
-  response: 7E80562F431127A
+    MUSTANG_DIST_DTC_CLR: 4864
+  response: 7E80562F4311300
 - expected_values:
     MUSTANG_DIST_DTC_CLR: 65535
   response: 7E80562F431FFFF

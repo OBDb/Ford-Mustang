@@ -4,5 +4,5 @@ test_cases:
     MUSTANG_VSS: 0
   response: 7E80462F40D00
 - expected_values:
-    MUSTANG_VSS: 126
-  response: 7E80462F40D7E
+    MUSTANG_VSS: 131
+  response: 7E80462F40D83

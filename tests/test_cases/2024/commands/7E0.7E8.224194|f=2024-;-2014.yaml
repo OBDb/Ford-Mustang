@@ -4,8 +4,8 @@ test_cases:
     MUSTANG_DTE: 161.2
   response: 7E805624194064C
 - expected_values:
-    MUSTANG_DTE: 177.5
-  response: 7E80562419406EF
+    MUSTANG_DTE: 332.5
+  response: 7E8056241940CFD
 - expected_values:
     MUSTANG_DTE: 512.2
   response: '7E8056241941402'
