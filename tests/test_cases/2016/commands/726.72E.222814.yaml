@@ -4,29 +4,5 @@ test_cases:
     MUSTANG_TP_FR: 30.55
   response: '72E056228140263'
 - expected_values:
-    MUSTANG_TP_FR: 31.65
-  response: '72E056228140279'
-- expected_values:
-    MUSTANG_TP_FR: 31.9
-  response: 72E05622814027E
-- expected_values:
-    MUSTANG_TP_FR: 32.15
-  response: '72E056228140283'
-- expected_values:
-    MUSTANG_TP_FR: 32.4
-  response: '72E056228140288'
-- expected_values:
-    MUSTANG_TP_FR: 32.65
-  response: 72E05622814028D
-- expected_values:
-    MUSTANG_TP_FR: 32.9
-  response: '72E056228140292'
-- expected_values:
-    MUSTANG_TP_FR: 33.15
-  response: '72E056228140297'
-- expected_values:
-    MUSTANG_TP_FR: 33.3
-  response: 72E05622814029A
-- expected_values:
     MUSTANG_TP_FR: 33.55
   response: 72E05622814029F

@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.2205FC|f=2024-;-2014
+test_cases:
+- expected_values:
+    MUSTANG_PCM_CYL_HEAD_T_SENS_2_RAW: 42.03125
+  response: 7E8056205FC0A82
+- expected_values:
+    MUSTANG_PCM_CYL_HEAD_T_SENS_2_RAW: 79.90625
+  response: 7E8056205FC13FA
+- expected_values:
+    MUSTANG_PCM_CYL_HEAD_T_SENS_2_RAW: 92.01562
+  response: 7E8056205FC1701
+- expected_values:
+    MUSTANG_PCM_CYL_HEAD_T_SENS_2_RAW: 101.60938
+  response: 7E8056205FC1967

@@ -4,5 +4,5 @@ test_cases:
     MUSTANG_ENG_LOAD_PCT: 0
   response: 7E80462F40400
 - expected_values:
-    MUSTANG_ENG_LOAD_PCT: 69.01961
-  response: 7E80462F404B0
+    MUSTANG_ENG_LOAD_PCT: 82.35294
+  response: 7E80462F404D2

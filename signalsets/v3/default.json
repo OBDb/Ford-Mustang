@@ -94,7 +94,7 @@
   "signals": [
     {"id": "MUSTANG_BATT_SOC", "path": "Battery", "fmt": { "len": 8, "max": 100, "unit": "percent" }, "name": "Battery charge"}
   ]},
-{ "hdr": "726", "rax": "72E", "cmd": {"22": "4029"}, "freq": 10, "dbgfilter": { "to": 2015, "years": [2017, 2018], "from": 2020 },
+{ "hdr": "726", "rax": "72E", "cmd": {"22": "4029"}, "freq": 10, "filter": { "to": 2023 }, "dbgfilter": { "to": 2015, "years": [2017, 2018], "from": 2020 },
   "signals": [
     {"id": "MUSTANG_BATT_TEMP", "path": "Battery", "fmt": { "len": 8, "max": 100, "min": -40, "add": -40, "unit": "celsius" }, "name": "Battery temperature"}
   ]},
@@ -318,7 +318,7 @@
   "signals": [
     {"id": "[ECU] ECT", "fmt": { "len": 16, "max": 148.889, "min": -40, "div": 64, "sign": true, "unit": "celsius" }, "name": "Engine coolant temperature"}
   ]},
-{ "hdr": "7E0", "cmd": {"22": "0393"}, "freq": 0.25, "dbgfilter": { "to": 2011, "years": [2014, 2015, 2020, 2021], "from": 2023 },
+{ "hdr": "7E0", "cmd": {"22": "0393"}, "freq": 0.25, "filter": { "to": 2023 }, "dbgfilter": { "to": 2011, "years": [2014, 2015, 2020, 2021], "from": 2023 },
   "signals": [
     {"id": "[ECU] AC Pressure", "fmt": { "len": 16, "max": 1000, "min": -100, "mul": 0.2900754962, "unit": "psi" }, "name": "Air conditioning compressor pressure"}
   ]},
@@ -358,7 +358,7 @@
   "signals": [
     {"id": "MUSTANG_PCM_CYL_HEAD_T_CORR", "path": "Engine", "fmt": { "len": 16, "max": 511, "min": -512, "div": 64, "sign": true, "unit": "celsius" }, "name": "Cylinder head temperature"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "033D"}, "freq": 1, "dbgfilter": { "to": 2018, "from": 2020 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "033D"}, "freq": 1, "filter": { "to": 2023 }, "dbgfilter": { "to": 2018, "from": 2020 },
   "signals": [
     {"id": "MUSTANG_MASS_AIRFLOW_SENS", "path": "Engine", "fmt": { "len": 16, "max": 16383, "div": 4, "unit": "hertz" }, "name": "Mass airflow sensor frequency"}
   ]},
@@ -366,11 +366,11 @@
   "signals": [
     {"id": "MUSTANG_PCM_MISF_EVENTS_LATEST_CYC", "path": "Engine", "fmt": { "len": 32, "max": 4294967295, "unit": "scalar" }, "name": "Misfire events, latest cycle"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0370"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2026 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0370"}, "freq": 1, "filter": { "to": 2014, "from": 2024 }, "dbgfilter": { "from": 2026 },
   "signals": [
     {"id": "MUSTANG_MAP_HIRES", "path": "Engine", "fmt": { "len": 16, "max": 16383.75, "div": 4, "unit": "kilopascal" }, "name": "Manifold absolute pressure, high resolution"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0378"}, "freq": 1, "dbgfilter": { "to": 2015, "years": [2017, 2018], "from": 2020 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0378"}, "freq": 1, "filter": { "to": 2023 }, "dbgfilter": { "to": 2015, "years": [2017, 2018], "from": 2020 },
   "signals": [
     {"id": "MUSTANG_GEN_CTRL", "path": "Engine", "fmt": { "len": 16, "max": 100, "mul": 0.003052, "unit": "percent" }, "name": "Generator control"}
   ]},
@@ -390,11 +390,11 @@
   "signals": [
     {"id": "MUSTANG_PCM_MISF_ACCEL_CYL4_NORM", "path": "Engine", "fmt": { "len": 8, "max": 1.98, "min": -2, "div": 64, "sign": true, "unit": "scalar" }, "name": "Misfire acceleration, cylinder 4"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "038C"}, "freq": 1, "dbgfilter": { "to": 2015, "years": [2017, 2018, 2020, 2021, 2022, 2023, 2024], "from": 2026 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "038C"}, "freq": 1, "dbgfilter": { "to": 2015, "years": [2017, 2018, 2020, 2021, 2022, 2023], "from": 2026 },
   "signals": [
     {"id": "MUSTANG_PCM_MISF_ACCEL_CYL5_NORM", "path": "Engine", "fmt": { "len": 8, "max": 1.98, "min": -2, "div": 64, "sign": true, "unit": "scalar" }, "name": "Misfire acceleration, cylinder 5"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0398"}, "freq": 1, "dbgfilter": { "to": 2015, "years": [2017, 2018, 2020, 2021, 2022, 2023, 2024], "from": 2026 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0398"}, "freq": 1, "dbgfilter": { "to": 2015, "years": [2017, 2018, 2020, 2021, 2022, 2023], "from": 2026 },
   "signals": [
     {"id": "MUSTANG_PCM_MISF_ACCEL_CYL6_NORM", "path": "Engine", "fmt": { "len": 8, "max": 1.98, "min": -2, "div": 64, "sign": true, "unit": "scalar" }, "name": "Misfire acceleration, cylinder 6"}
   ]},
@@ -402,7 +402,7 @@
   "signals": [
     {"id": "MUSTANG_TRQ_CTRL_REQ", "path": "Engine", "fmt": { "len": 8, "max": 100, "unit": "percent" }, "name": "Torque request"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "03B9"}, "freq": 0.25, "dbgfilter": { "to": 2023, "from": 2026 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "03B9"}, "freq": 0.25, "filter": { "to": 2014, "from": 2024 }, "dbgfilter": { "from": 2026 },
   "signals": [
     {"id": "MUSTANG_FAN_SPD_DES", "path": "Movement", "fmt": { "len": 16, "max": 100, "mul": 40, "div": 13107, "unit": "percent" }, "name": "Fan speed, desired"}
   ]},
@@ -414,7 +414,7 @@
   "signals": [
     {"id": "MUSTANG_FUEL_RAIL_P_CTRL", "path": "Fuel", "fmt": { "len": 8, "max": 127, "div": 2, "unit": "percent" }, "name": "Fuel rail pressure control"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "03E3"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2025 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "03E3"}, "freq": 1, "filter": { "to": 2014, "from": 2024 }, "dbgfilter": { "from": 2025 },
   "signals": [
     {"id": "MUSTANG_PF_DIFF_P_FEEDBACK_V", "path": "Battery", "fmt": { "len": 16, "max": 32.01, "min": -32.01, "mul": 977, "div": 1000000, "sign": true, "unit": "volts" }, "name": "PF differential pressure feedback EGR sensor voltage"}
   ]},
@@ -455,7 +455,7 @@
   "signals": [
     {"id": "MUSTANG_LPFP_DES", "path": "Engine", "fmt": { "len": 8, "max": 110, "mul": 435, "div": 1000, "unit": "psi" }, "name": "Fuel pressure, low desired"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0427"}, "freq": 0.25, "dbgfilter": { "to": 2023, "from": 2025 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0427"}, "freq": 0.25, "filter": { "to": 2014, "from": 2024 }, "dbgfilter": { "from": 2025 },
   "signals": [
     {"id": "MUSTANG_BPV_OPEN", "path": "Engine", "fmt": { "len": 8, "max": 1, "div": 255, "unit": "scalar" }, "name": "Bypass valve"}
   ]},
@@ -479,11 +479,11 @@
   "signals": [
     {"id": "MUSTANG_CAT", "path": "Engine", "fmt": { "len": 16, "max": 189, "min": -40, "div": 64, "add": -40, "sign": true, "unit": "celsius" }, "name": "Charge air temperature"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0462"}, "freq": 0.25, "dbgfilter": { "to": 2023, "from": 2025 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0462"}, "freq": 0.25, "filter": { "to": 2014, "from": 2024 }, "dbgfilter": { "from": 2025 },
   "signals": [
     {"id": "MUSTANG_WGDC", "path": "Engine", "fmt": { "len": 16, "max": 100, "mul": 100, "div": 32768, "unit": "percent" }, "name": "Wastegate duty cycle"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0466"}, "freq": 0.25, "dbgfilter": { "to": 2023, "from": 2025 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0466"}, "freq": 0.25, "filter": { "to": 2014, "from": 2024 }, "dbgfilter": { "from": 2025 },
   "signals": [
     {"id": "MUSTANG_TIP_DES_ABS", "path": "Engine", "fmt": { "len": 16, "max": 72.5, "mul": 37, "div": 33441, "unit": "psi" }, "name": "Throttle inlet pressure, desired"}
   ]},
@@ -535,7 +535,7 @@
   "signals": [
     {"id": "MUSTANG_CYL_8_FUEL_QTY", "path": "Fuel", "fmt": {"bix": 8, "len": 24, "max": 65.53, "min": -65.53, "div": 128000, "sign": true, "unit": "scalar" }, "name": "Cylinder 8 fuel quantity"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "04F7"}, "freq": 1, "dbgfilter": { "to": 2015, "from": 2017 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "04F7"}, "freq": 1, "filter": { "to": 2023 }, "dbgfilter": { "to": 2015, "from": 2017 },
   "signals": [
     {"id": "MUSTANG_GEN_CURRENT", "path": "Engine", "fmt": { "len": 16, "max": 511.8205, "min": -511.8361, "mul": 781, "div": 50000, "sign": true, "unit": "amps" }, "name": "Generator current"}
   ]},
@@ -543,7 +543,7 @@
   "signals": [
     {"id": "MUSTANG_CHG_AIR_T", "path": "Battery", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Charge air temperature"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "051D"}, "freq": 5, "dbgfilter": { "to": 2024, "from": 2026 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "051D"}, "freq": 5, "filter": { "to": 2014, "from": 2024 }, "dbgfilter": { "from": 2026 },
   "signals": [
     {"id": "MUSTANG_CYL_HEAD_T", "path": "Engine", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Cylinder head temperature"}
   ]},
@@ -631,11 +631,11 @@
   "signals": [
     {"id": "MUSTANG_EOP_DES", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "kilopascal" }, "name": "Engine oil pressure - desired"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "05FC"}, "freq": 2, "dbgfilter": { "to": 2023, "from": 2026 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "05FC"}, "freq": 2, "filter": { "to": 2014, "from": 2024 }, "dbgfilter": { "from": 2026 },
   "signals": [
     {"id": "MUSTANG_PCM_CYL_HEAD_T_SENS_2_RAW", "path": "Engine", "fmt": { "len": 16, "max": 511.9843, "min": -512, "div": 64, "sign": true, "unit": "celsius" }, "name": "Cylinder head temperature, sensor 2"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0604"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2026 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0604"}, "freq": 1, "filter": { "to": 2014, "from": 2024 }, "dbgfilter": { "from": 2026 },
   "signals": [
     {"id": "MUSTANG_PCM_A_C_REFRIG_P", "path": "Climate", "fmt": { "len": 16, "max": 32767, "min": -32768, "sign": true, "unit": "kilopascal" }, "name": "A/C refrigerant pressure"}
   ]},
@@ -739,7 +739,7 @@
   "signals": [
     {"id": "MUSTANG_IAT_1", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "fahrenheit" }, "name": "Intake air temperature 1"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1126"}, "freq": 30, "dbgfilter": { "to": 2015, "years": [2017, 2018, 2020, 2021, 2022, 2023, 2024], "from": 2026 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1126"}, "freq": 30, "dbgfilter": { "to": 2015, "years": [2017, 2018, 2020, 2021, 2022, 2023], "from": 2026 },
   "signals": [
     {"id": "MUSTANG_ERT", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "seconds" }, "name": "Engine run time"}
   ]},
@@ -931,7 +931,7 @@
   "signals": [
     {"id": "MUSTANG_WASTEGATE_CTRL", "path": "Engine", "fmt": { "len": 16, "max": 100, "mul": 763, "div": 50000, "unit": "percent" }, "name": "Wastegate control"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "16E8"}, "freq": 1, "dbgfilter": { "to": 2015, "years": [2017, 2018], "from": 2020 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "16E8"}, "freq": 1, "filter": { "to": 2023 }, "dbgfilter": { "to": 2015, "years": [2017, 2018], "from": 2020 },
   "signals": [
     {"id": "MUSTANG_CMD_GEN_DUTY", "path": "Engine", "fmt": { "len": 16, "max": 100, "mul": 0.003052, "unit": "percent" }, "name": "Commanded generator duty"}
   ]},
@@ -951,7 +951,7 @@
         }}
     }
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1E13"}, "freq": 0.25, "dbgfilter": { "to": 2015, "from": 2017 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1E13"}, "freq": 0.25, "filter": { "to": 2023 }, "dbgfilter": { "to": 2015, "from": 2017 },
   "signals": [
     {"id": "MUSTANG_ACT_TURBINE_SHFT_SPD", "path": "Movement", "fmt": { "len": 16, "max": 16383, "div": 4, "unit": "rpm" }, "name": "Actual turbine shaft speed"}
   ]},
@@ -971,7 +971,7 @@
   "signals": [
     {"id": "MUSTANG_PCM_CMD_TRANS_MAIN_LINE_P", "path": "Transmission", "fmt": { "len": 16, "max": 65534, "min": -65536, "mul": 2, "sign": true, "unit": "kilopascal" }, "name": "Transmission pressure, commanded"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1E1B"}, "freq": 0.25, "dbgfilter": { "to": 2015, "from": 2017 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1E1B"}, "freq": 0.25, "filter": { "to": 2023 }, "dbgfilter": { "to": 2015, "from": 2017 },
   "signals": [
     {"id": "MUSTANG_ACT_OUTPUT_SHFT_SPD", "path": "Movement", "fmt": { "len": 16, "max": 16383, "div": 4, "unit": "rpm" }, "name": "Actual output shaft speed"}
   ]},
@@ -979,7 +979,7 @@
   "signals": [
     {"id": "MUSTANG_TOT_7E0", "path": "Engine", "fmt": { "len": 16, "max": 500, "min": -500, "div": 16, "sign": true, "unit": "celsius" }, "name": "Transmission oil temperature"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1E1F"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2026 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1E1F"}, "freq": 1, "filter": { "to": 2014, "from": 2024 }, "dbgfilter": { "from": 2026 },
   "signals": [
     {"id": "MUSTANG_GEAR_ENG", "path": "Transmission", "fmt": { "len": 8, "max": 6, "unit": "scalar" }, "name": "Gear, engaged"}
   ]},
@@ -1014,11 +1014,11 @@
   "signals": [
     {"id": "MUSTANG_BAT_PERCENTAGE_ST", "path": "Battery", "fmt": { "len": 8, "max": 255, "unit": "percent" }, "name": "Battery percentage, state of charge"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "4194"}, "freq": 5, "dbgfilter": { "to": 2023, "from": 2026 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "4194"}, "freq": 5, "filter": { "to": 2014, "from": 2024 }, "dbgfilter": { "from": 2026 },
   "signals": [
     {"id": "MUSTANG_DTE", "path": "Trips", "fmt": { "len": 16, "max": 6553.5, "div": 10, "unit": "kilometers" }, "name": "Distance to empty, calculated", "suggestedMetric": "fuelRange"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "4195"}, "freq": 5, "dbgfilter": { "to": 2023, "from": 2026 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "4195"}, "freq": 5, "filter": { "to": 2014, "from": 2024 }, "dbgfilter": { "from": 2026 },
   "signals": [
     {"id": "MUSTANG_DTE_DISP", "path": "Trips", "fmt": { "len": 16, "max": 6553.5, "div": 10, "unit": "kilometers" }, "name": "Distance to empty, displayed", "suggestedMetric": "fuelRange"}
   ]},
@@ -1122,27 +1122,27 @@
   "signals": [
     {"id": "MUSTANG_EOT_F45C", "path": "Engine", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Engine oil temperature, alternate", "suggestedMetric": "engineOilTemperature"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F45E"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2026 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F45E"}, "freq": 1, "filter": { "to": 2014, "from": 2024 }, "dbgfilter": { "from": 2026 },
   "signals": [
     {"id": "MUSTANG_ENG_FUEL_RATE", "path": "Fuel", "fmt": { "len": 16, "max": 3276.75, "div": 20, "unit": "liters" }, "name": "Engine fuel rate"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F462"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2026 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F462"}, "freq": 1, "filter": { "to": 2014, "from": 2024 }, "dbgfilter": { "from": 2026 },
   "signals": [
     {"id": "MUSTANG_PCM_ACT_ENG_PCT_TRQ", "path": "Engine", "fmt": { "len": 8, "max": 100, "add": -125, "unit": "percent" }, "name": "Actual engine percent torque"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F463"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2026 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F463"}, "freq": 1, "filter": { "to": 2014, "from": 2024 }, "dbgfilter": { "from": 2026 },
   "signals": [
     {"id": "MUSTANG_PCM_ENG_REFERENCE_TRQ", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "newtonMeters" }, "name": "Engine reference torque"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F46B"}, "freq": 5, "dbgfilter": { "to": 2023, "from": 2025 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F46B"}, "freq": 5, "filter": { "to": 2014, "from": 2024 }, "dbgfilter": { "from": 2025 },
   "signals": [
     {"id": "MUSTANG_EGR_T_7E0_7E0", "path": "Engine", "fmt": { "len": 16, "max": 6513, "min": -40, "div": 10, "add": -40, "unit": "celsius" }, "name": "Exhaust gas recirculation temperature"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F478"}, "freq": 5, "dbgfilter": { "to": 2023, "from": 2025 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F478"}, "freq": 5, "filter": { "to": 2014, "from": 2024 }, "dbgfilter": { "from": 2025 },
   "signals": [
     {"id": "MUSTANG_EGT_B1", "path": "Engine", "fmt": { "len": 16, "max": 6513, "min": -40, "div": 10, "add": -40, "unit": "celsius" }, "name": "Exhaust gas temperature, bank 1"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F4A6"}, "freq": 5, "dbgfilter": { "to": 2023, "from": 2026 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F4A6"}, "freq": 5, "filter": { "to": 2014, "from": 2024 }, "dbgfilter": { "from": 2026 },
   "signals": [
     {"id": "MUSTANG_PCM_VEH_ODO", "path": "Trips", "fmt": { "len": 32, "max": 429496729.5, "div": 10, "unit": "kilometers" }, "name": "Vehicle odometer", "suggestedMetric": "odometer"}
   ]},
