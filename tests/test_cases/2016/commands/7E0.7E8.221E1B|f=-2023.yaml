@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.221E1B|f=-2023
+test_cases:
+- expected_values:
+    MUSTANG_ACT_OUTPUT_SHFT_SPD: 0
+  response: 7E805621E1B0000
+- expected_values:
+    MUSTANG_ACT_OUTPUT_SHFT_SPD: 2431.25
+  response: 7E805621E1B25FD
+- expected_values:
+    MUSTANG_ACT_OUTPUT_SHFT_SPD: 2898.75
+  response: 7E805621E1B2D4B

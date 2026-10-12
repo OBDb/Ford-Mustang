@@ -76,4 +76,4 @@ supported_commands_by_ecu:
 unsupported_commands_by_ecu:
   "7E0":
   - 7E0.22030F:[ECU] Commanded lambda
-  - 7E0.220393:[ECU] AC Pressure
+  - 7E0.220393
