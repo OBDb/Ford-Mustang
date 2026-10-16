@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.22F442
+test_cases:
+- expected_values:
+    MUSTANG_BAT_V_7E0: 12.627
+  response: 7E80562F4423153
+- expected_values:
+    MUSTANG_BAT_V_7E0: 13.301
+  response: 7E80562F44233F5
+- expected_values:
+    MUSTANG_BAT_V_7E0: 13.315
+  response: 7E80562F4423403
+- expected_values:
+    MUSTANG_BAT_V_7E0: 14.6
+  response: 7E80562F4423908

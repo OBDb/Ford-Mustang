@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.22054D
+test_cases:
+- expected_values:
+    MUSTANG_LPFP_SENS_V: 1.97266
+  response: 7E80562054D07E4
+- expected_values:
+    MUSTANG_LPFP_SENS_V: 1.99805
+  response: 7E80562054D07FE
+- expected_values:
+    MUSTANG_LPFP_SENS_V: 2.00098
+  response: 7E80562054D0801

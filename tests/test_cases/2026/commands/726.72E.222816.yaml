@@ -1,0 +1,29 @@
+command_id: 726.72E.222816
+test_cases:
+- expected_values:
+    MUSTANG_TP_RLO: 30.65
+  response: '72E056228160265'
+- expected_values:
+    MUSTANG_TP_RLO: 30.7
+  response: '72E056228160266'
+- expected_values:
+    MUSTANG_TP_RLO: 30.8
+  response: '72E056228160268'
+- expected_values:
+    MUSTANG_TP_RLO: 30.9
+  response: 72E05622816026A
+- expected_values:
+    MUSTANG_TP_RLO: 30.95
+  response: 72E05622816026B
+- expected_values:
+    MUSTANG_TP_RLO: 31.05
+  response: 72E05622816026D
+- expected_values:
+    MUSTANG_TP_RLO: 31.1
+  response: 72E05622816026E
+- expected_values:
+    MUSTANG_TP_RLO: 31.2
+  response: '72E056228160270'
+- expected_values:
+    MUSTANG_TP_RLO: 31.35
+  response: '72E056228160273'

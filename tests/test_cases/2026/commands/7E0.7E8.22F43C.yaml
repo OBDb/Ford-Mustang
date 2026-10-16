@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.22F43C
+test_cases:
+- expected_values:
+    MUSTANG_CAT_TEMP: 385.6
+  response: 7E80562F43C10A0
+- expected_values:
+    MUSTANG_CAT_TEMP: 446.3
+  response: 7E80562F43C12FF
+- expected_values:
+    MUSTANG_CAT_TEMP: 549.1
+  response: 7E80562F43C1703
+- expected_values:
+    MUSTANG_CAT_TEMP: 703.6
+  response: 7E80562F43C1D0C

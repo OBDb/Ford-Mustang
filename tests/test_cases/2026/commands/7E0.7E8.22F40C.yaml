@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.22F40C
+test_cases:
+- expected_values:
+    MUSTANG_RPM: 0
+  response: 7E80562F40C0000
+- expected_values:
+    MUSTANG_RPM: 1151.25
+  response: 7E80562F40C11FD
+- expected_values:
+    MUSTANG_RPM: 2646.5
+  response: 7E80562F40C295A
