@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.22F41F
+test_cases:
+- expected_values:
+    MUSTANG_RUN_TIME: 977
+  response: 7E80562F41F03D1
+- expected_values:
+    MUSTANG_RUN_TIME: 2306
+  response: 7E80562F41F0902
+- expected_values:
+    MUSTANG_RUN_TIME: 5375
+  response: 7E80562F41F14FF
+- expected_values:
+    MUSTANG_RUN_TIME: 6667
+  response: 7E80562F41F1A0B

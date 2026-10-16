@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.224194|f=2024-;-2014
+test_cases:
+- expected_values:
+    MUSTANG_DTE: 426.7
+  response: 7E80562419410AB
+- expected_values:
+    MUSTANG_DTE: 460.6
+  response: 7E80562419411FE
+- expected_values:
+    MUSTANG_DTE: 460.8
+  response: '7E8056241941200'
+- expected_values:
+    MUSTANG_DTE: 486.5
+  response: '7E8056241941301'
