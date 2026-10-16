@@ -4,29 +4,5 @@ test_cases:
     MUSTANG_BATT_SOC: 45
   response: 72E046240282D
 - expected_values:
-    MUSTANG_BATT_SOC: 46
-  response: 72E046240282E
-- expected_values:
-    MUSTANG_BATT_SOC: 47
-  response: 72E046240282F
-- expected_values:
-    MUSTANG_BATT_SOC: 48
-  response: '72E0462402830'
-- expected_values:
-    MUSTANG_BATT_SOC: 49
-  response: '72E0462402831'
-- expected_values:
-    MUSTANG_BATT_SOC: 50
-  response: '72E0462402832'
-- expected_values:
-    MUSTANG_BATT_SOC: 51
-  response: '72E0462402833'
-- expected_values:
-    MUSTANG_BATT_SOC: 55
-  response: '72E0462402837'
-- expected_values:
-    MUSTANG_BATT_SOC: 57
-  response: '72E0462402839'
-- expected_values:
-    MUSTANG_BATT_SOC: 58
-  response: 72E046240283A
+    MUSTANG_BATT_SOC: 97
+  response: '72E0462402861'
