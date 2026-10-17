@@ -4,5 +4,5 @@ test_cases:
     MUSTANG_ENG_LOAD_ACT: 7.84314
   response: 7E80562F4430014
 - expected_values:
-    MUSTANG_ENG_LOAD_ACT: 90.98039
-  response: 7E80562F44300E8
+    MUSTANG_ENG_LOAD_ACT: 93.72549
+  response: 7E80562F44300EF
