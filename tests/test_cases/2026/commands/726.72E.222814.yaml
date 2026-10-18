@@ -4,5 +4,5 @@ test_cases:
     MUSTANG_TP_FR: 32.15
   response: '72E056228140283'
 - expected_values:
-    MUSTANG_TP_FR: 33.95
-  response: 72E0562281402A7
+    MUSTANG_TP_FR: 35.45
+  response: 72E0562281402C5
