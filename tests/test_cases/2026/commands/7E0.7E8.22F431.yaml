@@ -10,5 +10,5 @@ test_cases:
     MUSTANG_DIST_DTC_CLR: 8704
   response: 7E80562F4312200
 - expected_values:
-    MUSTANG_DIST_DTC_CLR: 10241
-  response: 7E80562F4312801
+    MUSTANG_DIST_DTC_CLR: 10496
+  response: 7E80562F4312900
