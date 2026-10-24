@@ -238,9 +238,9 @@
   ]},
 { "hdr": "7D0", "rax": "7D8", "cmd": {"22": "8012"}, "freq": 0.25, "dbgfilter": { "to": 2015, "years": [2017, 2018], "from": 2020 },
   "signals": [
-    {"id": "MUSTANG_SYNC_GPS_ALTITUDE", "path": "Engine",   "fmt": {            "len": 16, "max": 65535,                       "unit": "scalar"            }, "name": "Navigation altitude"},
-    {"id": "MUSTANG_SYNC_GPS_SPD",      "path": "Movement", "fmt": {"bix": 88,  "len": 16, "max": 235926, "mul": 18, "div": 5, "unit": "kilometersPerHour" }, "name": "Navigation speed"},
-    {"id": "MUSTANG_SYNC_GPS_HEADING",  "path": "Engine",   "fmt": {"bix": 104, "len": 16, "max": 65535,                       "unit": "degrees"           }, "name": "Navigation heading"}
+    {"id": "MUSTANG_SYNC_GPS_ALTITUDE", "path": "Engine",   "fmt": {            "len": 16, "max": 65535,                                         "unit": "scalar"            }, "name": "Navigation altitude"},
+    {"id": "MUSTANG_SYNC_GPS_SPD",      "path": "Movement", "fmt": {"bix": 88,  "len": 16, "max": 235926, "mul": 18, "div": 5, "nullmax": 406.7, "unit": "kilometersPerHour" }, "name": "Navigation speed"},
+    {"id": "MUSTANG_SYNC_GPS_HEADING",  "path": "Engine",   "fmt": {"bix": 104, "len": 16, "max": 65535,                                         "unit": "degrees"           }, "name": "Navigation heading"}
   ]},
 { "hdr": "7E0", "cmd": {"22": "0301"}, "freq": 0.25, "dbgfilter": { "to": 2011, "years": [2014, 2015, 2019, 2020, 2021, 2022, 2023], "from": 2027 },
   "signals": [
