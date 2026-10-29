@@ -4,5 +4,5 @@ test_cases:
     MUSTANG_STFT: -22.65625
   response: 7E80462F40663
 - expected_values:
-    MUSTANG_STFT: 14.84375
-  response: 7E80462F40693
+    MUSTANG_STFT: 22.65625
+  response: 7E80462F4069D
