@@ -10,5 +10,5 @@ test_cases:
     MUSTANG_DTE_DISP: 435.2
   response: '7E8056241951100'
 - expected_values:
-    MUSTANG_DTE_DISP: 486.4
-  response: '7E8056241951300'
+    MUSTANG_DTE_DISP: 707.3
+  response: 7E8056241951BA1
