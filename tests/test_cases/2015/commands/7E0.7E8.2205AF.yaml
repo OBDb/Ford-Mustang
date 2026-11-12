@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.2205AF
+test_cases:
+- expected_values:
+    MUSTANG_PCM_CYL_4_KNK_COMB_PERF_CNT: 0
+  response: 7E8046205AF00
+- expected_values:
+    MUSTANG_PCM_CYL_4_KNK_COMB_PERF_CNT: 0
+  response: |-
+    7E8046205AF00
+    7E803410D00
+    7E804410C0EEF

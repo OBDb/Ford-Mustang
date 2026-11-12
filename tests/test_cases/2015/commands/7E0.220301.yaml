@@ -1,0 +1,14 @@
+command_id: 7E0.220301
+test_cases:
+- expected_values:
+    '[ECU] MAP voltage': 0.41504
+  response: 7E80562030101A9
+- expected_values:
+    '[ECU] MAP voltage': 0.5127
+  response: 7E805620301020D
+- expected_values:
+    '[ECU] MAP voltage': 1.74316
+  response: 7E80562030106F9
+- expected_values:
+    '[ECU] MAP voltage': 2.12402
+  response: 7E805620301087F

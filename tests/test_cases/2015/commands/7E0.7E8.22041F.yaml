@@ -1,0 +1,32 @@
+command_id: 7E0.7E8.22041F
+test_cases:
+- expected_values:
+    MUSTANG_LPFP_DES: 80.04
+  response: 7E80462041FB8
+- expected_values:
+    MUSTANG_LPFP_DES: 80.475
+  response: 7E80462041FB9
+- expected_values:
+    MUSTANG_LPFP_DES: 80.91
+  response: 7E80462041FBA
+- expected_values:
+    MUSTANG_LPFP_DES: 81.345
+  response: 7E80462041FBB
+- expected_values:
+    MUSTANG_LPFP_DES: 81.78
+  response: 7E80462041FBC
+- expected_values:
+    MUSTANG_LPFP_DES: 82.215
+  response: 7E80462041FBD
+- expected_values:
+    MUSTANG_LPFP_DES: 83.085
+  response: 7E80462041FBF
+- expected_values:
+    MUSTANG_LPFP_DES: 83.52
+  response: 7E80462041FC0
+- expected_values:
+    MUSTANG_LPFP_DES: 83.955
+  response: 7E80462041FC1
+- expected_values:
+    MUSTANG_LPFP_DES: 85.26
+  response: 7E80462041FC4
