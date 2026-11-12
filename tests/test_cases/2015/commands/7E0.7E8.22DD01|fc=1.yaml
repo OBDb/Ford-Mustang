@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.22DD01|fc=1
+test_cases:
+- expected_values:
+    MUSTANG_ODO: 216031
+  response: 7E80662DD01034BDF
+- expected_values:
+    MUSTANG_ODO: 216051
+  response: 7E80662DD01034BF3

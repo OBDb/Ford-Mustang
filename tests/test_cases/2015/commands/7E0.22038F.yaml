@@ -1,0 +1,14 @@
+command_id: 7E0.22038F
+test_cases:
+- expected_values:
+    '[ECU] ECT': 44.48438
+  response: 7E80562038F0B1F
+- expected_values:
+    '[ECU] ECT': 84.10938
+  response: 7E80562038F1507
+- expected_values:
+    '[ECU] ECT': 95.875
+  response: 7E80562038F17F8
+- expected_values:
+    '[ECU] ECT': 100.17188
+  response: 7E80562038F190B

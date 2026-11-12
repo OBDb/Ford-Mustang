@@ -1,0 +1,29 @@
+command_id: 726.72E.222813
+test_cases:
+- expected_values:
+    MUSTANG_TP_FL: 28
+  response: '72E056228130230'
+- expected_values:
+    MUSTANG_TP_FL: 28.15
+  response: '72E056228130233'
+- expected_values:
+    MUSTANG_TP_FL: 28.25
+  response: '72E056228130235'
+- expected_values:
+    MUSTANG_TP_FL: 28.5
+  response: 72E05622813023A
+- expected_values:
+    MUSTANG_TP_FL: 28.65
+  response: 72E05622813023D
+- expected_values:
+    MUSTANG_TP_FL: 28.75
+  response: 72E05622813023F
+- expected_values:
+    MUSTANG_TP_FL: 28.9
+  response: '72E056228130242'
+- expected_values:
+    MUSTANG_TP_FL: 29
+  response: '72E056228130244'
+- expected_values:
+    MUSTANG_TP_FL: 29.15
+  response: '72E056228130247'

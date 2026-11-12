@@ -1,0 +1,26 @@
+command_id: 7E0.220316
+test_cases:
+- expected_values:
+    '[ECU] VCT intake duty cycle': 0
+  response: '7E8056203160000'
+- expected_values:
+    '[ECU] VCT intake duty cycle': 30.68542
+  response: '7E8056203162747'
+- expected_values:
+    '[ECU] VCT intake duty cycle': 31.25
+  response: '7E8056203162800'
+- expected_values:
+    '[ECU] VCT intake duty cycle': 31.95496
+  response: 7E80562031628E7
+- expected_values:
+    '[ECU] VCT intake duty cycle': 32.52258
+  response: 7E80562031629A1
+- expected_values:
+    '[ECU] VCT intake duty cycle': 32.80029
+  response: 7E80562031629FC
+- expected_values:
+    '[ECU] VCT intake duty cycle': 33.44421
+  response: 7E8056203162ACF
+- expected_values:
+    '[ECU] VCT intake duty cycle': 33.49609
+  response: 7E8056203162AE0
