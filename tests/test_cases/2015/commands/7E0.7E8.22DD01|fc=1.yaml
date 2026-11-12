@@ -4,5 +4,5 @@ test_cases:
     MUSTANG_ODO: 216031
   response: 7E80662DD01034BDF
 - expected_values:
-    MUSTANG_ODO: 216051
-  response: 7E80662DD01034BF3
+    MUSTANG_ODO: 216056
+  response: 7E80662DD01034BF8
