@@ -27,3 +27,6 @@ test_cases:
 - expected_values:
     VSS: 40
   response: 7E803410D28
+- expected_values:
+    VSS: 110
+  response: 7E803410D6E
