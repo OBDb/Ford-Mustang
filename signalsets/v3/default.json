@@ -224,11 +224,11 @@
   "signals": [
     {"id": "MUSTANG_ABS_ODO", "path": "Trips", "fmt": { "len": 24, "max": 16777215, "unit": "kilometers" }, "name": "Odometer, brake module", "suggestedMetric": "odometer"}
   ]},
-{ "hdr": "764", "cmd": {"22": "A220"}, "freq": 1, "dbgfilter": { "to": 2024, "from": 2026 },
+{ "hdr": "764", "cmd": {"22": "A220"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2026 },
   "signals": [
     {"id": "MUSTANG_FSM_AUTOMATIC", "path": "Engine", "fmt": { "len": 16, "max": 3276, "min": -3276, "div": 10, "sign": true, "unit": "degrees" }, "name": "Forward sensing module automatic alignment offset"}
   ]},
-{ "hdr": "764", "cmd": {"22": "A224"}, "freq": 0.25, "dbgfilter": { "to": 2024, "from": 2026 },
+{ "hdr": "764", "cmd": {"22": "A224"}, "freq": 0.25, "dbgfilter": { "to": 2023, "from": 2026 },
   "signals": [
     {"id": "MUSTANG_CC_TGT_VSS", "path": "Cruise control", "fmt": { "len": 16, "max": 736, "min": -736, "mul": 3.6, "div": 10, "sign": true, "unit": "kilometersPerHour" }, "name": "Target vehicle speed", "description": "The speed of the vehicle ahead of you."}
   ]},
