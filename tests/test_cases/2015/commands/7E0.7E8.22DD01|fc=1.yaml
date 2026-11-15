@@ -9,3 +9,6 @@ test_cases:
 - expected_values:
     MUSTANG_ODO: 216576
   response: 7E80662DD01034E00
+- expected_values:
+    MUSTANG_ODO: 216832
+  response: 7E80662DD01034F00
