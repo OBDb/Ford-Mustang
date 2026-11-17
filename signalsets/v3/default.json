@@ -48,19 +48,19 @@
   ]},
 { "hdr": "726", "rax": "72E", "cmd": {"22": "2813"}, "freq": 5, "dbgfilter": { "to": 2014, "years": [2017, 2018, 2020, 2021, 2022, 2023], "from": 2027 },
   "signals": [
-    {"id": "MUSTANG_TP_FL", "path": "Tires", "fmt": { "len": 16, "max": 3276, "div": 20, "unit": "psi" }, "name": "Front left tire pressure", "suggestedMetric": "frontLeftTirePressure"}
+    {"id": "MUSTANG_TP_FL", "path": "Tires", "fmt": { "len": 16, "max": 150, "div": 20, "nullmax": 150, "unit": "psi" }, "name": "Front left tire pressure", "suggestedMetric": "frontLeftTirePressure"}
   ]},
 { "hdr": "726", "rax": "72E", "cmd": {"22": "2814"}, "freq": 5, "dbgfilter": { "to": 2014, "years": [2017, 2018, 2020, 2021, 2022, 2023], "from": 2027 },
   "signals": [
-    {"id": "MUSTANG_TP_FR", "path": "Tires", "fmt": { "len": 16, "max": 3276, "div": 20, "unit": "psi" }, "name": "Front right tire pressure", "suggestedMetric": "frontRightTirePressure"}
+    {"id": "MUSTANG_TP_FR", "path": "Tires", "fmt": { "len": 16, "max": 150, "div": 20, "nullmax": 150, "unit": "psi" }, "name": "Front right tire pressure", "suggestedMetric": "frontRightTirePressure"}
   ]},
 { "hdr": "726", "rax": "72E", "cmd": {"22": "2815"}, "freq": 5, "dbgfilter": { "to": 2014, "years": [2017, 2018, 2020, 2021, 2022, 2023], "from": 2027 },
   "signals": [
-    {"id": "MUSTANG_TP_RRO", "path": "Tires", "fmt": { "len": 16, "max": 3276, "div": 20, "unit": "psi" }, "name": "Rear right outer tire pressure", "suggestedMetric": "rearRightTirePressure"}
+    {"id": "MUSTANG_TP_RRO", "path": "Tires", "fmt": { "len": 16, "max": 150, "div": 20, "nullmax": 150, "unit": "psi" }, "name": "Rear right outer tire pressure", "suggestedMetric": "rearRightTirePressure"}
   ]},
 { "hdr": "726", "rax": "72E", "cmd": {"22": "2816"}, "freq": 5, "dbgfilter": { "to": 2014, "years": [2017, 2018, 2020, 2021, 2022, 2023], "from": 2027 },
   "signals": [
-    {"id": "MUSTANG_TP_RLO", "path": "Tires", "fmt": { "len": 16, "max": 3276, "div": 20, "unit": "psi" }, "name": "Rear left outer tire pressure", "suggestedMetric": "rearLeftTirePressure"}
+    {"id": "MUSTANG_TP_RLO", "path": "Tires", "fmt": { "len": 16, "max": 150, "div": 20, "nullmax": 150, "unit": "psi" }, "name": "Rear left outer tire pressure", "suggestedMetric": "rearLeftTirePressure"}
   ]},
 { "hdr": "726", "rax": "72E", "cmd": {"22": "2817"}, "freq": 5, "dbgfilter": { "to": 2014, "years": [2017, 2018, 2020, 2021, 2022, 2023], "from": 2027 },
   "signals": [
@@ -1130,7 +1130,7 @@
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F443"}, "freq": 0.5, "dbgfilter": { "to": 2014, "years": [2017, 2018, 2020, 2021, 2022, 2023], "from": 2027 },
   "signals": [
-    {"id": "MUSTANG_ENG_LOAD_ACT", "path": "Engine", "fmt": { "len": 16, "max": 25700, "mul": 100, "div": 255, "unit": "percent" }, "name": "Engine load, actual", "suggestedMetric": "engineLoad"}
+    {"id": "MUSTANG_ENG_LOAD_ACT", "path": "Engine", "fmt": { "len": 16, "max": 25700, "mul": 100, "div": 255, "unit": "percent" }, "name": "Engine load, actual", "suggestedMetric": "absoluteEngineLoad"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F446"}, "freq": 5, "dbgfilter": { "to": 2014, "years": [2017, 2018, 2020, 2021, 2022, 2023], "from": 2027 },
   "signals": [
