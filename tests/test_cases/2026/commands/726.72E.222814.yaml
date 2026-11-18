@@ -1,8 +1,8 @@
 command_id: 726.72E.222814
 test_cases:
 - expected_values:
-    MUSTANG_TP_FR: 29.2
-  response: '72E056228140248'
+    MUSTANG_TP_FR: 28.7
+  response: 72E05622814023E
 - expected_values:
     MUSTANG_TP_FR: 36.3
   response: 72E0562281402D6
