@@ -1,5 +1,8 @@
 command_id: 764.22A220
 test_cases:
 - expected_values:
+    MUSTANG_FSM_AUTOMATIC: 0
+  response: 76C0562A2200000
+- expected_values:
     MUSTANG_FSM_AUTOMATIC: 0.2
   response: 76C0562A2200002
